@@ -1,0 +1,376 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.12)  16 OCT 2019 23:25
+entering extended mode
+**./tugas.tex
+(tugas.tex
+LaTeX2e <2019-10-01>
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2019/08/27 v1.4j Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (tugas.aux)
+\openout1 = `tugas.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen105
+\scratchbox=\box27
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen106
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks16
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+ [1
+
+{C:/Users/gravis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Chapter 1.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+7.
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+ [1
+
+] [2]
+Chapter 2.
+<gambar/anaconda/anaconda1.png, id=15, 1927.2pt x 1084.05pt>
+File: gambar/anaconda/anaconda1.png Graphic file (type png)
+<use gambar/anaconda/anaconda1.png>
+Package pdftex.def Info: gambar/anaconda/anaconda1.png  used on input line 67.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+
+Overfull \hbox (62.56197pt too wide) in paragraph at lines 66--68
+[]\OT1/cmr/m/n/12 Kunjungi web-site ana-conda (https://www.anaconda.com/distrib
+ution/#download-
+ []
+
+<gambar/anaconda/Screenshot (60).png, id=17, 1927.2pt x 1084.05pt>
+File: gambar/anaconda/Screenshot (60).png Graphic file (type png)
+<use gambar/anaconda/Screenshot (60).png>
+Package pdftex.def Info: gambar/anaconda/Screenshot (60).png  used on input lin
+e 69.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/anaconda/Screenshot (61).png, id=18, 1927.2pt x 1084.05pt>
+File: gambar/anaconda/Screenshot (61).png Graphic file (type png)
+<use gambar/anaconda/Screenshot (61).png>
+Package pdftex.def Info: gambar/anaconda/Screenshot (61).png  used on input lin
+e 71.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+[3
+
+ <./gambar/anaconda/anaconda1.png> <./gambar/anaconda/Screenshot (60).png>]
+<gambar/anaconda/Screenshot (62).png, id=24, 1927.2pt x 1084.05pt>
+File: gambar/anaconda/Screenshot (62).png Graphic file (type png)
+<use gambar/anaconda/Screenshot (62).png>
+Package pdftex.def Info: gambar/anaconda/Screenshot (62).png  used on input lin
+e 73.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/anaconda/Screenshot (63).png, id=25, 1927.2pt x 1084.05pt>
+File: gambar/anaconda/Screenshot (63).png Graphic file (type png)
+<use gambar/anaconda/Screenshot (63).png>
+Package pdftex.def Info: gambar/anaconda/Screenshot (63).png  used on input lin
+e 75.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/anaconda/Screenshot (66).png, id=26, 1927.2pt x 1084.05pt>
+File: gambar/anaconda/Screenshot (66).png Graphic file (type png)
+<use gambar/anaconda/Screenshot (66).png>
+Package pdftex.def Info: gambar/anaconda/Screenshot (66).png  used on input lin
+e 77.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/anaconda/Screenshot (93).png, id=27, 1927.2pt x 1084.05pt>
+File: gambar/anaconda/Screenshot (93).png Graphic file (type png)
+<use gambar/anaconda/Screenshot (93).png>
+Package pdftex.def Info: gambar/anaconda/Screenshot (93).png  used on input lin
+e 79.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+
+[4 <./gambar/anaconda/Screenshot (61).png> <./gambar/anaconda/Screenshot (62).p
+ng> <./gambar/anaconda/Screenshot (63).png> <./gambar/anaconda/Screenshot (66).
+png>]
+<gambar/anaconda/Screenshot (96).png, id=35, 1927.2pt x 1084.05pt>
+File: gambar/anaconda/Screenshot (96).png Graphic file (type png)
+<use gambar/anaconda/Screenshot (96).png>
+Package pdftex.def Info: gambar/anaconda/Screenshot (96).png  used on input lin
+e 81.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/anaconda/Screenshot (95).png, id=36, 1927.2pt x 1084.05pt>
+File: gambar/anaconda/Screenshot (95).png Graphic file (type png)
+<use gambar/anaconda/Screenshot (95).png>
+Package pdftex.def Info: gambar/anaconda/Screenshot (95).png  used on input lin
+e 83.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/update anaconda/Screenshot (72).png, id=37, 1927.2pt x 1084.05pt>
+File: gambar/update anaconda/Screenshot (72).png Graphic file (type png)
+<use gambar/update anaconda/Screenshot (72).png>
+Package pdftex.def Info: gambar/update anaconda/Screenshot (72).png  used on in
+put line 90.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+ [5 <./gambar/anaconda/Screenshot (93).png> <./gambar/anaconda/Screenshot (96).
+png> <./gambar/anaconda/Screenshot (95).png>]
+<gambar/update anaconda/Screenshot (74).png, id=44, 1927.2pt x 1084.05pt>
+File: gambar/update anaconda/Screenshot (74).png Graphic file (type png)
+<use gambar/update anaconda/Screenshot (74).png>
+Package pdftex.def Info: gambar/update anaconda/Screenshot (74).png  used on in
+put line 92.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/update anaconda/Screenshot (97).png, id=45, 1927.2pt x 1084.05pt>
+File: gambar/update anaconda/Screenshot (97).png Graphic file (type png)
+<use gambar/update anaconda/Screenshot (97).png>
+Package pdftex.def Info: gambar/update anaconda/Screenshot (97).png  used on in
+put line 94.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/update anaconda/Screenshot (73).png, id=46, 1927.2pt x 1084.05pt>
+File: gambar/update anaconda/Screenshot (73).png Graphic file (type png)
+<use gambar/update anaconda/Screenshot (73).png>
+Package pdftex.def Info: gambar/update anaconda/Screenshot (73).png  used on in
+put line 96.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+ [6 <./gambar/update anaconda/Screenshot (72).png> <./gambar/update anaconda/Sc
+reenshot (74).png> <./gambar/update anaconda/Screenshot (97).png> <./gambar/upd
+ate anaconda/Screenshot (73).png>]
+<gambar/pip/Screenshot (76).png, id=55, 1927.2pt x 1084.05pt>
+File: gambar/pip/Screenshot (76).png Graphic file (type png)
+<use gambar/pip/Screenshot (76).png>
+Package pdftex.def Info: gambar/pip/Screenshot (76).png  used on input line 103
+.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/pip/Screenshot (77).png, id=56, 1927.2pt x 1084.05pt>
+File: gambar/pip/Screenshot (77).png Graphic file (type png)
+<use gambar/pip/Screenshot (77).png>
+Package pdftex.def Info: gambar/pip/Screenshot (77).png  used on input line 105
+.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/pip/Screenshot (78).png, id=57, 1927.2pt x 1084.05pt>
+File: gambar/pip/Screenshot (78).png Graphic file (type png)
+<use gambar/pip/Screenshot (78).png>
+Package pdftex.def Info: gambar/pip/Screenshot (78).png  used on input line 107
+.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/pip/Screenshot (79).png, id=58, 1927.2pt x 1084.05pt>
+File: gambar/pip/Screenshot (79).png Graphic file (type png)
+<use gambar/pip/Screenshot (79).png>
+Package pdftex.def Info: gambar/pip/Screenshot (79).png  used on input line 109
+.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+ [7 <./gambar/pip/Screenshot (76).png> <./gambar/pip/Screenshot (77).png> <./ga
+mbar/pip/Screenshot (78).png>] [8 <./gambar/pip/Screenshot (79).png>]
+Chapter 3.
+<gambar/entrepreter/Screenshot (80).png, id=69, 1927.2pt x 1084.05pt>
+File: gambar/entrepreter/Screenshot (80).png Graphic file (type png)
+<use gambar/entrepreter/Screenshot (80).png>
+Package pdftex.def Info: gambar/entrepreter/Screenshot (80).png  used on input 
+line 119.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/spyder/Screenshot (81).png, id=70, 1927.2pt x 1084.05pt>
+File: gambar/spyder/Screenshot (81).png Graphic file (type png)
+<use gambar/spyder/Screenshot (81).png>
+Package pdftex.def Info: gambar/spyder/Screenshot (81).png  used on input line 
+128.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+[9
+
+ <./gambar/entrepreter/Screenshot (80).png>]
+<gambar/spyder/Screenshot (83).png, id=75, 1927.2pt x 1084.05pt>
+File: gambar/spyder/Screenshot (83).png Graphic file (type png)
+<use gambar/spyder/Screenshot (83).png>
+Package pdftex.def Info: gambar/spyder/Screenshot (83).png  used on input line 
+130.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/spyder/Screenshot (84).png, id=76, 1927.2pt x 1084.05pt>
+File: gambar/spyder/Screenshot (84).png Graphic file (type png)
+<use gambar/spyder/Screenshot (84).png>
+Package pdftex.def Info: gambar/spyder/Screenshot (84).png  used on input line 
+134.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/spyder/Screenshot (87).png, id=77, 1927.2pt x 1084.05pt>
+File: gambar/spyder/Screenshot (87).png Graphic file (type png)
+<use gambar/spyder/Screenshot (87).png>
+Package pdftex.def Info: gambar/spyder/Screenshot (87).png  used on input line 
+139.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+ [10 <./gambar/spyder/Screenshot (81).png> <./gambar/spyder/Screenshot (83).png
+> <./gambar/spyder/Screenshot (84).png>]
+<gambar/spyder/Screenshot (99).png, id=84, 1927.2pt x 1084.05pt>
+File: gambar/spyder/Screenshot (99).png Graphic file (type png)
+<use gambar/spyder/Screenshot (99).png>
+Package pdftex.def Info: gambar/spyder/Screenshot (99).png  used on input line 
+142.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+
+Overfull \hbox (20.32957pt too wide) in paragraph at lines 146--147
+[]\OT1/cmr/bx/n/12 driver.maximize[]window()\OT1/cmr/m/n/12 , di-gu-nakan un-tu
+k max-i-mize win-dow browser 
+ []
+
+
+Overfull \hbox (16.89693pt too wide) in paragraph at lines 147--148
+[]\OT1/cmr/bx/n/12 driver.get("http://siap.poltekpos.ac.id/siap/besan.depan.php
+")\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (14.76772pt too wide) in paragraph at lines 148--149
+[]\OT1/cmr/bx/n/12 driver.find[]element[]by[]name('user[]name').send[]keys('118
+4063')\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (42.95804pt too wide) in paragraph at lines 149--150
+[]\OT1/cmr/bx/n/12 driver.find[]element[]by[]name('user[]pass').send[]keys('pwn
+yadisiniya')\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (25.43665pt too wide) in paragraph at lines 150--151
+[]\OT1/cmr/bx/n/12 driver.find[]element[]by[]name('login').click()\OT1/cmr/m/n/
+12 , di-gu-nakan un-tuk mengk-
+ []
+
+[11 <./gambar/spyder/Screenshot (87).png> <./gambar/spyder/Screenshot (99).png>
+]
+Chapter 4.
+<gambar/spyder/Screenshot (100).png, id=90, 1927.2pt x 1084.05pt>
+File: gambar/spyder/Screenshot (100).png Graphic file (type png)
+<use gambar/spyder/Screenshot (100).png>
+Package pdftex.def Info: gambar/spyder/Screenshot (100).png  used on input line
+ 159.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+<gambar/spyder/Screenshot (102).png, id=91, 1927.2pt x 1084.05pt>
+File: gambar/spyder/Screenshot (102).png Graphic file (type png)
+<use gambar/spyder/Screenshot (102).png>
+Package pdftex.def Info: gambar/spyder/Screenshot (102).png  used on input line
+ 160.
+(pdftex.def)             Requested size: 213.39566pt x 120.0233pt.
+
+Overfull \hbox (4.30978pt too wide) in paragraph at lines 155--161
+\OT1/cmr/m/n/12 jenis er-ror iden-tasi yaitu \OT1/cmr/bx/n/12 In-den-ta-tion-Er
+ror: ex-pected an in-dented block\OT1/cmr/m/n/12 . 
+ []
+
+[12
+
+ <./gambar/spyder/Screenshot (100).png> <./gambar/spyder/Screenshot (102).png>]
+ (tugas.aux) ) 
+Here is how much of TeX's memory you used:
+ 1670 strings out of 492452
+ 27514 string characters out of 3129804
+ 86404 words of memory out of 3000000
+ 6014 multiletter control sequences out of 15000+200000
+ 7233 words of font info for 26 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 46i,6n,30p,532b,189s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on tugas.pdf (13 pages, 10143852 bytes).
+PDF statistics:
+ 112 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+
