@@ -1,0 +1,560 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.7.17)  17 OCT 2019 12:28
+entering extended mode
+**./proyek.tex
+(proyek.tex
+LaTeX2e <2018-12-01>
+(ociamthesis.cls
+Document Class: ociamthesis 2010/11/22 v2.2 OCIAM thesis class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/multirow\multirow.sty"
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip43
+\multirow@cntb=\count89
+\multirow@dima=\skip44
+\bigstrutjot=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen106
+\captionmargin@=\dimen107
+\captionwidth=\dimen108
+\caption@tempdima=\dimen109
+\caption@indent=\dimen110
+\caption@parindent=\dimen111
+\caption@hangindent=\dimen112
+)
+\c@caption@flags=\count90
+\c@ContinuedFloat=\count91
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\titlesec.sty"
+Package: titlesec 2019/07/16 v2.11 Sectioning titles
+\ttl@box=\box27
+\beforetitleunit=\skip45
+\aftertitleunit=\skip46
+\ttl@plus=\dimen113
+\ttl@minus=\dimen114
+\ttl@toksa=\toks16
+\titlewidth=\dimen115
+\titlewidthlast=\dimen116
+\titlewidthfirst=\dimen117
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\charter.sty"
+Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/subfiles\subfiles.sty"
+Package: subfiles 2018/07/31 Federico Garcia, Gernot Salzer
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count92
+) (proyek.aux
+(section/chapter1.aux
+
+LaTeX Warning: Label `Figure1' multiply defined.
+
+
+LaTeX Warning: Label `Figure1' multiply defined.
+
+
+LaTeX Warning: Label `Figure1' multiply defined.
+
+
+LaTeX Warning: Label `Figure1' multiply defined.
+
+
+LaTeX Warning: Label `Figure1' multiply defined.
+
+
+LaTeX Warning: Label `Figure1' multiply defined.
+
+))
+\openout1 = `proyek.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Try loading font information for OT1+bch on input line 55.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1bch.fd"
+File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
+)
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count93
+\scratchdimen=\dimen118
+\scratchbox=\box28
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen119
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks20
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \maketitle
+                         % create a title page from the preamble info
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<logo-poltekpos.png, id=1, 291.2481pt x 272.217pt>
+File: logo-poltekpos.png Graphic file (type png)
+<use logo-poltekpos.png>
+Package pdftex.def Info: logo-poltekpos.png  used on input line 66.
+(pdftex.def)             Requested size: 91.04881pt x 85.10081pt.
+[1
+
+
+{C:/Users/gunawan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo-po
+ltekpos.png>]
+\openout2 = `section/chapter1.aux'.
+
+ (section/chapter1.tex
+CHAPTER I.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 From _
+            future _ import division\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+! You can't use `macro parameter character #' in math mode.
+l.16 nested _ scopes #
+                       statically nested scope \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.17 generators #
+                  simplr generators\\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.18 division #
+                changing the division operator\\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.19 absolute _ import #
+                         import: multi - line and absolute/relative \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.20 with _ statement #
+                        the "with" statement\\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.21 print _ function #
+                        make print function\\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.22 unicode _ literals #
+                          Byte literals in python 3000
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (0.7764pt too wide) in paragraph at lines 13--23
+[]\OT1/bch/m/n/12 Pada intinya adalah bagaimana su-paya python 2 men-su-port ve
+rsi ter-baru mereka
+ []
+
+
+Overfull \hbox (1.77313pt too wide) in paragraph at lines 13--23
+\OML/cmm/m/it/12 selainitujugamasihadalagiyangmasihbisadigunakandipython\OT1/cm
+r/m/n/12 2\OML/cmm/m/it/12 diantaranyaadalah \OT1/cmr/m/n/12 :
+ []
+
+[1
+
+
+
+
+]
+Overfull \hbox (2.06555pt too wide) in paragraph at lines 27--29
+\OT1/bch/m/n/14.4 likasi \OT1/bch/m/it/14.4 Ana-conda \OT1/bch/m/n/14.4 kita ha
+rus mem-per-hatikan versi \OT1/bch/m/it/14.4 Win-dows \OT1/bch/m/n/14.4 anda ap
+akah
+ []
+
+
+Overfull \hbox (3.61945pt too wide) in paragraph at lines 30--31
+[]\OT1/bch/m/n/14.4 Buka ap-likasi \OT1/bch/m/it/14.4 in-staller Ana-conda \OT1
+/bch/m/n/14.4 terse-but lalu akan muncul seperti
+ []
+
+<gambar/1.jpg, id=16, 370.38374pt x 286.06876pt>
+File: gambar/1.jpg Graphic file (type jpg)
+<use gambar/1.jpg>
+Package pdftex.def Info: gambar/1.jpg  used on input line 34.
+(pdftex.def)             Requested size: 222.23195pt x 171.64258pt.
+<gambar/2.jpg, id=17, 373.395pt x 289.83281pt>
+File: gambar/2.jpg Graphic file (type jpg)
+<use gambar/2.jpg>
+Package pdftex.def Info: gambar/2.jpg  used on input line 44.
+(pdftex.def)             Requested size: 224.03873pt x 173.90102pt.
+<gambar/3.jpg, id=18, 374.90062pt x 289.83281pt>
+File: gambar/3.jpg Graphic file (type jpg)
+<use gambar/3.jpg>
+Package pdftex.def Info: gambar/3.jpg  used on input line 55.
+(pdftex.def)             Requested size: 224.94211pt x 173.90102pt.
+<gambar/4.jpg, id=19, 373.395pt x 287.57437pt>
+File: gambar/4.jpg Graphic file (type jpg)
+<use gambar/4.jpg>
+Package pdftex.def Info: gambar/4.jpg  used on input line 65.
+(pdftex.def)             Requested size: 224.03873pt x 172.54594pt.
+[2 <./gambar/1.jpg>] [3 <./gambar/2.jpg> <./gambar/3.jpg>]
+<gambar/5.jpg, id=28, 370.38374pt x 288.3272pt>
+File: gambar/5.jpg Graphic file (type jpg)
+<use gambar/5.jpg>
+Package pdftex.def Info: gambar/5.jpg  used on input line 75.
+(pdftex.def)             Requested size: 222.23195pt x 172.99763pt.
+<gambar/6.jpg, id=29, 372.64218pt x 289.83281pt>
+File: gambar/6.jpg Graphic file (type jpg)
+<use gambar/6.jpg>
+Package pdftex.def Info: gambar/6.jpg  used on input line 84.
+(pdftex.def)             Requested size: 223.58702pt x 173.90102pt.
+<gambar/7.jpg, id=30, 373.395pt x 288.3272pt>
+File: gambar/7.jpg Graphic file (type jpg)
+<use gambar/7.jpg>
+Package pdftex.def Info: gambar/7.jpg  used on input line 94.
+(pdftex.def)             Requested size: 224.03873pt x 172.99763pt.
+<gambar/8.jpg, id=31, 371.88937pt x 289.83281pt>
+File: gambar/8.jpg Graphic file (type jpg)
+<use gambar/8.jpg>
+Package pdftex.def Info: gambar/8.jpg  used on input line 104.
+(pdftex.def)             Requested size: 223.13533pt x 173.90102pt.
+<gambar/9.jpg, id=32, 369.63094pt x 287.57437pt>
+File: gambar/9.jpg Graphic file (type jpg)
+<use gambar/9.jpg>
+Package pdftex.def Info: gambar/9.jpg  used on input line 114.
+(pdftex.def)             Requested size: 221.78026pt x 172.54594pt.
+
+! Undefined control sequence.
+l.124 \Cara
+            menginstal pip langkah pertama yaitu buka cmd\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+ []
+
+[4 <./gambar/4.jpg> <./gambar/5.jpg>] [5 <./gambar/6.jpg> <./gambar/7.jpg> <./g
+ambar/8.jpg>]
+
+LaTeX Warning: File `gambar/Instal pip.png' not found on input line 129.
+
+<gambar/Instal pip.png, id=39, 1028.34187pt x 578.16pt>
+File: gambar/Instal pip.png Graphic file (type png)
+<use gambar/Instal pip.png>
+Package pdftex.def Info: gambar/Instal pip.png  used on input line 129.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+
+LaTeX Warning: File `gambar/Instal pip done.png' not found on input line 138.
+
+<gambar/Instal pip done.png, id=40, 1028.34187pt x 578.16pt>
+File: gambar/Instal pip done.png Graphic file (type png)
+<use gambar/Instal pip done.png>
+Package pdftex.def Info: gambar/Instal pip done.png  used on input line 138.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+
+LaTeX Warning: File `gambar/cek ev.png' not found on input line 150.
+
+<gambar/cek ev.png, id=41, 1028.34187pt x 578.16pt>
+File: gambar/cek ev.png Graphic file (type png)
+<use gambar/cek ev.png>
+Package pdftex.def Info: gambar/cek ev.png  used on input line 150.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+
+LaTeX Warning: File `gambar/cek ev1.png' not found on input line 160.
+
+<gambar/cek ev1.png, id=42, 1028.34187pt x 578.16pt>
+File: gambar/cek ev1.png Graphic file (type png)
+<use gambar/cek ev1.png>
+Package pdftex.def Info: gambar/cek ev1.png  used on input line 160.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+[6 <./gambar/9.jpg> <./gambar/Instal pip.png>] [7 <./gambar/Instal pip done.png
+> <./gambar/cek ev.png> <./gambar/cek ev1.png>]
+
+LaTeX Warning: File `gambar/cek ev2.png' not found on input line 169.
+
+<gambar/cek ev2.png, id=50, 1028.34187pt x 578.16pt>
+File: gambar/cek ev2.png Graphic file (type png)
+<use gambar/cek ev2.png>
+Package pdftex.def Info: gambar/cek ev2.png  used on input line 169.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+
+LaTeX Warning: File `gambar/cek ev3.png' not found on input line 178.
+
+<gambar/cek ev3.png, id=51, 1028.34187pt x 578.16pt>
+File: gambar/cek ev3.png Graphic file (type png)
+<use gambar/cek ev3.png>
+Package pdftex.def Info: gambar/cek ev3.png  used on input line 178.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+
+LaTeX Warning: File `gambar/cek ev4.png' not found on input line 187.
+
+<gambar/cek ev4.png, id=52, 1028.34187pt x 578.16pt>
+File: gambar/cek ev4.png Graphic file (type png)
+<use gambar/cek ev4.png>
+Package pdftex.def Info: gambar/cek ev4.png  used on input line 187.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+<gambar/cli.png, id=53, 1028.34187pt x 578.16pt>
+File: gambar/cli.png Graphic file (type png)
+<use gambar/cli.png>
+Package pdftex.def Info: gambar/cli.png  used on input line 200.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+
+Overfull \hbox (5.06078pt too wide) in paragraph at lines 207--209
+\OT1/bch/m/n/14.4 Buka cmd un-tuk men-gup-date ketikan conda in-stall -c ana-co
+nda python 
+ []
+
+[8 <./gambar/cek ev2.png> <./gambar/cek ev3.png>] [9 <./gambar/cek ev4.png> <./
+gambar/cli.png>]
+<gambar/spydernew.png, id=60, 1028.34187pt x 578.16pt>
+File: gambar/spydernew.png Graphic file (type png)
+<use gambar/spydernew.png>
+Package pdftex.def Info: gambar/spydernew.png  used on input line 213.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+<gambar/hello.png, id=61, 1028.34187pt x 578.16pt>
+File: gambar/hello.png Graphic file (type png)
+<use gambar/hello.png>
+Package pdftex.def Info: gambar/hello.png  used on input line 225.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+<gambar/code.png, id=62, 520.94624pt x 228.10219pt>
+File: gambar/code.png Graphic file (type png)
+<use gambar/code.png>
+Package pdftex.def Info: gambar/code.png  used on input line 234.
+(pdftex.def)             Requested size: 156.28508pt x 68.43117pt.
+ [10 <./gambar/spydernew.png> <./gambar/hello.png>]
+<gambar/tess.png, id=66, 1028.34187pt x 578.16pt>
+File: gambar/tess.png Graphic file (type png)
+<use gambar/tess.png>
+Package pdftex.def Info: gambar/tess.png  used on input line 246.
+(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+)
+Overfull \hbox (7.27829pt too wide) in paragraph at lines 253--88
+\OT1/bch/m/n/14.4 blok kode so-lusinya yaitu menam-bahkan in-den-tasi se-belum 
+fungi print. 
+ []
+
+[11 <./gambar/code.png> <./gambar/tess.png>] [12]
+
+! LaTeX Error: \begin{romanpages} on input line 68 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(proyek.aux (section/chapter1.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 68 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 3805 strings out of 492946
+ 57037 string characters out of 3135521
+ 124206 words of memory out of 3000000
+ 7620 multiletter control sequences out of 15000+200000
+ 23541 words of font info for 49 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,41p,773b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy10.pfb>
+Output written on proyek.pdf (13 pages, 2335571 bytes).
+PDF statistics:
+ 98 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+
