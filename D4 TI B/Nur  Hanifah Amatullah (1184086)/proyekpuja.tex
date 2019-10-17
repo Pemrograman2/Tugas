@@ -1,0 +1,103 @@
+\documentclass[12pt]{ociamthesis}  % default square logo 
+%\documentclass[12pt,beltcrest]{ociamthesis} % use old belt crest logo
+%\documentclass[12pt,shieldcrest]{ociamthesis} % use older shield crest logo
+
+%load any additional packages
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{charter}
+\usepackage{subfiles}
+\usepackage{etoolbox} %halaman I-1
+%\patchcmd{\addcontentsline}
+ % {\thepage}
+  %{\thechapter-\thepage}
+  %{}
+  %{}
+
+\makeatletter
+\@addtoreset{subsubsection}{chapter}
+\makeatother
+\renewcommand{\thepage}{\thechapter-\number\numexpr\arabic{page}\relax}
+\patchcmd{\cleardoublepage}{\ifodd}{\unless\ifodd}{}{}
+\preto\chapter{\cleardoublepage}
+\AtBeginDocument{\setcounter{page}{1}}
+
+
+
+
+
+\makeatletter					%
+\renewcommand*\@pnumwidth{3em}	% ratain halaman daftar isi
+\makeatother					%
+
+\title{\large ANALISIS SISTEM REGISTRASI PADA APLIKASI ONLINE TICKETING CGV BLITZ\\[1ex]     %your thesis title,
+        LAPORAN PROYEK I}   %note \\[1ex] is a line break in the title
+        
+
+\author{Diajukan untuk memenuhi kelulusan matakuliah Proyek I
+pada Program Studi DIV Teknik Informatika\\[5ex]
+O l e h : \\
+[1ex] Siti Nurhayati Puja Kesuma   \\ 
+\textbf{1.18.4.004}\\
+		 [5ex] } 
+		 
+\college{}  %your college
+
+%\renewcommand{\submitt edtext}{change the default text here if needed}
+\degree{POLITEKNIK POS INDONESIA}    %the degree
+\degreedate{\textbf{BANDUNG\\2019}}  
+
+%end the preamble and start the document
+\begin{document}
+
+%this baselineskip gives sufficient line spacing for an examiner to easily
+%markup the thesis with comments
+\baselineskip=18pt plus1pt
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+\maketitle          % create a title page from the preamble info
+
+\begin{romanpages}
+
+\addcontentsline{toc}{chapter}{ABSTRAK}
+\include{section/abstract}  % include the abstract
+
+\addcontentsline{toc}{chapter}{\textit{ABSTRACT}}
+\include{section/abstracteng}
+
+\addcontentsline{toc}{chapter}{KATA PENGANTAR}
+\include{section/pengantar}
+          % start roman page numbering
+\addcontentsline{toc}{chapter}{DAFTAR ISI}
+\tableofcontents            % generate and include a table of contents
+\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
+\listoffigures
+\addcontentsline{toc}{chapter}{DAFTAR TABEL}
+\listoftables
+\addcontentsline{toc}{chapter}{DAFTAR SIMBOL}
+\include{section/simbol}
+\end{romanpages}   
+\include{section/chapter1}
+\include{section/chapter2}
+\include{section/chapter3}
+\include{section/chapter4}
+\include{section/chapter5}
+
+
+
+%next line adds the Bibliography to the contents page
+\addcontentsline{toc}{chapter}{Daftar Pustaka}
+%uncomment next line to change bibliography name to references
+%\renewcommand{\bibname}{References}
+\bibliography{references}    %use a bibtex bibliography file refs.bib
+\bibliographystyle{plain}  %use the plain bibliography style
+
+
+\end{document}
+
