@@ -1,0 +1,768 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.13)  18 OCT 2019 03:49
+entering extended mode
+**"./Laporan pemrograman.tex"
+("Laporan pemrograman.tex"
+LaTeX2e <2019-10-01>
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
+ty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
+ty"
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
+cs.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
+.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+
+LaTeX Warning: Unused global option(s):
+    [timesnewroman].
+
+("Laporan pemrograman.aux")
+\openout1 = `"Laporan pemrograman.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box27
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks18
+)
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-b
+ase.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarer
+r.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty
+"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefine
+keys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.
+sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.
+sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetkey
+s.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmds
+.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluatex
+.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexcm
+ds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.st
+y"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--35
+
+ []
+
+[1
+
+{C:/Users/Asus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 36--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Overfull \hbox (8.32086pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/12 gani satu li-brary den-gan li-brary lain-nya agar sal-ing bek-e
+r-jasama, dan mengkon-
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--89
+
+ []
+
+<Gambar/A1.png, id=14, 375.20175pt x 292.09125pt>
+File: Gambar/A1.png Graphic file (type png)
+<use Gambar/A1.png>
+Package pdftex.def Info: Gambar/A1.png  used on input line 94.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A2.png, id=16, 375.20175pt x 292.09125pt>
+File: Gambar/A2.png Graphic file (type png)
+<use Gambar/A2.png>
+Package pdftex.def Info: Gambar/A2.png  used on input line 101.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A3.png, id=17, 375.20175pt x 292.09125pt>
+File: Gambar/A3.png Graphic file (type png)
+<use Gambar/A3.png>
+Package pdftex.def Info: Gambar/A3.png  used on input line 114.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A4.png, id=18, 375.20175pt x 292.09125pt>
+File: Gambar/A4.png Graphic file (type png)
+<use Gambar/A4.png>
+Package pdftex.def Info: Gambar/A4.png  used on input line 121.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A5.png, id=19, 375.20175pt x 292.09125pt>
+File: Gambar/A5.png Graphic file (type png)
+<use Gambar/A5.png>
+Package pdftex.def Info: Gambar/A5.png  used on input line 137.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A6.png, id=20, 375.20175pt x 292.09125pt>
+File: Gambar/A6.png Graphic file (type png)
+<use Gambar/A6.png>
+Package pdftex.def Info: Gambar/A6.png  used on input line 144.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A7.png, id=21, 375.20175pt x 292.09125pt>
+File: Gambar/A7.png Graphic file (type png)
+<use Gambar/A7.png>
+Package pdftex.def Info: Gambar/A7.png  used on input line 160.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A8.png, id=22, 375.20175pt x 292.09125pt>
+File: Gambar/A8.png Graphic file (type png)
+<use Gambar/A8.png>
+Package pdftex.def Info: Gambar/A8.png  used on input line 167.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A9.png, id=23, 375.20175pt x 292.09125pt>
+File: Gambar/A9.png Graphic file (type png)
+<use Gambar/A9.png>
+Package pdftex.def Info: Gambar/A9.png  used on input line 183.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--187
+
+ []
+
+[4] [5 <./Gambar/A1.png> <./Gambar/A2.png>] [6 <./Gambar/A3.png> <./Gambar/A4.p
+ng>] [7 <./Gambar/A5.png> <./Gambar/A6.png>] [8 <./Gambar/A7.png> <./Gambar/A8.
+png>]
+<Gambar/C1.png, id=48, 664.28175pt x 384.83775pt>
+File: Gambar/C1.png Graphic file (type png)
+<use Gambar/C1.png>
+Package pdftex.def Info: Gambar/C1.png  used on input line 192.
+(pdftex.def)             Requested size: 332.14006pt x 192.4184pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--196
+
+ []
+
+<Gambar/CLI.png, id=49, 664.28175pt x 384.83775pt>
+File: Gambar/CLI.png Graphic file (type png)
+<use Gambar/CLI.png>
+Package pdftex.def Info: Gambar/CLI.png  used on input line 203.
+(pdftex.def)             Requested size: 332.14006pt x 192.4184pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--217
+
+ []
+
+[9 <./Gambar/A9.png> <./Gambar/C1.png>]
+Overfull \hbox (10.63974pt too wide) in paragraph at lines 217--217
+[]\OT1/cmr/bx/n/17.28 Menjalankan dan men-gup-date ana-conda dan
+ []
+
+<Gambar/U1.png, id=55, 664.28175pt x 384.83775pt>
+File: Gambar/U1.png Graphic file (type png)
+<use Gambar/U1.png>
+Package pdftex.def Info: Gambar/U1.png  used on input line 221.
+(pdftex.def)             Requested size: 265.708pt x 153.93237pt.
+<Gambar/U2.png, id=56, 664.28175pt x 384.83775pt>
+File: Gambar/U2.png Graphic file (type png)
+<use Gambar/U2.png>
+Package pdftex.def Info: Gambar/U2.png  used on input line 228.
+(pdftex.def)             Requested size: 265.708pt x 153.93237pt.
+<Gambar/U3.png, id=57, 1156.32pt x 620.3175pt>
+File: Gambar/U3.png Graphic file (type png)
+<use Gambar/U3.png>
+Package pdftex.def Info: Gambar/U3.png  used on input line 235.
+(pdftex.def)             Requested size: 231.2599pt x 124.0613pt.
+[10 <./Gambar/CLI.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Gambar/S1.png, id=62, 1156.32pt x 620.3175pt>
+File: Gambar/S1.png Graphic file (type png)
+<use Gambar/S1.png>
+Package pdftex.def Info: Gambar/S1.png  used on input line 242.
+(pdftex.def)             Requested size: 231.2599pt x 124.0613pt.
+<Gambar/S2.png, id=63, 1156.32pt x 620.3175pt>
+File: Gambar/S2.png Graphic file (type png)
+<use Gambar/S2.png>
+Package pdftex.def Info: Gambar/S2.png  used on input line 249.
+(pdftex.def)             Requested size: 231.2599pt x 124.0613pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--254
+
+ []
+
+[11 <./Gambar/U1.png> <./Gambar/U2.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (0.16779pt too wide) in paragraph at lines 254--254
+[]\OT1/cmr/bx/n/17.28 Cara men-jalankan Script otoma-tis lo-gin ap-
+ []
+
+
+Overfull \hbox (5.5558pt too wide) in paragraph at lines 254--254
+\OT1/cmr/bx/n/17.28 likasi akademik den-gan li-brary se-le-nium dan
+ []
+
+<Gambar/V1.png, id=69, 1156.32pt x 620.3175pt>
+File: Gambar/V1.png Graphic file (type png)
+<use Gambar/V1.png>
+Package pdftex.def Info: Gambar/V1.png  used on input line 261.
+(pdftex.def)             Requested size: 231.2599pt x 124.0613pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--265
+
+ []
+
+[12 <./Gambar/U3.png> <./Gambar/S1.png>] [13 <./Gambar/S2.png> <./Gambar/V1.png
+>]
+<Gambar/E1.png, id=81, 659.46375pt x 304.13625pt>
+File: Gambar/E1.png Graphic file (type png)
+<use Gambar/E1.png>
+Package pdftex.def Info: Gambar/E1.png  used on input line 272.
+(pdftex.def)             Requested size: 263.78082pt x 121.65233pt.
+<Gambar/E2.png, id=82, 481.8pt x 242.70676pt>
+File: Gambar/E2.png Graphic file (type png)
+<use Gambar/E2.png>
+Package pdftex.def Info: Gambar/E2.png  used on input line 279.
+(pdftex.def)             Requested size: 240.8994pt x 121.35307pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--283
+
+ []
+
+File: Gambar/E1.png Graphic file (type png)
+<use Gambar/E1.png>
+Package pdftex.def Info: Gambar/E1.png  used on input line 287.
+(pdftex.def)             Requested size: 263.78082pt x 121.65233pt.
+File: Gambar/E2.png Graphic file (type png)
+<use Gambar/E2.png>
+Package pdftex.def Info: Gambar/E2.png  used on input line 294.
+(pdftex.def)             Requested size: 240.8994pt x 121.35307pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--306
+
+ []
+
+[14 <./Gambar/E1.png> <./Gambar/E2.png>]
+<Gambar/E3.png, id=88, 657.657pt x 352.31625pt>
+File: Gambar/E3.png Graphic file (type png)
+<use Gambar/E3.png>
+Package pdftex.def Info: Gambar/E3.png  used on input line 310.
+(pdftex.def)             Requested size: 263.05814pt x 140.924pt.
+ [15] [16 <./Gambar/E3.png>]
+("Laporan pemrograman.aux") ) 
+Here is how much of TeX's memory you used:
+ 1630 strings out of 492452
+ 24546 string characters out of 3120530
+ 90590 words of memory out of 3000000
+ 5983 multiletter control sequences out of 15000+200000
+ 6370 words of font info for 23 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 46i,7n,30p,765b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Asus/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Asus/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on "Laporan pemrograman.pdf" (16 pages, 994774 bytes).
+PDF statistics:
+ 107 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+
