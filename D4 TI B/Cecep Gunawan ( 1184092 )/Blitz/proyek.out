@@ -1,0 +1,56 @@
+\BOOKMARK [0][-]{chapter.1}{PENDAHULUAN}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Latar Belakang}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Identifikasi Masalah}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Tujuan Dan Manfaat}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Ruang Lingkup}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Sistematika Penulisan}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{LANDASAN TEORI}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Teori Umum}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{e-Ticket}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.2}{Website}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.3}{Analisis}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.4}{PHP}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.5}{MySQL}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.6}{Flowchart}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.7}{Data Flow Diagram}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.8}{API}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.9}{Google}{section.2.1}% 17
+\BOOKMARK [0][-]{chapter.3}{ANALISIS DAN PERANCANGAN}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Analisis Sistem}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.1.1}{Analisis Sistem Berjalan}{section.3.1}% 20
+\BOOKMARK [3][-]{subsubsection.3.1.1.1}{Analisis Prosedur \(Flowmap\)}{subsection.3.1.1}% 21
+\BOOKMARK [3][-]{subsubsection.3.1.1.2}{Analisis Dokumen Yang Digunakan}{subsection.3.1.1}% 22
+\BOOKMARK [2][-]{subsection.3.1.2}{Analisis Sistem Yang Akan Dibangun}{section.3.1}% 23
+\BOOKMARK [3][-]{subsubsection.3.1.2.1}{Analisis Kebutuhan Aplikasi }{subsection.3.1.2}% 24
+\BOOKMARK [3][-]{subsubsection.3.1.2.2}{Analisis Kebutuhan Perangkat Lunak Dan Perangkat Keras }{subsection.3.1.2}% 25
+\BOOKMARK [1][-]{section.3.2}{Perancangan}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.2.1}{Context Diagram}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.2}{Data Flow Diagram}{section.3.2}% 28
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{DFD Level 0}{subsection.3.2.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.3}{Spesifikasi Proses \(Process Specification\)}{section.3.2}% 30
+\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Spesifikasi Proses \(Process Specification\) DFD Level 0}{subsection.3.2.3}% 31
+\BOOKMARK [2][-]{subsection.3.2.4}{Kamus Alir Data\(Data Flow Dictionary\)}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.5}{Perancangan Database}{section.3.2}% 33
+\BOOKMARK [3][-]{subsubsection.3.2.5.1}{Conceptual Data Model}{subsection.3.2.5}% 34
+\BOOKMARK [3][-]{subsubsection.3.2.5.2}{Physical Data Model}{subsection.3.2.5}% 35
+\BOOKMARK [3][-]{subsubsection.3.2.5.3}{Kamus Data Tabel\(Database\)}{subsection.3.2.5}% 36
+\BOOKMARK [2][-]{subsection.3.2.6}{Struktur Menu}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.7}{Perancangan Antar Muka}{section.3.2}% 38
+\BOOKMARK [3][-]{subsubsection.3.2.7.1}{Index}{subsection.3.2.7}% 39
+\BOOKMARK [3][-]{subsubsection.3.2.7.2}{Config}{subsection.3.2.7}% 40
+\BOOKMARK [3][-]{subsubsection.3.2.7.3}{Callback}{subsection.3.2.7}% 41
+\BOOKMARK [3][-]{subsubsection.3.2.7.4}{Login}{subsection.3.2.7}% 42
+\BOOKMARK [3][-]{subsubsection.3.2.7.5}{Dbconfig}{subsection.3.2.7}% 43
+\BOOKMARK [3][-]{subsubsection.3.2.7.6}{Function}{subsection.3.2.7}% 44
+\BOOKMARK [3][-]{subsubsection.3.2.7.7}{Pembuatan Database}{subsection.3.2.7}% 45
+\BOOKMARK [0][-]{chapter.4}{IMPLEMENTASI DAN PENGUJIAN}{}% 46
+\BOOKMARK [1][-]{section.4.1}{Lingkungan Implementasi}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.1.1}{Perangkat Keras}{section.4.1}% 48
+\BOOKMARK [2][-]{subsection.4.1.2}{Perangkat Lunak}{section.4.1}% 49
+\BOOKMARK [1][-]{section.4.2}{Pembahasan Hasil Implementasi}{chapter.4}% 50
+\BOOKMARK [1][-]{section.4.3}{Pengujian}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.3.1}{Black Box}{section.4.3}% 52
+\BOOKMARK [0][-]{chapter.5}{KESIMPULAN DAN SARAN }{}% 53
+\BOOKMARK [1][-]{section.5.1}{Kesimpulan }{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.2}{Saran }{chapter.5}% 55
+\BOOKMARK [0][-]{Item.45}{Daftar Pustaka}{}% 56

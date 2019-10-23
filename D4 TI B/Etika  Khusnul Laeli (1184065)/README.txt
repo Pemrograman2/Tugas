@@ -1,0 +1,10 @@
+https://youtu.be/GQn0l-7DJs(Teori)
+https://youtu.be/Gi49bCjucoQ(Intstall Python)
+https://youtu.be/ufjgclCyctI(Install PIP)
+https://youtu.be/CnL-9PrLHQk(Cara Setting Environment)
+https://youtu.be/DNNtq0i7QFE(Mencoba enterpreter nelalui cmd windows)
+https://youtu.be/FHcwagMiGew(Cara menjalankan dan mengupdate anaconda dan spyder)
+https://youtu.be/6gstoGWYKOw(Cara menjalankan script Hello World di spyder)https://youtu.be/jjByYhnvkS4
+https://youtu.be/jjByYhnvkS4(Cara menjalankan script otomatis login aplikasi dengan library selenium dan inptan user)
+https://youtu.be/H2cp09_TS1I(Cara pemakaian variable explorer)
+https://youtu.be/QB1MVARqKg0(Indentasi)

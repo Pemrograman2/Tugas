@@ -1,0 +1,2519 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.16)  23 OCT 2019 23:15
+entering extended mode
+**./python.tex
+(python.tex
+LaTeX2e <2019-10-01>
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls
+"
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
+y"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
+x.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.
+sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
+s.sty"
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.st
+y"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\gra
+phics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdf
+tex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (python.aux)
+\openout1 = `python.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
+-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box27
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks18
+)
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopd
+f-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwa
+rerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.
+sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdef
+inekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcm
+ds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptio
+ns.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvset
+keys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexc
+mds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\iflua
+tex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdfte
+xcmds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf
+.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+6.
+("C:\Users\GL503GE\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--38
+
+ []
+
+[1
+
+{C:/Users/GL503GE/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--75
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
+
+ []
+
+<Gambar/A1.PNG, id=14, 375.20175pt x 292.09125pt>
+File: Gambar/A1.PNG Graphic file (type png)
+<use Gambar/A1.PNG>
+Package pdftex.def Info: Gambar/A1.PNG  used on input line 102.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+[3]
+<Gambar/A2.PNG, id=19, 375.20175pt x 292.09125pt>
+File: Gambar/A2.PNG Graphic file (type png)
+<use Gambar/A2.PNG>
+Package pdftex.def Info: Gambar/A2.PNG  used on input line 109.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A3.PNG, id=20, 375.20175pt x 292.09125pt>
+File: Gambar/A3.PNG Graphic file (type png)
+<use Gambar/A3.PNG>
+Package pdftex.def Info: Gambar/A3.PNG  used on input line 116.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A4.PNG, id=21, 375.20175pt x 292.09125pt>
+File: Gambar/A4.PNG Graphic file (type png)
+<use Gambar/A4.PNG>
+Package pdftex.def Info: Gambar/A4.PNG  used on input line 130.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A5.PNG, id=22, 375.20175pt x 292.09125pt>
+File: Gambar/A5.PNG Graphic file (type png)
+<use Gambar/A5.PNG>
+Package pdftex.def Info: Gambar/A5.PNG  used on input line 144.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A6.PNG, id=23, 375.20175pt x 292.09125pt>
+File: Gambar/A6.PNG Graphic file (type png)
+<use Gambar/A6.PNG>
+Package pdftex.def Info: Gambar/A6.PNG  used on input line 158.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A7.PNG, id=24, 375.20175pt x 292.09125pt>
+File: Gambar/A7.PNG Graphic file (type png)
+<use Gambar/A7.PNG>
+Package pdftex.def Info: Gambar/A7.PNG  used on input line 172.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A8.PNG, id=25, 375.20175pt x 292.09125pt>
+File: Gambar/A8.PNG Graphic file (type png)
+<use Gambar/A8.PNG>
+Package pdftex.def Info: Gambar/A8.PNG  used on input line 186.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+<Gambar/A9.PNG, id=26, 375.20175pt x 292.09125pt>
+File: Gambar/A9.PNG Graphic file (type png)
+<use Gambar/A9.PNG>
+Package pdftex.def Info: Gambar/A9.PNG  used on input line 205.
+(pdftex.def)             Requested size: 187.6004pt x 146.04526pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--208
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./Gambar/A1.PNG> <./Gambar/A2.PNG>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./Gambar/A3.PNG> <./Gambar/A4.PNG>] [6 <./Gambar/A5.PNG> <./Gambar/A6.PNG>]
+[7 <./Gambar/A7.PNG> <./Gambar/A8.PNG>]
+<Gambar/B1.PNG, id=48, 664.884pt x 384.83775pt>
+File: Gambar/B1.PNG Graphic file (type png)
+<use Gambar/B1.PNG>
+Package pdftex.def Info: Gambar/B1.PNG  used on input line 212.
+(pdftex.def)             Requested size: 332.4412pt x 192.4184pt.
+<Gambar/B2.PNG, id=49, 667.293pt x 386.6445pt>
+File: Gambar/B2.PNG Graphic file (type png)
+<use Gambar/B2.PNG>
+Package pdftex.def Info: Gambar/B2.PNG  used on input line 233.
+(pdftex.def)             Requested size: 333.64568pt x 193.32178pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--257
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./Gambar/A9.PNG>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Gambar/C1.PNG, id=54, 666.0885pt x 387.24675pt>
+File: Gambar/C1.PNG Graphic file (type png)
+<use Gambar/C1.PNG>
+Package pdftex.def Info: Gambar/C1.PNG  used on input line 262.
+(pdftex.def)             Requested size: 333.04343pt x 193.6229pt.
+<Gambar/C2.PNG, id=55, 664.28175pt x 386.6445pt>
+File: Gambar/C2.PNG Graphic file (type png)
+<use Gambar/C2.PNG>
+Package pdftex.def Info: Gambar/C2.PNG  used on input line 294.
+(pdftex.def)             Requested size: 332.14006pt x 193.32178pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--320
+
+ []
+
+[9 <./Gambar/B1.PNG>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./Gambar/B2.PNG>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <./Gambar/C1.PNG>]
+<Gambar/C3.PNG, id=68, 810.02625pt x 439.04025pt>
+File: Gambar/C3.PNG Graphic file (type png)
+<use Gambar/C3.PNG>
+Package pdftex.def Info: Gambar/C3.PNG  used on input line 324.
+(pdftex.def)             Requested size: 405.01213pt x 219.51959pt.
+
+Overfull \hbox (60.01213pt too wide) in paragraph at lines 324--325
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--353
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12 <./Gambar/C2.PNG>]
+<Gambar/D1.PNG, id=73, 666.0885pt x 387.849pt>
+File: Gambar/D1.PNG Graphic file (type png)
+<use Gambar/D1.PNG>
+Package pdftex.def Info: Gambar/D1.PNG  used on input line 357.
+(pdftex.def)             Requested size: 333.04343pt x 193.92401pt.
+<Gambar/D2.PNG, id=74, 665.48625pt x 385.44pt>
+File: Gambar/D2.PNG Graphic file (type png)
+<use Gambar/D2.PNG>
+Package pdftex.def Info: Gambar/D2.PNG  used on input line 389.
+(pdftex.def)             Requested size: 332.74231pt x 192.71953pt.
+<Gambar/D3.PNG, id=75, 665.48625pt x 386.6445pt>
+File: Gambar/D3.PNG Graphic file (type png)
+<use Gambar/D3.PNG>
+Package pdftex.def Info: Gambar/D3.PNG  used on input line 421.
+(pdftex.def)             Requested size: 332.74231pt x 193.32178pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--450
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13 <./Gambar/C3.PNG>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./Gambar/D1.PNG>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./Gambar/D2.PNG>]
+<Gambar/S1.png, id=89, 1156.32pt x 620.3175pt>
+File: Gambar/S1.png Graphic file (type png)
+<use Gambar/S1.png>
+Package pdftex.def Info: Gambar/S1.png  used on input line 455.
+(pdftex.def)             Requested size: 231.2599pt x 124.0613pt.
+<Gambar/S2.png, id=90, 1156.32pt x 620.3175pt>
+File: Gambar/S2.png Graphic file (type png)
+<use Gambar/S2.png>
+Package pdftex.def Info: Gambar/S2.png  used on input line 488.
+(pdftex.def)             Requested size: 231.2599pt x 124.0613pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--517
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16 <./Gambar/D3.PNG>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./Gambar/S1.png>]
+<Gambar/V1.png, id=99, 1156.32pt x 620.3175pt>
+File: Gambar/V1.png Graphic file (type png)
+<use Gambar/V1.png>
+Package pdftex.def Info: Gambar/V1.png  used on input line 524.
+(pdftex.def)             Requested size: 231.2599pt x 124.0613pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--554
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18 <./Gambar/S2.png>]
+<Gambar/E1.png, id=104, 659.46375pt x 304.13625pt>
+File: Gambar/E1.png Graphic file (type png)
+<use Gambar/E1.png>
+Package pdftex.def Info: Gambar/E1.png  used on input line 561.
+(pdftex.def)             Requested size: 263.78082pt x 121.65233pt.
+<Gambar/E2.png, id=105, 481.8pt x 242.70676pt>
+File: Gambar/E2.png Graphic file (type png)
+<use Gambar/E2.png>
+Package pdftex.def Info: Gambar/E2.png  used on input line 594.
+(pdftex.def)             Requested size: 240.8994pt x 121.35307pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--624
+
+ []
+
+[19 <./Gambar/V1.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20 <./Gambar/E1.png>]
+File: Gambar/E1.png Graphic file (type png)
+<use Gambar/E1.png>
+Package pdftex.def Info: Gambar/E1.png  used on input line 628.
+(pdftex.def)             Requested size: 263.78082pt x 121.65233pt.
+File: Gambar/E2.png Graphic file (type png)
+<use Gambar/E2.png>
+Package pdftex.def Info: Gambar/E2.png  used on input line 661.
+(pdftex.def)             Requested size: 240.8994pt x 121.35307pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--673
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21 <./Gambar/E2.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22]
+<Gambar/E3.png, id=122, 657.657pt x 352.31625pt>
+File: Gambar/E3.png Graphic file (type png)
+<use Gambar/E3.png>
+Package pdftex.def Info: Gambar/E3.png  used on input line 677.
+(pdftex.def)             Requested size: 263.05814pt x 140.924pt.
+ [23 <./Gambar/E3.png>] (python.aux) ) 
+Here is how much of TeX's memory you used:
+ 1670 strings out of 492452
+ 25004 string characters out of 3119129
+ 88476 words of memory out of 3000000
+ 6009 multiletter control sequences out of 15000+200000
+ 7895 words of font info for 28 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 46i,7n,30p,653b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/GL503GE/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/GL503GE/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/G
+L503GE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Users/GL503GE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/GL503GE/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr17.pfb><C:/Users/GL503GE/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on python.pdf (23 pages, 1102005 bytes).
+PDF statistics:
+ 147 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+
