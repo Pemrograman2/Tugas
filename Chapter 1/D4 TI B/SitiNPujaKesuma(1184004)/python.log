@@ -1,0 +1,570 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.9.18)  17 OCT 2019 10:15
+entering extended mode
+**./python.tex
+(python.tex
+LaTeX2e <2018-12-01>
+(ociamthesis.cls
+Document Class: ociamthesis 2010/11/22 v2.2 OCIAM thesis class
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.
+cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.
+clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
+phicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\key
+val.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
+phics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\tri
+g.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg
+\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def
+\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.
+sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ams
+symb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ams
+fonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\mul
+tirow.sty"
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip43
+\multirow@cntb=\count89
+\multirow@dima=\skip44
+\bigstrutjot=\dimen105
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\capt
+ion.sty"
+Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\capt
+ion3.sty"
+Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen106
+\captionmargin@=\dimen107
+\captionwidth=\dimen108
+\caption@tempdima=\dimen109
+\caption@indent=\dimen110
+\caption@parindent=\dimen111
+\caption@hangindent=\dimen112
+)
+\c@caption@flags=\count90
+\c@ContinuedFloat=\count91
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\tit
+lesec.sty"
+Package: titlesec 2019/09/09 v2.12 Sectioning titles
+\ttl@box=\box27
+\beforetitleunit=\skip45
+\aftertitleunit=\skip46
+\ttl@plus=\dimen113
+\ttl@minus=\dimen114
+\ttl@toksa=\toks16
+\titlewidth=\dimen115
+\titlewidthlast=\dimen116
+\titlewidthfirst=\dimen117
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\chart
+er.sty"
+Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfiles\sub
+files.sty"
+Package: subfiles 2018/07/31 Federico Garcia, Gernot Salzer
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbat
+im.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+))
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\eto
+olbox.sty"
+Package: etoolbox 2019/09/09 v2.5g e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count92
+) (python.aux (section/chapter1.aux) (section/chapter2.aux)
+(section/chapter3.aux) (section/chapter4.aux) (section/chapter5.aux)
+(section/chapter7.aux) (section/chapter8.aux) (section/chapter9.aux)
+(section/chapter10.aux) (section/chapter11.aux))
+\openout1 = `python.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Try loading font information for OT1+bch on input line 53.
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1bc
+h.fd"
+File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\
+supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count93
+\scratchdimen=\dimen118
+\scratchbox=\box28
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen119
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks20
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\eps
+topdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\i
+nfwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grf
+ext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\k
+vdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\l
+txcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvo
+ptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\k
+vsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\e
+texcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\i
+fluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\p
+dftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\i
+fpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+<logo-poltekpos.png, id=1, 291.2481pt x 272.217pt>
+File: logo-poltekpos.png Graphic file (type png)
+<use logo-poltekpos.png>
+Package pdftex.def Info: logo-poltekpos.png  used on input line 64.
+(pdftex.def)             Requested size: 91.04881pt x 85.10081pt.
+ [1
+
+
+{C:/Users/Acer One 14/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./log
+o-poltekpos.png>]
+\openout2 = `section/chapter1.aux'.
+
+ (section/chapter1.tex) [2
+
+
+
+]
+\openout2 = `section/chapter2.aux'.
+
+
+(section/chapter2.tex [3
+
+
+
+
+]) [4]
+\openout2 = `section/chapter3.aux'.
+
+ (section/chapter3.tex
+<python/1.png, id=21, 356.0803pt x 253.69781pt>
+File: python/1.png Graphic file (type png)
+<use python/1.png>
+Package pdftex.def Info: python/1.png  used on input line 6.
+(pdftex.def)             Requested size: 142.26378pt x 101.35732pt.
+<python/2.png, id=22, 208.52907pt x 67.75313pt>
+File: python/2.png Graphic file (type png)
+<use python/2.png>
+Package pdftex.def Info: python/2.png  used on input line 12.
+(pdftex.def)             Requested size: 142.26378pt x 46.22554pt.
+<python/3.png, id=23, 403.5075pt x 289.83281pt>
+File: python/3.png Graphic file (type png)
+<use python/3.png>
+Package pdftex.def Info: python/3.png  used on input line 18.
+(pdftex.def)             Requested size: 142.26378pt x 102.18597pt.
+<python/4.png, id=24, 402.75468pt x 294.34969pt>
+File: python/4.png Graphic file (type png)
+<use python/4.png>
+Package pdftex.def Info: python/4.png  used on input line 24.
+(pdftex.def)             Requested size: 142.26378pt x 103.9716pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<python/5.png, id=25, 370.38374pt x 285.31593pt>
+File: python/5.png Graphic file (type png)
+<use python/5.png>
+Package pdftex.def Info: python/5.png  used on input line 30.
+(pdftex.def)             Requested size: 170.71652pt x 131.50813pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<python/6.png, id=26, 415.5525pt x 313.9228pt>
+File: python/6.png Graphic file (type png)
+<use python/6.png>
+Package pdftex.def Info: python/6.png  used on input line 36.
+(pdftex.def)             Requested size: 170.71652pt x 128.96304pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<python/7.png, id=27, 371.13657pt x 287.57437pt>
+File: python/7.png Graphic file (type png)
+<use python/7.png>
+Package pdftex.def Info: python/7.png  used on input line 42.
+(pdftex.def)             Requested size: 170.71652pt x 132.28142pt.
+[5
+
+
+
+
+ <./python/1.png> <./python/2.png> <./python/3.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<python/9.png, id=34, 371.13657pt x 284.56313pt>
+File: python/9.png Graphic file (type png)
+<use python/9.png>
+Package pdftex.def Info: python/9.png  used on input line 48.
+(pdftex.def)             Requested size: 170.71652pt x 130.89627pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<python/10.png, id=35, 371.13657pt x 286.82156pt>
+File: python/10.png Graphic file (type png)
+<use python/10.png>
+Package pdftex.def Info: python/10.png  used on input line 54.
+(pdftex.def)             Requested size: 170.71652pt x 131.93513pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [6 <./python/4.png> <./python/5.png>] [7 <./python/6.png> <./python/7.png> <.
+/python/9.png> <./python/10.png>]
+\openout2 = `section/chapter4.aux'.
+
+ (section/chapter4.tex
+<pip/0pip.png, id=49, 280.79906pt x 149.05687pt>
+File: pip/0pip.png Graphic file (type png)
+<use pip/0pip.png>
+Package pdftex.def Info: pip/0pip.png  used on input line 6.
+(pdftex.def)             Requested size: 142.26378pt x 75.51762pt.
+
+Overfull \hbox (0.28557pt too wide) in paragraph at lines 4--9
+[]\OT1/bch/m/n/12 pertama-tama kita harus mem-buka cmd klik win-dows dan R se-c
+ara bersamaan
+ []
+
+<pip/1pip.png, id=50, 677.53125pt x 352.31625pt>
+File: pip/1pip.png Graphic file (type png)
+<use pip/1pip.png>
+Package pdftex.def Info: pip/1pip.png  used on input line 12.
+(pdftex.def)             Requested size: 142.26378pt x 73.97783pt.
+<pip/2pip.png, id=51, 332.74312pt x 127.22531pt>
+File: pip/2pip.png Graphic file (type png)
+<use pip/2pip.png>
+Package pdftex.def Info: pip/2pip.png  used on input line 18.
+(pdftex.def)             Requested size: 142.26378pt x 54.3952pt.
+<pip/3pip.png, id=52, 938.00438pt x 146.79843pt>
+File: pip/3pip.png Graphic file (type png)
+<use pip/3pip.png>
+Package pdftex.def Info: pip/3pip.png  used on input line 24.
+(pdftex.def)             Requested size: 170.71652pt x 26.716pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [8
+
+
+
+
+ <./pip/0pip.png> <./pip/1pip.png> <./pip/2pip.png>] [9 <./pip/3pip.png>]
+\openout2 = `section/chapter5.aux'.
+
+
+(section/chapter5.tex
+<update/1.png, id=63, 310.91156pt x 117.43875pt>
+File: update/1.png Graphic file (type png)
+<use update/1.png>
+Package pdftex.def Info: update/1.png  used on input line 6.
+(pdftex.def)             Requested size: 142.26378pt x 53.73575pt.
+<update/2.png, id=64, 553.31718pt x 128.73094pt>
+File: update/2.png Graphic file (type png)
+<use update/2.png>
+Package pdftex.def Info: update/2.png  used on input line 12.
+(pdftex.def)             Requested size: 142.26378pt x 33.09799pt.
+<update/3.png, id=65, 560.0925pt x 189.70876pt>
+File: update/3.png Graphic file (type png)
+<use update/3.png>
+Package pdftex.def Info: update/3.png  used on input line 18.
+(pdftex.def)             Requested size: 142.26378pt x 48.18549pt.
+<update/4.png, id=66, 579.66562pt x 204.765pt>
+File: update/4.png Graphic file (type png)
+<use update/4.png>
+Package pdftex.def Info: update/4.png  used on input line 24.
+(pdftex.def)             Requested size: 142.26378pt x 50.25377pt.
+
+Overfull \hbox (6.99426pt too wide) in paragraph at lines 22--27
+[]\OT1/bch/m/n/12 mengupdate Ana-conda sama hal nya seperti men-gup-date spy-de
+r hanya berbeda
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [10
+
+
+
+
+ <./update/1.png> <./update/2.png> <./update/3.png>] [11 <./update/4.png>]
+\openout2 = `section/chapter7.aux'.
+
+(section/chapter7.tex
+<login/1.png, id=77, 941.01563pt x 366.61969pt>
+File: login/1.png Graphic file (type png)
+<use login/1.png>
+Package pdftex.def Info: login/1.png  used on input line 6.
+(pdftex.def)             Requested size: 142.26378pt x 55.42133pt.
+<login/2.png, id=78, 479.54156pt x 213.04594pt>
+File: login/2.png Graphic file (type png)
+<use login/2.png>
+Package pdftex.def Info: login/2.png  used on input line 12.
+(pdftex.def)             Requested size: 142.26378pt x 63.20233pt.
+<login/3.png, id=79, 912.40875pt x 379.4175pt>
+File: login/3.png Graphic file (type png)
+<use login/3.png>
+Package pdftex.def Info: login/3.png  used on input line 18.
+(pdftex.def)             Requested size: 142.26378pt x 59.15646pt.
+<login/4.png, id=80, 943.27406pt x 465.99094pt>
+File: login/4.png Graphic file (type png)
+<use login/4.png>
+Package pdftex.def Info: login/4.png  used on input line 24.
+(pdftex.def)             Requested size: 142.26378pt x 70.27959pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<login/5.png, id=81, 848.4197pt x 320.69812pt>
+File: login/5.png Graphic file (type png)
+<use login/5.png>
+Package pdftex.def Info: login/5.png  used on input line 30.
+(pdftex.def)             Requested size: 170.71652pt x 64.52995pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<login/6.png, id=82, 753.5653pt x 91.84312pt>
+File: login/6.png Graphic file (type png)
+<use login/6.png>
+Package pdftex.def Info: login/6.png  used on input line 36.
+(pdftex.def)             Requested size: 170.71652pt x 20.80534pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<login/7.png, id=83, 840.89156pt x 267.24844pt>
+File: login/7.png Graphic file (type png)
+<use login/7.png>
+Package pdftex.def Info: login/7.png  used on input line 42.
+(pdftex.def)             Requested size: 170.71652pt x 54.25615pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [12
+
+
+
+
+ <./login/1.png> <./login/2.png> <./login/3.png>] [13 <./login/4.png> <./login/
+5.png> <./login/6.png> <./login/7.png>]
+\openout2 = `section/chapter8.aux'.
+
+ (section/chapter8.tex
+<variable/4.png, id=98, 939.51pt x 448.67625pt>
+File: variable/4.png Graphic file (type png)
+<use variable/4.png>
+Package pdftex.def Info: variable/4.png  used on input line 6.
+(pdftex.def)             Requested size: 142.26378pt x 67.93523pt.
+<variable/1.png, id=99, 495.35063pt x 183.68625pt>
+File: variable/1.png Graphic file (type png)
+<use variable/1.png>
+Package pdftex.def Info: variable/1.png  used on input line 12.
+(pdftex.def)             Requested size: 142.26378pt x 52.75471pt.
+<variable/2.png, id=100, 490.08093pt x 125.71968pt>
+File: variable/2.png Graphic file (type png)
+<use variable/2.png>
+Package pdftex.def Info: variable/2.png  used on input line 18.
+(pdftex.def)             Requested size: 142.26378pt x 36.49422pt.
+<variable/3.png, id=101, 943.27406pt x 389.95688pt>
+File: variable/3.png Graphic file (type png)
+<use variable/3.png>
+Package pdftex.def Info: variable/3.png  used on input line 24.
+(pdftex.def)             Requested size: 142.26378pt x 58.81232pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [14
+
+
+
+
+ <./variable/4.png> <./variable/1.png> <./variable/2.png>] [15 <./variable/3.pn
+g>]
+\openout2 = `section/chapter9.aux'.
+
+ (section/chapter9.tex) [16
+
+
+
+
+]
+\openout2 = `section/chapter10.aux'.
+
+ (section/chapter10.tex
+<identasi/1.png, id=115, 431.36156pt x 177.66376pt>
+File: identasi/1.png Graphic file (type png)
+<use identasi/1.png>
+Package pdftex.def Info: identasi/1.png  used on input line 6.
+(pdftex.def)             Requested size: 142.26378pt x 58.59126pt.
+) [17
+
+
+
+
+ <./identasi/1.png>]
+\openout2 = `section/chapter11.aux'.
+
+ (section/chapter11.tex
+<identasi/2.png, id=120, 1012.5328pt x 213.04594pt>
+File: identasi/2.png Graphic file (type png)
+<use identasi/2.png>
+Package pdftex.def Info: identasi/2.png  used on input line 6.
+(pdftex.def)             Requested size: 142.26378pt x 29.9335pt.
+<identasi/identasi.png, id=121, 598.48593pt x 216.81pt>
+File: identasi/identasi.png Graphic file (type png)
+<use identasi/identasi.png>
+Package pdftex.def Info: identasi/identasi.png  used on input line 14.
+(pdftex.def)             Requested size: 142.26378pt x 51.5359pt.
+) [18
+
+
+
+
+ <./identasi/2.png> <./identasi/identasi.png>] (python.aux (section/chapter1.au
+x) (section/chapter2.aux)
+(section/chapter3.aux) (section/chapter4.aux) (section/chapter5.aux)
+(section/chapter7.aux) (section/chapter8.aux) (section/chapter9.aux)
+(section/chapter10.aux) (section/chapter11.aux)) ) 
+Here is how much of TeX's memory you used:
+ 3861 strings out of 492895
+ 61445 string characters out of 3120931
+ 125228 words of memory out of 3000000
+ 7649 multiletter control sequences out of 15000+200000
+ 18239 words of font info for 31 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,38p,1271b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Acer One 14/AppData
+/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/Acer One 14/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Use
+rs/Acer One 14/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/b
+chbi8a.pfb><C:/Users/Acer One 14/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+bitstrea/charter/bchr8a.pfb><C:/Users/Acer One 14/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb>
+Output written on python.pdf (18 pages, 3607298 bytes).
+PDF statistics:
+ 140 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+

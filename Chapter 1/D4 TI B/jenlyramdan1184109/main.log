@@ -1,0 +1,362 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.1)  17 OCT 2019 10:33
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2018-12-01>
+(ociamthesis.cls
+Document Class: ociamthesis 2010/11/22 v2.2 OCIAM thesis class
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count89
+\float@exts=\toks16
+\float@box=\box27
+\@float@everytoks=\toks17
+\@floatcapt=\box28
+)
+(main.aux (section/chapter1.aux) (section/chapter2.aux) (section/chapter3.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count90
+\scratchdimen=\dimen105
+\scratchbox=\box29
+\nofMPsegments=\count91
+\nofMParguments=\count92
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count93
+\MPscratchDim=\dimen106
+\MPnumerator=\count94
+\makeMPintoPDFobject=\count95
+\everyMPtoPDFconversion=\toks19
+)
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
+ekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Jenly\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+<logo-poltekpos.png, id=1, 291.2481pt x 272.217pt>
+File: logo-poltekpos.png Graphic file (type png)
+<use logo-poltekpos.png>
+Package pdftex.def Info: logo-poltekpos.png  used on input line 27.
+(pdftex.def)             Requested size: 91.04881pt x 85.10081pt.
+ [1
+
+
+{C:/Users/Jenly/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo-polt
+ekpos.png>]
+\openout2 = `section/chapter1.aux'.
+
+ (section/chapter1.tex
+Chapter 1.
+) [2
+
+
+] [3]
+\openout2 = `section/chapter2.aux'.
+
+ (section/chapter2.tex
+Chapter 2.
+
+Overfull \hbox (5.12915pt too wide) in paragraph at lines 4--5
+\OT1/cmr/m/n/12 pertama down-load ap-likasi ana-conda 3. link https://www.anaco
+nda.com/distribution/
+ []
+
+<figures/1.png, id=18, 1023.825pt x 578.16pt>
+File: figures/1.png Graphic file (type png)
+<use figures/1.png>
+Package pdftex.def Info: figures/1.png  used on input line 8.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/2.png, id=19, 1023.825pt x 578.16pt>
+File: figures/2.png Graphic file (type png)
+<use figures/2.png>
+Package pdftex.def Info: figures/2.png  used on input line 13.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/3.png, id=20, 1023.825pt x 578.16pt>
+File: figures/3.png Graphic file (type png)
+<use figures/3.png>
+Package pdftex.def Info: figures/3.png  used on input line 18.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+[4
+
+
+
+ <./figures/1.png> <./figures/2.png>]
+<figures/4.png, id=24, 1023.825pt x 578.16pt>
+File: figures/4.png Graphic file (type png)
+<use figures/4.png>
+Package pdftex.def Info: figures/4.png  used on input line 23.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/5.png, id=25, 1023.825pt x 578.16pt>
+File: figures/5.png Graphic file (type png)
+<use figures/5.png>
+Package pdftex.def Info: figures/5.png  used on input line 28.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/6.png, id=26, 1023.825pt x 578.16pt>
+File: figures/6.png Graphic file (type png)
+<use figures/6.png>
+Package pdftex.def Info: figures/6.png  used on input line 33.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/7.png, id=27, 1023.825pt x 578.16pt>
+File: figures/7.png Graphic file (type png)
+<use figures/7.png>
+Package pdftex.def Info: figures/7.png  used on input line 38.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+ [5 <./figures/3.png> <./figures/4.png> <./figures/5.png> <./figures/6.png>]
+<figures/3-1.png, id=31, 1023.825pt x 578.16pt>
+File: figures/3-1.png Graphic file (type png)
+<use figures/3-1.png>
+Package pdftex.def Info: figures/3-1.png  used on input line 48.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/3-2.png, id=32, 1023.825pt x 578.16pt>
+File: figures/3-2.png Graphic file (type png)
+<use figures/3-2.png>
+Package pdftex.def Info: figures/3-2.png  used on input line 53.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/3-3.png, id=33, 1023.825pt x 578.16pt>
+File: figures/3-3.png Graphic file (type png)
+<use figures/3-3.png>
+Package pdftex.def Info: figures/3-3.png  used on input line 58.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/3-4.png, id=34, 1023.825pt x 578.16pt>
+File: figures/3-4.png Graphic file (type png)
+<use figures/3-4.png>
+Package pdftex.def Info: figures/3-4.png  used on input line 63.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+ [6 <./figures/7.png> <./figures/3-1.png> <./figures/3-2.png>]
+<figures/3-5.png, id=38, 1023.825pt x 578.16pt>
+File: figures/3-5.png Graphic file (type png)
+<use figures/3-5.png>
+Package pdftex.def Info: figures/3-5.png  used on input line 68.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+
+Overfull \hbox (8.40977pt too wide) in paragraph at lines 72--72
+[]\OT1/cmr/bx/n/17.28 Entrepreter/cli melakui ter-mi-nal atau cmd win-
+ []
+
+<figures/4-1.png, id=39, 1023.825pt x 578.16pt>
+File: figures/4-1.png Graphic file (type png)
+<use figures/4-1.png>
+Package pdftex.def Info: figures/4-1.png  used on input line 76.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+[7 <./figures/3-3.png> <./figures/3-4.png> <./figures/3-5.png>]
+<figures/4-2.png, id=44, 1023.825pt x 578.16pt>
+File: figures/4-2.png Graphic file (type png)
+<use figures/4-2.png>
+Package pdftex.def Info: figures/4-2.png  used on input line 81.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/6-6.jpg, id=45, 1023.825pt x 578.16pt>
+File: figures/6-6.jpg Graphic file (type jpg)
+<use figures/6-6.jpg>
+Package pdftex.def Info: figures/6-6.jpg  used on input line 88.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/6-7.jpg, id=46, 1023.825pt x 578.16pt>
+File: figures/6-7.jpg Graphic file (type jpg)
+<use figures/6-7.jpg>
+Package pdftex.def Info: figures/6-7.jpg  used on input line 93.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+ [8 <./figures/4-1.png> <./figures/4-2.png> <./figures/6-6.jpg>]
+<figures/6-8.jpg, id=50, 1023.825pt x 578.16pt>
+File: figures/6-8.jpg Graphic file (type jpg)
+<use figures/6-8.jpg>
+Package pdftex.def Info: figures/6-8.jpg  used on input line 98.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/6-9.jpg, id=51, 1023.825pt x 578.16pt>
+File: figures/6-9.jpg Graphic file (type jpg)
+<use figures/6-9.jpg>
+Package pdftex.def Info: figures/6-9.jpg  used on input line 103.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/6-10.jpg, id=52, 1023.825pt x 578.16pt>
+File: figures/6-10.jpg Graphic file (type jpg)
+<use figures/6-10.jpg>
+Package pdftex.def Info: figures/6-10.jpg  used on input line 108.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/he.jpg, id=53, 1023.825pt x 578.16pt>
+File: figures/he.jpg Graphic file (type jpg)
+<use figures/he.jpg>
+Package pdftex.def Info: figures/he.jpg  used on input line 115.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+ [9 <./figures/6-7.jpg> <./figures/6-8.jpg> <./figures/6-9.jpg> <./figures/6-10
+.jpg>]
+<figures/rush.jpg, id=57, 1023.825pt x 578.16pt>
+File: figures/rush.jpg Graphic file (type jpg)
+<use figures/rush.jpg>
+Package pdftex.def Info: figures/rush.jpg  used on input line 122.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/far.jpg, id=58, 1023.825pt x 578.16pt>
+File: figures/far.jpg Graphic file (type jpg)
+<use figures/far.jpg>
+Package pdftex.def Info: figures/far.jpg  used on input line 129.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+) [10 <./figures/he.jpg> <./figures/rush.jpg> <./figures/far.jpg>]
+\openout2 = `section/chapter3.aux'.
+
+ (section/chapter3.tex
+Chapter 3.
+<figures/a1.jpg, id=62, 1023.825pt x 578.16pt>
+File: figures/a1.jpg Graphic file (type jpg)
+<use figures/a1.jpg>
+Package pdftex.def Info: figures/a1.jpg  used on input line 7.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+<figures/a2.jpg, id=63, 1023.825pt x 578.16pt>
+File: figures/a2.jpg Graphic file (type jpg)
+<use figures/a2.jpg>
+Package pdftex.def Info: figures/a2.jpg  used on input line 12.
+(pdftex.def)             Requested size: 227.62204pt x 128.53653pt.
+) [11
+
+
+
+ <./figures/a1.jpg> <./figures/a2.jpg>] (main.aux (section/chapter1.aux)
+(section/chapter2.aux) (section/chapter3.aux)) ) 
+Here is how much of TeX's memory you used:
+ 1991 strings out of 492895
+ 29487 string characters out of 3123736
+ 89188 words of memory out of 3000000
+ 5858 multiletter control sequences out of 15000+200000
+ 5795 words of font info for 21 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,27p,644b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Jenly/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jenly/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Us
+ers/Jenly/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb><C:/Users/Jenly/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmti12.pfb>
+Output written on main.pdf (11 pages, 6106712 bytes).
+PDF statistics:
+ 81 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,63 @@
+\contentsline {chapter}{ABSTRAK}{i}% 
+\contentsline {chapter}{\textit {ABSTRACT}}{ii}% 
+\contentsline {chapter}{KATA PENGANTAR}{iii}% 
+\contentsline {chapter}{DAFTAR ISI}{iv}% 
+\contentsline {chapter}{DAFTAR GAMBAR}{vi}% 
+\contentsline {chapter}{DAFTAR TABEL}{vii}% 
+\contentsline {chapter}{DAFTAR SIMBOL}{viii}% 
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{I-1}% 
+\contentsline {section}{\numberline {1.1}Latar Belakang}{I-1}% 
+\contentsline {section}{\numberline {1.2}Identifikasi Masalah}{I-2}% 
+\contentsline {section}{\numberline {1.3}Tujuan Dan Manfaat}{I-2}% 
+\contentsline {section}{\numberline {1.4}Ruang Lingkup}{I-3}% 
+\contentsline {section}{\numberline {1.5}Sistematika Penulisan}{I-3}% 
+\contentsline {chapter}{\numberline {II}LANDASAN TEORI}{II-5}% 
+\contentsline {section}{\numberline {2.1}Teori Umum}{II-5}% 
+\contentsline {subsection}{\numberline {2.1.1}\textit {e-ticket}}{II-5}% 
+\contentsline {subsection}{\numberline {2.1.2}\textit {Website}}{II-5}% 
+\contentsline {subsection}{\numberline {2.1.3}\textit {Analisis}}{II-5}% 
+\contentsline {subsection}{\numberline {2.1.4}\textit {PHP}}{II-5}% 
+\contentsline {subsection}{\numberline {2.1.5}\textit {MySQL}}{II-5}% 
+\contentsline {subsection}{\numberline {2.1.6}\textit {Flowchart}}{II-6}% 
+\contentsline {subsection}{\numberline {2.1.7}\textit {Data Flow Diagram}}{II-6}% 
+\contentsline {subsection}{\numberline {2.1.8}\textit {API}}{II-6}% 
+\contentsline {subsection}{\numberline {2.1.9}Google}{II-6}% 
+\contentsline {chapter}{\numberline {III}ANALISIS DAN PERANCANGAN}{III-8}% 
+\contentsline {section}{\numberline {3.1}Analisis Sistem}{III-8}% 
+\contentsline {subsection}{\numberline {3.1.1}Analisis Sistem Berjalan}{III-8}% 
+\contentsline {subsubsection}{\numberline {3.1.1.1}Analisis Prosedur (\textit {Flowmap})}{III-8}% 
+\contentsline {subsubsection}{\numberline {3.1.1.2}Analisis Dokumen Yang Digunakan}{III-10}% 
+\contentsline {subsection}{\numberline {3.1.2}Analisis Sistem Yang Akan Dibangun}{III-10}% 
+\contentsline {subsubsection}{\numberline {3.1.2.1}Analisis Kebutuhan Aplikasi }{III-12}% 
+\contentsline {subsubsection}{\numberline {3.1.2.2}Analisis Kebutuhan Perangkat Lunak Dan Perangkat Keras }{III-12}% 
+\contentsline {section}{\numberline {3.2}Perancangan}{III-14}% 
+\contentsline {subsection}{\numberline {3.2.1}\textit {Context Diagram}}{III-14}% 
+\contentsline {subsection}{\numberline {3.2.2}\textit {Data Flow Diagram}}{III-14}% 
+\contentsline {subsubsection}{\numberline {3.2.2.1}\textit {DFD Level} 0}{III-15}% 
+\contentsline {subsection}{\numberline {3.2.3}Spesifikasi Proses \textit {(Process Specification)}}{III-16}% 
+\contentsline {subsubsection}{\numberline {3.2.3.1}Spesifikasi Proses \textit {(Process Specification)} DFD Level 0}{III-16}% 
+\contentsline {subsection}{\numberline {3.2.4}Kamus Alir Data\textit {(Data Flow Dictionary)}}{III-16}% 
+\contentsline {subsection}{\numberline {3.2.5}Perancangan \textit {Database}}{III-17}% 
+\contentsline {subsubsection}{\numberline {3.2.5.1}\textit {Conceptual Data Model}}{III-17}% 
+\contentsline {subsubsection}{\numberline {3.2.5.2}\textit {Physical Data Model}}{III-17}% 
+\contentsline {subsubsection}{\numberline {3.2.5.3}\textit {Kamus Data Tabel(Database)}}{III-17}% 
+\contentsline {subsection}{\numberline {3.2.6}Struktur Menu}{III-19}% 
+\contentsline {subsection}{\numberline {3.2.7}Perancangan Antar Muka}{III-19}% 
+\contentsline {subsubsection}{\numberline {3.2.7.1}\textit {Index}}{III-19}% 
+\contentsline {subsubsection}{\numberline {3.2.7.2}\textit {Config}}{III-21}% 
+\contentsline {subsubsection}{\numberline {3.2.7.3}\textit {Callback}}{III-21}% 
+\contentsline {subsubsection}{\numberline {3.2.7.4}\textit {Login}}{III-22}% 
+\contentsline {subsubsection}{\numberline {3.2.7.5}\textit {Dbconfig}}{III-24}% 
+\contentsline {subsubsection}{\numberline {3.2.7.6}\textit {Function}}{III-25}% 
+\contentsline {subsubsection}{\numberline {3.2.7.7}Pembuatan \textit {Database}}{III-26}% 
+\contentsline {chapter}{\numberline {IV}IMPLEMENTASI DAN PENGUJIAN}{IV-27}% 
+\contentsline {section}{\numberline {4.1}Lingkungan Implementasi}{IV-27}% 
+\contentsline {subsection}{\numberline {4.1.1}Perangkat Keras}{IV-27}% 
+\contentsline {subsection}{\numberline {4.1.2}Perangkat Lunak}{IV-27}% 
+\contentsline {section}{\numberline {4.2}Pembahasan Hasil Implementasi}{IV-27}% 
+\contentsline {section}{\numberline {4.3}Pengujian}{IV-28}% 
+\contentsline {subsection}{\numberline {4.3.1}\textit {Black Box}}{IV-28}% 
+\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN }{V-30}% 
+\contentsline {section}{\numberline {5.1}Kesimpulan }{V-30}% 
+\contentsline {section}{\numberline {5.2}Saran }{V-30}% 
+\contentsline {chapter}{Daftar Pustaka}{V-31}% 
