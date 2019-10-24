@@ -2,7 +2,7 @@
 .DS_Store
 ## Core latex/pdflatex auxiliary files:
 ..git.swp
-src/*/
+src/__pycache__/
 *.aux
 *.lof
 *.log
