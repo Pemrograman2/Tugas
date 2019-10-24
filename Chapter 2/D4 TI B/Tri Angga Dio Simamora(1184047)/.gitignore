@@ -1,7 +1,8 @@
 .DS_Store
 .DS_Store
 ## Core latex/pdflatex auxiliary files:
-__pycache__/
+!src/
+src/*
 *.aux
 *.lof
 *.log
