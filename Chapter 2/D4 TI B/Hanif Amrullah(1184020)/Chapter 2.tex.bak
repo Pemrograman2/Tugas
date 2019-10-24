@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{listing}
+
+\begin{document}
+
+\title{Chapter 2}
+\author{M. Farhan F. (1184072)}
+\date{}
+\maketitle
+
+\section{Pemograman Dasar}
+	\subsection{Teori}
+		\begin{enumerate}
+			\item Variable adalah sebuah wadah penyimpanan suatu nilai. variabel ada 2 berdasarkan luanglingkupnya yaitu variable lokal dan variabel global. variabel global adalah variable yang dapat di akses di semua ruang lingkup di program yang di buat sedangkan variable lokal merupakan variabel yang hanya dapat di akses di ruang lingkup khusus.
+			\item dalam bahasa pemograman python untuk meminta 
+			suatu inputan dari user gunkan kode \textcolor{green}{raw\_input("")}, sedangkan untuk menampilkan output ke layar adalah dengan menggunakan kode \textcolor{green}{print ("")}.
+			\item untuk pengoprasian aritmatika dalam python tinggal menggunakan simbol matematika seperti +, -, x, :, dan untuk mengubah string ke integer adalah \textcolor{green}{int(variable string)} dan untuk mengubah integer ke string adalah dengan \textcolor{green}{str(variable string)}
+			\item syntak perulangan
+				\begin{enumerate}
+					\item FOR digunakan untuk perulangan yang tau jumlah pengulangannya sampai berapa dan bisa digunakan sebagai list. \\
+					\textcolor{green}{
+					hitung = 10 \\
+					for i in range(hitung) :\\
+						print +str(i)}
+						
+					\item WHILE adalah perulangan yang tak terhitung. biasanya digunakan untuk perulangan yang tidak terhitung dan memiliki syarat untuk mengakhiri perulangan. \\
+					
+					\textcolor{green}{
+					answer = 'yes'\\
+					count = 0		\\			
+					while(answer =='yes'):\\
+						count += 1\\
+						answer = raw\_input("DAB again ?")	\\	
+					print "Total DAB :" + str(count)}\\
+					
+				\end{enumerate}
+			\item Kondisi \\
+				untuk memilih kondisi dalam Python bisa menggunakan Syntax "If". If digunakan digunakan bersamaan dengan kondisi seperti.
+				
+					\begin{itemize}
+						\item sama dengan: a == b
+						\item tidak sama dengan: a != b
+						\item kurang dari: a<b
+						\item kurang dari atau sama dengan: a <=b
+						\item lebih dari: a>b
+						\item lebih dari atau sama dengan: a>=b
+					\end{itemize}
+					\textcolor{green}{
+					f = 420\\
+					j = 69	\\				
+					\\
+					if f > j :\\
+						print ("gede F daripada J ea nub")\\
+						\\
+					}
+				seperti contoh syntak di atas fariabel "f" sama dengan 420 dan fariable j sama dengan 69 jika kondisi if-nya f lebih besar dari j maka akan mencetak seperti perintah
+				\\				
+				adapun dalam pemograman python kondisi didalam kondisi yang biasa disebut "Nesting". \\\\
+				\textcolor{green}{
+					f = raw\_input\\
+					\\
+					if f >= 0\\
+						if f >= 5\\
+							print("angka lebih gede dari 5 lur . . .")\\
+						elif f <= 5\\
+							print("angka kurang dari 5 lurrdeeee. . . ")\\
+					elif f >= 10\\
+						print("angkanya kegedeaan lurrdeee. . . .")\\
+					}
+					
+			\item error yang sering terjadi.
+					
+			\item TRY EXCEPT\\\\
+				\textcolor{green}{
+					f = raw\_input\\
+					\\
+					try:\\
+					if f >= 0\\
+						if f >= 5\\
+							print("angka lebih gede dari 5 lur . . .")\\
+						elif f <= 5\\
+							print("angka kurang dari 5 lurrdeeee. . . ")\\
+					elif f >= 10\\
+						print("angkanya kegedeaan lurrdeee. . . .")\\
+					except ValueError:\\
+					print ("error lur . . .")\\
+					}
+					
+				\begin{itemize}
+					\item stetmen \textit{try} akan di eksekusi pertama kali.
+					\item kalo tidak ada error yang tertangkap pada stetmen try maka selesai sudah.
+					\item jika terdapat error maka sistem akan berhenti di error yang terakhir ditemukan dan akan langsung meloncat ke stetmen \textit{except}.
+				\end{itemize}
+				
+			
+		\end{enumerate}
+	\subsection{Ketrampilan Pemrograman}
+			\begin{enumerate}
+				\item \lstinputlisting[language=Python]{code/N1.py}
+				\item 
+			\end{enumerate}
+			
+	
+	\subsection{Ketrampilan Penanganan Error}
+
+\end{document}

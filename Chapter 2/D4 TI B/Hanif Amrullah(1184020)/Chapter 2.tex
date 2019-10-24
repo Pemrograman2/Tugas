@@ -1,0 +1,136 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\begin{document}
+
+\title{Pemrograman II - Chapter 2}
+\author{Hanif Amrullah (1184020)}
+\date{}
+\maketitle
+
+\section{Pemograman Dasar}
+	\subsection{Teori}
+		\begin{enumerate}
+			\item Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai-nilai. Ini berarti bahwa ketika Anda membuat sebuah variabel Anda memesan beberapa ruang di memori. Variabel menyimpan data yang dilakukan selama program dieksekusi, yang natinya isi dari variabel tersebut dapat diubah oleh operasi - operasi tertentu pada program yang menggunakan variabel.\\
+			
+			Variabel dapat menyimpan berbagai macam tipe data. Di dalam pemrograman Python, variabel mempunyai sifat yang dinamis, artinya variabel Python tidak perlu didekralasikan tipe data tertentu dan variabel Python dapat diubah saat program dijalankan.\\
+			
+			Penulisan variabel Python sendiri juga memiliki aturan tertentu, yaitu :
+			\begin{enumerate}
+				\item Karakter pertama harus berupa huruf atau garis bawah/underscore
+				\item karakter selanjutnya dapat berupa huruf, garis bawah/underscore atau angka
+				\item Karakter pada nama variabel bersifat sensitif (case-sensitif).Artinya huruf kecil dan huruf besar dibedakan.Sebagai contoh, variabel namaDepan dan namadepan adalah variabel yang berbeda.
+			\end{enumerate}
+			
+			Untuk mulai membuat variabel di Python caranya sangat mudah, Anda cukup menuliskan variabel lalu mengisinya dengan suatu nilai dengan cara menambahkan tanda sama dengan = diikuti dengan nilai yang ingin dimasukan.
+			
+			\item Dalam bahasa pemograman python untuk meminta 
+			suatu inputan dari user gunkan kode \textcolor{black}{raw\_input("")}, sedangkan untuk menampilkan output ke layar adalah dengan menggunakan kode \textcolor{black}{print ("")}.
+			\item Untuk pengoprasian aritmatika dalam python tinggal menggunakan simbol matematika seperti +, -, x, :, dan untuk mengubah string ke integer adalah \textcolor{black}{int(variable string)} dan untuk mengubah integer ke string adalah dengan \textcolor{black}{str(variable string)}
+			\item syntak perulangan
+				\begin{enumerate}
+					\item FOR digunakan untuk perulangan yang tau jumlah pengulangannya sampai berapa dan bisa digunakan sebagai list. \\
+					\textcolor{black}{
+					hitung = 10 \\
+					for i in range(hitung) :\\
+						print +str(i)}
+						
+					\item WHILE adalah perulangan yang tak terhitung. biasanya digunakan untuk perulangan yang tidak terhitung dan memiliki syarat untuk mengakhiri perulangan. \\
+					
+					\textcolor{black}{
+					answer = 'yes'\\
+					count = 0		\\			
+					while(answer =='yes'):\\
+						count += 1\\
+						answer = raw\_input("DAB again ?")	\\	
+					print "Total DAB :" + str(count)}\\
+					
+				\end{enumerate}
+			\item Kondisi \\
+				untuk memilih kondisi dalam Python bisa menggunakan Syntax "If". If digunakan digunakan bersamaan dengan kondisi seperti.
+				
+					\begin{itemize}
+						\item sama dengan: a == b
+						\item tidak sama dengan: a != b
+						\item kurang dari: a<b
+						\item kurang dari atau sama dengan: a <=b
+						\item lebih dari: a>b
+						\item lebih dari atau sama dengan: a>=b
+					\end{itemize}
+					\textcolor{black}{
+					f = 420\\
+					j = 69	\\				
+					\\
+					if f > j :\\
+						print ("gede F daripada J ea nub")\\
+						\\
+					}
+				seperti contoh syntak di atas fariabel "f" sama dengan 420 dan fariable j sama dengan 69 jika kondisi if-nya f lebih besar dari j maka akan mencetak seperti perintah
+				\\				
+				adapun dalam pemograman python kondisi didalam kondisi yang biasa disebut "Nesting". \\\\
+				\textcolor{black}{
+					f = raw\_input\\
+					\\
+					if f >= 0\\
+						if f >= 5\\
+							print("angka lebih gede dari 5 lur . . .")\\
+						elif f <= 5\\
+							print("angka kurang dari 5 lurrdeeee. . . ")\\
+					elif f >= 10\\
+						print("angkanya kegedeaan lurrdeee. . . .")\\
+					}
+					
+			\item error yang sering terjadi.
+					
+			\item TRY EXCEPT\\\\
+				\textcolor{black}{
+					f = raw\_input\\
+					\\
+					try:\\
+					if f >= 0\\
+						if f >= 5\\
+							print("angka lebih gede dari 5 lur . . .")\\
+						elif f <= 5\\
+							print("angka kurang dari 5 lurrdeeee. . . ")\\
+					elif f >= 10\\
+						print("angkanya kegedeaan lurrdeee. . . .")\\
+					except ValueError:\\
+					print ("error lur . . .")\\
+					}
+					
+				\begin{itemize}
+					\item stetmen \textit{try} akan di eksekusi pertama kali.
+					\item kalo tidak ada error yang tertangkap pada stetmen try maka selesai sudah.
+					\item jika terdapat error maka sistem akan berhenti di error yang terakhir ditemukan dan akan langsung meloncat ke stetmen \textit{except}.
+				\end{itemize}
+				
+			
+		\end{enumerate}
+	\subsection{Ketrampilan Pemrograman}
+			\begin{enumerate}
+				\item \lstinputlisting[language=Python]{task/A1.py}
+				\item \lstinputlisting[language=Python]{task/A2.py}
+				\item \lstinputlisting[language=Python]{task/A3.py}
+				\item \lstinputlisting[language=Python]{task/A4.py}
+				\item \lstinputlisting[language=Python]{task/A5.py}
+				\item \lstinputlisting[language=Python]{task/A6.py}
+				\item \lstinputlisting[language=Python]{task/A7.py}
+				\item \lstinputlisting[language=Python]{task/A8.py}
+				\item \lstinputlisting[language=Python]{task/A9.py}
+				\item \lstinputlisting[language=Python]{task/A10.py}
+				\item \lstinputlisting[language=Python]{task/A11.py}
+				
+			\end{enumerate}
+			
+	
+	\subsection{Ketrampilan Penanganan Error}
+		\begin{enumerate}
+			\item \lstinputlisting[language=Python]{task/2rr.py}
+			
+		\end{enumerate}
+
+\end{document}
