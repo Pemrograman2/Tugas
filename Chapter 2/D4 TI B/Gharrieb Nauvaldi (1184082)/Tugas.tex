@@ -1,0 +1,78 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx}
+\title{Tugas pemrograman 2}
+\author{Gharrieb Nouvaldi}
+\begin{document}
+
+\maketitle
+\chapter{Python}
+\section{Variabel}
+\paragraph{}
+Variabel adalah sebuah tempat untuk menampung value dimemori, seperti sebuah ruangan atau wadah,  variabel dibedakan menjadi dua berdasarkan ruang lingkup yaitu variable lokal dan global. Variabel global yaitu variabel yang dapat diakses di semua lingkup  dalam program yang sedang dibuat,atau lebih tepatnya variabel global dapat dikenali oleh semua fungsi dan prosedur, ssedangkan variabel lokal adalah variabel yang dapat diakses hanya di lingkup khusus, lebih tepatnya variabel lokal ini hanya bisa diakses pada fungsi/prosedur dimana variabel itu dideklarasikan.
+\section{Input dan output}
+\paragraph{}
+Input \& output wajib kita ketahui supayah pengguna dan program dapat berinteraksi, berikut sintax meminta inputanya :\\
+\begin{itemize}
+	\item var \= input(“message”)\\
+\end{itemize}
+var adalah variabel yang menampung inputan dari user, input merupakan fungsi yang digunakan untuk menangkap inputan dari user, message digunakan untuk mencetak suatu keterangan saat meminta inputan, contoh :\\
+\begin{itemize}
+	\item nama = input(“Masukan nama : ”)\\
+\end{itemize}
+Lalu untuk menampilkan data bisa menggunakan fungsi print(), contoh :\\
+print(“Halo galaksi”)\\
+atau bisa juga menampilkan isi variabel, cara menampilkan data variabel yaitu dengan menuliskan nama variabel tanpa tanda petik, contoh :\\
+\begin{itemize}
+	\item nama=”Gharrieb”\\
+print(nama)\\
+\end{itemize}
+atau mungkin digabung dengan menambahkan koma untuk memisahkan antara message dengan variabel, contoh :\\
+\begin{itemize}
+	\item nama=”Gharrieb”\\
+print(“Halo ”,nama,” Selamat datang di galaksi tercinta”)\\
+\end{itemize}
+\section{Operasi aritmatika dan casting}
+\subsection{Operasi aritmatika}
+\paragraph{}
+Sebagai bahasa pemrograman, Python mempunyai operasi aritmatika diantaranya adalah tambah, kurang, kali, bagi.  symbol yang dipakai dalam operasi aritmatikanya pun tidak jauh berbeda dengan rekan-rekannya.  berikut merupakan contoh penggunaan operasi aritmatika pada python
+Contoh misalkan disini kita mempunyai variable : a=5 dan b=3\\
+\subsection{Casting}
+\paragraph{}
+Namun apa yang akan terjadi jika variabel a merupakan string dan variabel b merupakan integer, contoh a=”5” dan b=3, tentu program akan menjadi error bukan? Disinilah casting akan digunakan. Casting adalah mekanisme untuk mengubah tipe data dari suatu data primitive, Jadi kita akan melakukan penjumlahkan variabel a dan b seperti contoh diatas tetapi logikanya sebuah kata (string) tidak akan bisa dijumlahkan dengan angka (“5” + 3) karena variabel a diapit oleh tanda kutip, ini berarti variabel a bertipe data string untuk itu kita perlu merubah dulu variabel a yang tadinya string menjadi integer. Berikut sintax untuk melakukan casting :
+\begin{itemize}
+	\item int(var/value) : mengubah tipe data ke integer, contoh int(angka)
+	\item float(var/value) : mengubah tipe data ke float, contoh float(hasil)
+	\item string(var/value) : mengubah tipe data ke str, contoh string(12)
+\end{itemize}
+Lalu cara menyelesaikan contoh diatas dengan menggunakan int() untuk merubah tipe data variabel a menjadi integer, contoh :
+\begin{itemize}
+
+\item a=”5”\\
+b=3\\
+int(a)+b\\
+
+\end{itemize}
+maka apabila dijalankan program diatas tidak akan error, karena tipe data variabel a sudah diubah dari string menjadi integer sehingga program dapat dijalankan.
+
+\section{condision (kondisi)}
+\paragraph{}
+Pengambilan keputusan diperlukan dalam sebuah program untuk menentukan tindakan apa saja yang akan dilakukan sesuai dengan kondisi yang terjadi, contoh seorang anak bernama Jony, semua mahluk hidup yang membutuhkan makan, jika Jony lapar maka Jony akan makan. Maka dapat dilakukan seperti dibawah ini :\\
+
+Kondisi, jika :\\
+Jony\\
+Maka :\\
+Jony akan makan\\
+
+Namun kadang kondisi tidak juga sampai disitu, kadang ada saja tambahan opsi sebuah kondisi, Jika Jony makan maka Jony hidup, namun jika tidak maka Jony akan mati. Maka dapat dipecah seperti ini :\\
+
+Kondisi, jika :\\
+Jony makan\\
+Maka :\\
+Jony akan hidup\\
+Jika tidak :\\
+Jony akan mati\\
+	
+Contoh diatas dapat ditulis dengan sintax python menggunakan if, pengondisian if dalam python dibagi menjadi 4, yaitu : if, if else, elif, nested if. Berikut merupakan pembahasannya :
+
+if digunakan jika misalkan kita mempunyai kondisi yang sederhana
+\end{document}
