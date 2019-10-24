@@ -1,0 +1,146 @@
+\chapter*{Teori}
+
+\section*{Pengenalan variabel}
+\par
+Variabel adalah sebuah tempat peyimpanan sebuah nilai. Pada python mendeklarasikan pembuatan variabel akan terjadi secara otomatis, tanda = untuk memberikan nilai pada variabel.
+
+Variabel Global pada python yitu variabel yang bisa diakses dari semua fungsi.\\
+Sedangkan Variabel Lokal pada python yaitu variabel yang hanya dapat diakses didalam fungsi tempat ia berada.\\
+Variabel build-in adalah variabel yang sudah terpasang pada python
+
+Contoh kode:\\
+(Membuat variabel Global)\\
+nama = "rayhan"\\
+versi = "1.0.0"
+
+def help():\\
+	(Ini variabel lokal)\\
+	nama = "programku"\\
+	versi = "1.0.2"\\
+	(Mengakses variabel lokal)\\
+	print("Nama :", nama)\\
+	print("Versi :", versi)\\
+(Memanggil fungsi help)\\
+help()	\\
+\section*{Inputan user dan melakukan out put ke layar}
+npm=input(" NPM Kamu :") : Meminta inputan user\\
+print("Hai"+npm)        : Out Put ke layar\\
+Hasil:\\
+\\
+NPM Kamu : (Masukan npm anda)\\
+Hai (npm anda)\\
+\\
+NPM Kamu : 1184007\\
+Hai 1184007\\
+
+\section*{Operator dasar aritmatika dan mengubah string ke integer dan juga sebaliknya }
+
+\subsection*{Operator dasar}
+\begin{enumerate}
+\item Penjumlahan 	: +
+\item Pengurangan 	: -
+\item Perkalian 	: *
+\item Pembagian 	: /
+\item Sisa bagi		:\%
+\item Pemangkatan	: **
+\end{enumerate}
+\subsection*{Casting}
+\par
+Casting yaitu cara untuk mengubah tipe data dari suatu data primitive.\\
+Syntax untuk melakukan casting:\\
+\begin{enumerate}
+\item int(var/value): merubah tipe data ke integer.
+\item float(var/value): merubah tipe data ke float.
+\item string(var/value): merubah tipe data ke str.
+\end{enumerate}
+Contoh:\\
+Menggunakan int()untuk mengubah tipe data variabel z menjadi int.
+z="1"
+y=2
+int(z)+y
+\section*{Perulangan}
+\begin{enumerate}
+\item Perulangan for\\
+\par
+Perulangan For yaitu perulangan yang terhitung (Counted loop), perulangan ini biasa nya dipakai
+untuk mengulang kode yang sudah diketahui banyak pengulangan nya.\\
+
+Contoh syntax:\\
+ulang = 10\\
+for i in range(ulang):
+	print ("perulangan ke-"str(i))
+\item Perulangan while\\
+\par
+Perulangan While yaitu perulangan yang tak terhitung (uncounted loop), perulangan ini biasa nya memiliki syarat untuk menghetikan perulangan nya dan tidak tentu banyak perulangan nya.\\
+
+Contoh syntax:\\
+jawab = 'ya'\\
+hitung = 0\\
+while(jawab == 'ya'):\\
+	hitung +=1\\
+	jawab = input("ulang lagi tidak?")\\
+print("Total perulangan: ", str(hitung)\\
+\end{enumerate}
+
+\section*{Kondisi}
+\begin{enumerate}
+\item Kondisi IF\\
+Digunakan untuk mengantisipasi program yang sedang berjalan dan menentukan tindakan yang akan di ambil sesuai dengan kondisi yang di butuhkan.\\
+Contoh:\\
+-Kondisi if adalah kondisi yang akan dieksekusi oleh program jika bernilai benar atau TRUE\\
+
+nilai = 9\\
+
+-jika kondisi benar/TRUE maka program akan mengeksekusi perintah dibawahnya\\
+if(nilai > 7):\\
+    print("Selamat Anda Lulus")\\
+\item Kondisi IF ELSE\\
+Digunakan untuk  menentukan tindakan yang akan di ambil sesuai dengan kondisi yang di butuhkan / tidak sesuai/\\
+Contoh:\\
+    -Kondisi if else adalah jika kondisi bernilai TRUE maka akan dieksekusi pada if, tetapi jika bernilai FALSE maka akan dieksekusi kode pada else.\\
+
+nilai = 3\\
+-Jika pernyataan pada if bernilai TRUE maka if akan dieksekusi, tetapi jika FALSE kode pada else yang akan dieksekusi.\\
+if(nilai > 7):\\
+    print("Selamat Anda Lulus")\\
+else:\\
+    print("Maaf Anda Tidak Lulus")\\
+\item Kondisi Elif
+Kondisi Elif ini lanjutan dari percabangan kondisi if dengan kondisi elif ini kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan yang bisa terjadi.\\
+Contoh:\\
+hari\_ini = "Minggu"\\
+
+if(hari\_ini == "Senin"):\\
+    print("Saya akan kuliah")\\
+elif(hari\_ini == "Selasa"):\\
+    print("Saya akan kuliah")\\
+elif(hari\_ini == "Rabu"):\\
+    print("Saya akan kuliah")\\
+elif(hari\_ini == "Kamis"):\\
+    print("Saya akan kuliah")\\
+elif(hari\_ini == "Jumat"):\\
+    print("Saya akan kuliah")\\
+elif(hari\_ini == "Sabtu"):\\
+    print("Saya akan kuliah")\\
+elif(hari\_ini == "Minggu"):\\
+    print("Saya akan libur")\\
+\end{enumerate}
+
+\section*{Jenis error}
+\section*{Try Except}
+\par
+Try except adalah cara untuk menangani suatu eror didalam python. cara menggunakannya ialah:\\
+setiap angka yang dibagi dengan 0 maka akan terjadi eror sudah ketentuannya seperti contoh dibawah ini:\\
+x=0\\
+try\\
+x = 5/0\\
+
+except exception, e:\\
+print e\\
+\\
+\\
+print x+1\\
+maka akan muncul integer division or modulo by zero 1\\
+\\
+\\
+seharusnya kode diatas tidak dapat dieksekusi tetapi karena menggunakan try except kode diatas dapat dieksekusi walaupun hasilnya akan eror
