@@ -1,0 +1,251 @@
+\chapter{Pemrograman Dasar}
+Tujuan pembelajaran pada pertemuan kedua antara lain:
+\begin{enumerate}
+\item
+Mengenal Jenis Variabel Python
+\item
+Input dan output user
+\item
+Operator Dasar
+\item
+Perulangan
+\item
+Kondisi
+\item
+Mengatasi Error
+\item
+Try Except
+\end{enumerate}
+Tugas dengan cara dikumpulkan dengan pull request ke github dengan menggunakan latex pada repo yang dibuat oleh asisten IRC. Kode program dipisah dalam folder src NPM.py yang berisi praktek dari masing-masing tugas file terpisah sesuai nomor yang kemudian dipanggil menggunakan input listing ke dalam file latex penjelasan atau nomor pengerjaan. Masing masing soal bernilai 5 dengan total nilai 100.
+
+\section{Teori}
+\subsection{Jenis-Jenis Variabel dan Cara Pemakaian Variabel}
+\paragraph{}
+    Variabel merupakan suatu wadah untuk menyimpan data, sedangkan data yang disimpan di dalam variabel disebut tipe data. Tipe data terbagi menjadi beberapa macam, yaitu:
+    \begin{enumerate}
+        \item Tipe Data Angka
+            \par Tipe ini terbagi menjadi beberapa jenis lagi, yaitu: 
+            \par \begin{enumerate}
+                \item Integer (bilangan bulat), Contoh : 1,2,3,dst.
+                \item Float (bilangan pecahan), contoh : 1.5, 2.1, dst.
+                \begin{figure}[h]
+                \centerline{\includegraphics[width=8cm]{figures/tipedataangka.PNG}}
+                \end{figure}
+                \end{enumerate}
+            \lstinputlisting[language=Python]{src/tipedataangka.py}
+        \item Tipe Data Teks
+            \par Tipe ini terbagi menjadi dua jenis, yaitu:
+            \par \begin{enumerate}
+                \item String (kumpulan karakter), Contoh : "Saya sedang makan"
+                \item Varchar (karakter), Contoh : a,b,c,dst.
+                \begin{figure}[h]
+                 \centerline{\includegraphics[width=8cm]{figures/tipedatastring.PNG}}
+                \end{figure}
+            \end{enumerate}
+            \par Penulisan tipe ini harus diapit oleh tanda petik.
+        \item Tipe Data Boolean
+        \par Tipe ini adalah tipe yang hanya memiliki dua nilai yaitu True dan False atau 0 dan 1.
+        \begin{figure}[h]
+                 \centerline{\includegraphics[width=8cm]{figures/tipedataboolean.PNG}}
+        \end{figure}
+    \end{enumerate}
+\paragraph{} Adapun contoh penggunaan variabel menggunakan kode python adalah:
+\paragraph{}
+            \centerline{\includegraphics[width=8cm]{figures/variabel.PNG}}
+\lstinputlisting[language=Python]{src/variabel.py}
+
+\subsection{Kode Untuk Meminta Input Dari User dan Melakukan Output ke Layar}
+\paragraph{} Input merupakan suatu masukan yang akan kita berikan ke program. Sedangkan hasil yang ditampilkan disebut output.
+\begin{enumerate}
+    \item Cara mengambil input
+        \par Python menyediakan fungsi input, menggunakan kode input()
+    \item Cara menampilkan output
+        \par Untuk menampilkan sebuah ouput teks kita menggunakan kode print()
+\end{enumerate}
+\begin{figure}[h]
+                 \centerline{\includegraphics[width=8cm]{figures/inputoutput.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/inputoutput.py}
+
+\subsection{Operator Dasar Aritmatika, Tambah, Kali, Kurang, Bagi, dan Bagaimana Mengubah String ke Integer dan Integer Ke String}
+\paragraph{} Operator merupakan suatu simbol-simbol yang digunakan untuk operasi tertentu. Dan operator aritmatika termasuk pada operator yang paling sering digunakan. 
+\paragraph{}
+    \centerline{\includegraphics[width=8cm]{figures/operatoraritmetika.PNG}}
+\paragraph{} Adapun contoh penggunaannya adalah: 
+\begin{figure}[h]
+                 \centerline{\includegraphics[width=8cm]{figures/operator2.PNG}}
+        \end{figure}
+\paragraph{} Cara mengubah string ke integer dan integer ke string
+\paragraph{}
+    \centerline{\includegraphics[width=8cm]{figures/konversi.PNG}}
+    
+\subsection{Penjelasan Syntax Untuk Perulangan dan Jenis-Jenisnya serta Contoh Kode dan Cara Menggunakannya di Python}
+\paragraph{}
+            Perulangan berfungsi untuk melakukan sesuatu secara berulang atau terus menerus. Pada bahasa pemrograman terdapat dua jenis perulangan, yaitu For dan While. Perulangan For disebut juga perulangan yang terhitung (counted loop) sedangkan perulangan while disebut perulangan yang tak terhitung (uncounted loop).
+            \par
+            Secara umum python mengeksekusi program secara berbaris, tetapi untuk perulangan satu baris dieksekusi beberapa kali. Perulangan memerlukan tes kondisi, jika hasil tes true maka blok tersebut akan terus dieksekusi sedangkan jika false maka akan keluar dari blok perulangan dan mengeksekusi blok selanjutnya.
+\begin{enumerate}
+    \item Perulangan For
+    \par Perulangan ini biasanya digunakan untuk mengetahui kode yang sudah banyak perulangannya. Adapun contoh kodenya adalah:
+    \paragraph{}
+                 \centerline{\includegraphics[width=8cm]{figures/perulanganfor.PNG}}
+    \lstinputlisting[language=Python]{src/perulanganfor.py}
+    \item Perulangan While
+    \par Bila kondisi yang diuji salah, maka loop tidak akan pernah dieksekusi
+    \begin{figure}[h]
+                 \centerline{\includegraphics[width=8cm]{figures/perulanganwhile.PNG}}
+        \end{figure}
+    \lstinputlisting[language=Python]{src/perulanganwhile.py}
+\end{enumerate}
+
+\subsection{Cara Menggunakan Syntax Untuk Memilih Kondisi dan Contoh Syntax Kondisi Di Dalam Kondisi}
+\paragraph{}
+        Python memiliki tiga jenis kondisional yang dapat digunakan untuk membangun suatu alur logika. Yaitu if, ifelse, dan ifelifelse. 
+\begin{enumerate}
+    \item Kondisi If
+    \par Jika kondisi utama true, maka perintah akan dijalankan
+    \begin{figure}[h]
+        \centerline{\includegraphics[width=8cm]{figures/kondisiif.PNG}}
+    \end{figure}
+    \item Kondisi If Else
+    \par Untuk memeriksa kondisi utama, else digunakan untuk menangani kondisi selain kondisi yang telah ditentukan.
+    \paragraph{}
+    \centerline{\includegraphics[width=8cm]{figures/kondisiifelse.PNG}}
+    \item Kondisi if elif else
+    \par Bila anda akan mendefinisikan cukup banyak kondisi, maka gunakan elif di bawah statement if dan diatas statement else.
+    \begin{figure}[h]
+        \centerline{\includegraphics[width=8cm]{figures/kondisiifelifelse.PNG}}
+    \end{figure}
+    \item If di dalam if (If bersarang)
+    \par Suatu kondisional dapat dsimpan di dalam if lain, berikut adalah contohnya:
+    \begin{figure}[h]
+        \centerline{\includegraphics[width=8cm]{figures/ifbersarang.PNG}}
+    \end{figure}
+\end{enumerate}
+
+\subsection{Jenis error yang sering ditemui di Python dalam mengerjakan Syntax di atas}
+\paragraph{}
+        Biasanya error terjadi dikarenakan ada kesalahan dalam pengetikan syntax, contohnya sebagai berikut:
+        \begin{figure}[h]
+        \centerline{\includegraphics[width=8cm]{figures/errortitikdua.PNG}}
+        \end{figure}
+        \par Gambar di atas merupakan contoh dari kesalahan syntax titik dua pada line 5.
+        \begin{figure}[h]
+        \centerline{\includegraphics[width=8cm]{figures/range.PNG}}
+        \end{figure}
+        \par Gambar di atas merupakan contoh dari kesalahan syntax range, jika nilai bertipe data integer maka harus menggunakan range setelah in.
+
+\subsection{Cara Memakai Try Except}
+\paragraph{}
+        Try except biasa digunakan untuk menangani error saat penggunaan IO, database, atau pengaksesan indeks suatu list atau dictionary, dll.
+       \paragraph{}
+        \centerline{\includegraphics[width=8cm]{figures/tryexcept.PNG}}
+
+\section{Ketrampilan Pemrograman}
+\begin{enumerate}
+\item
+Luaran huruf yang dirangkai dari tanda bintang, pagar atau plus dari NPM kita.
+Tanda bintang untuk NPM mod 3=0, tanda pagar untuk NPM mod 3 =1, tanda plus untuk NPM mod3=2.
+Output:
+\begin{figure}[h]
+\centerline{\includegraphics[width=8cm]{figures/NPM11.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/NPM1.py}
+
+\item
+Program hello word dengan input NPM yang disimpan dalam sebuah variabel string bernama \textbf{NPM} dan output sebanyak dua dijit belakang NPM, 
+contoh NPM : 113040087 maka akan ada output sebanyak 87 dengan tulisan `Hallo, 113040087 apa kabar?'
+\paragraph{}
+\centerline{\includegraphics[width=8cm]{figures/soal2.PNG}}
+\lstinputlisting[language=Python]{src/soal2.py}
+
+\item
+Program hello word dengan input nama yang disimpan dalam sebuah variabel string bernama \textbf{NPM} dan beri luaran output berupa tiga karakter belakang dari NPM sebanyak penjumlahan tiga dijit tersebut.
+\begin{figure}[h]
+\centerline{\includegraphics[width=8cm]{figures/npm3.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/npm3.py}
+
+\item
+Program hello word dengan input nama yang disimpan dalam sebuah variabel string bernama \textbf{NPM} dan beri luaran output berupa digit ketiga dari belakang dari variabel NPM.
+\begin{figure}[h]
+\centerline{\includegraphics[width=8cm]{figures/npm4.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/npm4.py}
+
+\item
+\label{digitvar}
+(untuk soal no \ref{digitvar} dan selanjutnya wajib menggunakan perulangan dan kondisi) buat program dengan mengisi variabel alfabet dengan nomor npm satu persatu berurut.
+\paragraph{}
+\centerline{\includegraphics[width=8cm]{figures/npm5.PNG}}
+\lstinputlisting[language=Python]{src/NPM5.py}
+
+\item
+Dari soal no \ref{digitvar}, Lakukan penjumlahan dari seluruh variabel tersebut
+\begin{figure}[h]
+\centerline{\includegraphics[width=8cm]{figures/npm6.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/NPM6.py}
+
+\item 
+Dari soal no \ref{digitvar}, Lakukan perkalian dari seluruh variabel tersebut
+\begin{figure}[h]
+\centerline{\includegraphics[width=8cm]{figures/npm7.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/NPM7.py}
+
+\item
+Dari soal no \ref{digitvar}, Lakukan print secara vertikal dari NPM anda menggunakan variabel diatas. 
+\paragraph{}
+\centerline{\includegraphics[width=8cm]{figures/npm8.PNG}}
+\lstinputlisting[language=Python]{src/NPM8.py}
+
+\item
+Dari soal no \ref{digitvar}, Lakukan print NPM anda tapi hanya dijit genap saja. 
+\begin{figure}[h]
+\centerline{\includegraphics[width=8cm]{figures/npm9.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/NPM9.py}
+
+\item
+Dari soal no \ref{digitvar}, Lakukan print NPM anda tapi hanya dijit ganjil saja.
+\begin{figure}[h]
+\centerline{\includegraphics[width=8cm]{figures/npm10.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/NPM10.py}
+
+\item 
+Dari soal no \ref{digitvar}, Lakukan print NPM anda tapi hanya dijit yang termasuk bilangan prima saja.
+\begin{figure}[h]
+\centerline{\includegraphics[width=8cm]{figures/npmsebelas.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/NPM11.py}
+
+\end{enumerate}
+
+
+\section{Ketrampilan Penanganan Error}
+Bagian Penanganan error dari script python.
+\begin{enumerate}
+\item
+Tuliskan peringatan error yang didapat dari mengerjakan praktek kedua ini, dan jelaskan cara penanganan error tersebut.
+\par Peringatan error yang didapat adalah seperti berikut, dijelaskan bahwa penggunaan persen d untuk integer dan bukan string. Tetapi tipe data yang dimasukkan atau diinputkan adalah string, maka terjadi error.
+\begin{figure}[h]
+\centerline{\includegraphics[width=8cm]{figures/contoherror2.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/contoherror1.py}
+\par Error akan diatasi oleh try except, dengan cara menangkap error lalu memprint peringatan error tersebut.
+\paragraph{}
+\centerline{\includegraphics[width=8cm]{figures/contoherror.PNG}}
+\lstinputlisting[language=Python]{src/contoherror.py}
+
+\item
+Membuat file 2err.py dan mengisinya dengan script pengisian variabel sebagai string dan pengisian variabel sebagai interger. 
+Kemudian jumlahkan antara variabel integer dan string dan tangkap jenis errornya, gunakan try except untuk menunjukkan error tersebut dengan
+bahasa indonesia.
+\begin{figure}[h]
+\centerline{\includegraphics[width=8cm]{figures/2err.PNG}}
+\end{figure}
+\lstinputlisting[language=Python]{src/2err.py}
+
+\end{enumerate}
