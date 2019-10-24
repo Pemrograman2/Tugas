@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 22 13:21:18 2019
-
-@author: Faris Fatin 32
-"""
-
-
 i=0
 npm = input("NPM: ")
 while i<1:

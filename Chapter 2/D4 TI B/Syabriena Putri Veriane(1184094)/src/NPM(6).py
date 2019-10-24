@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 20 11:43:25 2019
-
-@author: Faris Fatin 32
-"""
-
 i=0
 npm = input("NPM: ")
 while i<1:
@@ -25,5 +18,9 @@ e=npm[4]
 f=npm[5]
 g=npm[6]
 
+y=0
+
+
 for x in a,b,c,d,e,f,g:
-    print(x)
+    y+=int(x)
+print(y)

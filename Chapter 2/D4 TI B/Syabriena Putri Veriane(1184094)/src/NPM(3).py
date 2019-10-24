@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 22 11:31:03 2019
-
-@author: Asus
-"""
-
 npm = input("NPM: ")
 
 val = int(npm[4])
