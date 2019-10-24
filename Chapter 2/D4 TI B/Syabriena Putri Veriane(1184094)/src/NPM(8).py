@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 23 18:27:21 2019
-
-@author: Asus
-"""
-
 i=0
 npm = input("NPM: ")
 while i<1:
@@ -25,8 +18,5 @@ e=npm[4]
 f=npm[5]
 g=npm[6]
 
-conv=1
-
 for x in a,b,c,d,e,f,g:
-    conv*=int(x)
-print(conv)
+    print(x)

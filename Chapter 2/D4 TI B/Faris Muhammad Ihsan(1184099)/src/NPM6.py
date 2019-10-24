@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 23 19:00:47 2019
-
-@author: Asus
-"""
-
 i=0
 npm = input("NPM: ")
 while i<1:
@@ -25,10 +18,8 @@ e=npm[4]
 f=npm[5]
 g=npm[6]
 
+y=0
+
 for x in a,b,c,d,e,f,g:
-    if int(x) > 1:
-        for i in range(2,int(x)):
-            if (int(x) % i) == 0:
-                break
-        else:
-            print(int(x),end ="")
+    y+=int(x)
+print(y)
