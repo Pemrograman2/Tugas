@@ -1,0 +1,846 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.14)  23 OCT 2019 21:24
+entering extended mode
+**"D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/main.tex"
+("D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/main.tex"
+LaTeX2e <2019-10-01>
+(D:\KOOLYEAH\LatexApp\tex/latex/base\article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(D:\KOOLYEAH\LatexApp\tex/latex/base\size12.clo
+File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(D:\KOOLYEAH\LatexApp\tex/generic/babel\babel.sty
+Package: babel 2019/09/27 3.34 The Babel package
+
+(D:\KOOLYEAH\LatexApp\tex/generic/babel\switch.def
+File: switch.def 2019/09/27 3.34 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\KOOLYEAH\LatexApp\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+Package babel Info: You haven't specified a language. I'll use 'nil'
+(babel)             as the main language. Reported on input line 582.
+
+(D:\KOOLYEAH\LatexApp\tex/generic/babel\nil.ldf
+Language: nil 2019/09/27 3.34 Nil language
+
+(D:\KOOLYEAH\LatexApp\tex/generic/babel\babel.def
+File: babel.def 2019/09/27 3.34 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+(D:\KOOLYEAH\LatexApp\tex/generic/babel\txtbabel.def)
+\bbl@dirlevel=\count89
+)
+\l@nil=\language82
+))
+(D:\KOOLYEAH\LatexApp\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks14
+\labelindent=\skip43
+\enit@outerparindent=\dimen104
+\enit@toks=\toks15
+\enit@inbox=\box27
+\enit@count@id=\count90
+\enitdp@description=\count91
+)
+(D:\KOOLYEAH\LatexApp\tex/latex/psnfss\times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(D:\KOOLYEAH\LatexApp\tex/latex/graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\KOOLYEAH\LatexApp\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(D:\KOOLYEAH\LatexApp\tex/latex/graphics\graphics.sty
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\KOOLYEAH\LatexApp\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(D:\KOOLYEAH\LatexApp\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(D:\KOOLYEAH\LatexApp\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(D:\KOOLYEAH\LatexApp\tex/latex/geometry\geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(D:\KOOLYEAH\LatexApp\tex/generic/oberdiek\ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(D:\KOOLYEAH\LatexApp\tex/generic/oberdiek\ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(D:\KOOLYEAH\LatexApp\tex/generic/ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
+\Gm@bindingoffset=\dimen107
+\Gm@wd@mp=\dimen108
+\Gm@odd@mp=\dimen109
+\Gm@even@mp=\dimen110
+\Gm@layoutwidth=\dimen111
+\Gm@layoutheight=\dimen112
+\Gm@layouthoffset=\dimen113
+\Gm@layoutvoffset=\dimen114
+\Gm@dimlist=\toks17
+
+(D:\KOOLYEAH\LatexApp\tex/latex/geometry\geometry.cfg))
+(D:\KOOLYEAH\LatexApp\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count95
+\float@exts=\toks18
+\float@box=\box28
+\@float@everytoks=\toks19
+\@floatcapt=\box29
+)
+(D:\KOOLYEAH\LatexApp\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+4.
+(D:\KOOLYEAH\LatexApp\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(D:\KOOLYEAH\LatexApp\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count96
+\scratchdimen=\dimen115
+\scratchbox=\box30
+\nofMPsegments=\count97
+\nofMParguments=\count98
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen116
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
+\everyMPtoPDFconversion=\toks21
+) (D:\KOOLYEAH\LatexApp\tex/latex/oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(D:\KOOLYEAH\LatexApp\tex/generic/oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(D:\KOOLYEAH\LatexApp\tex/latex/oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(D:\KOOLYEAH\LatexApp\tex/generic/oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(D:\KOOLYEAH\LatexApp\tex/generic/oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(D:\KOOLYEAH\LatexApp\tex/latex/oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(D:\KOOLYEAH\LatexApp\tex/generic/oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(D:\KOOLYEAH\LatexApp\tex/generic/oberdiek\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(D:\KOOLYEAH\LatexApp\tex/generic/oberdiek\ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(D:\KOOLYEAH\LatexApp\tex/generic/oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(113.81102pt, 645.87756pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=645.87756pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=4.54103pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 18.
+
+LaTeX Warning: No \author given.
+
+<gambar/logo.png, id=1, 291.2481pt x 272.217pt>
+File: gambar/logo.png Graphic file (type png)
+<use gambar/logo.png>
+Package pdftex.def Info: gambar/logo.png  used on input line 22.
+(pdftex.def)             Requested size: 113.81294pt x 99.58473pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+[1
+
+{C:/Users/Faris Fatin 32/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:
+/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/logo.png>]
+\openout2 = `section/part1.aux'.
+
+
+("D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)\section/part1.tex"
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+
+Overfull \hbox (2.29785pt too wide) in paragraph at lines 23--24
+[]\OT1/ptm/m/n/12 Setelah dirilis, python memiliki beberapa versi. Setiap versi
+ memiliki perbedaan,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--37
+
+ []
+
+[1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 38--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--58
+
+ []
+
+
+Overfull \hbox (3.41557pt too wide) in paragraph at lines 62--63
+  \OT1/ptm/m/n/12 Salah satu perusahaan besar pengguna python adalah perusahaan
+ google. Python
+ []
+
+[2]
+<gambar/1_1.jpg, id=17, 374.14781pt x 293.59688pt>
+File: gambar/1_1.jpg Graphic file (type jpg)
+<use gambar/1_1.jpg>
+Package pdftex.def Info: gambar/1_1.jpg  used on input line 71.
+(pdftex.def)             Requested size: 374.14688pt x 293.59615pt.
+
+Overfull \hbox (5.18298pt too wide) in paragraph at lines 71--73
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+<gambar/1_2.jpg, id=18, 376.40625pt x 297.36093pt>
+File: gambar/1_2.jpg Graphic file (type jpg)
+<use gambar/1_2.jpg>
+Package pdftex.def Info: gambar/1_2.jpg  used on input line 74.
+(pdftex.def)             Requested size: 376.40532pt x 297.3602pt.
+
+Overfull \hbox (7.44142pt too wide) in paragraph at lines 74--76
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+
+ []
+
+[3 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/1_1.jpg>]
+<gambar/1_3.jpg, id=22, 376.40625pt x 292.09125pt>
+File: gambar/1_3.jpg Graphic file (type jpg)
+<use gambar/1_3.jpg>
+Package pdftex.def Info: gambar/1_3.jpg  used on input line 77.
+(pdftex.def)             Requested size: 376.40532pt x 292.09052pt.
+
+Overfull \hbox (7.44142pt too wide) in paragraph at lines 77--79
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+[4 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/1_2.jpg> <D
+:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/1_3.jpg>]
+<gambar/1_4.jpg, id=26, 377.15906pt x 294.34969pt>
+File: gambar/1_4.jpg Graphic file (type jpg)
+<use gambar/1_4.jpg>
+Package pdftex.def Info: gambar/1_4.jpg  used on input line 80.
+(pdftex.def)             Requested size: 377.15814pt x 294.34895pt.
+
+Overfull \hbox (8.19424pt too wide) in paragraph at lines 80--82
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+
+ []
+
+<gambar/1_5.jpg, id=27, 375.65344pt x 296.60812pt>
+File: gambar/1_5.jpg Graphic file (type jpg)
+<use gambar/1_5.jpg>
+Package pdftex.def Info: gambar/1_5.jpg  used on input line 83.
+(pdftex.def)             Requested size: 375.65251pt x 296.60739pt.
+
+Overfull \hbox (6.68861pt too wide) in paragraph at lines 83--85
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+[5 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/1_4.jpg>]
+<gambar/1_6.jpg, id=31, 376.40625pt x 291.33844pt>
+File: gambar/1_6.jpg Graphic file (type jpg)
+<use gambar/1_6.jpg>
+Package pdftex.def Info: gambar/1_6.jpg  used on input line 86.
+(pdftex.def)             Requested size: 376.40532pt x 291.33772pt.
+
+Overfull \hbox (7.44142pt too wide) in paragraph at lines 86--88
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
+
+ []
+
+[6 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/1_5.jpg> <D
+:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/1_6.jpg>]
+<gambar/2_1.png, id=36, 386.19281pt x 216.81pt>
+File: gambar/2_1.png Graphic file (type png)
+<use gambar/2_1.png>
+Package pdftex.def Info: gambar/2_1.png  used on input line 94.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 94--96
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+<gambar/2_2.png, id=37, 386.19281pt x 216.81pt>
+File: gambar/2_2.png Graphic file (type png)
+<use gambar/2_2.png>
+Package pdftex.def Info: gambar/2_2.png  used on input line 97.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 97--99
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+<gambar/2_3.png, id=38, 386.19281pt x 216.81pt>
+File: gambar/2_3.png Graphic file (type png)
+<use gambar/2_3.png>
+Package pdftex.def Info: gambar/2_3.png  used on input line 100.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 100--102
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+[7 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/2_1.png> <D
+:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/2_2.png>]
+<gambar/2_4.png, id=44, 386.19281pt x 216.81pt>
+File: gambar/2_4.png Graphic file (type png)
+<use gambar/2_4.png>
+Package pdftex.def Info: gambar/2_4.png  used on input line 103.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 103--105
+[][]
+ []
+
+
+Overfull \hbox (7.04135pt too wide) in paragraph at lines 103--105
+\OT1/ptm/m/n/12 Buka cmd dan ketikan perintah "python get-pip.py" dan tunggu hi
+ngga instalasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
+
+ []
+
+<gambar/2_5.png, id=45, 386.19281pt x 216.81pt>
+File: gambar/2_5.png Graphic file (type png)
+<use gambar/2_5.png>
+Package pdftex.def Info: gambar/2_5.png  used on input line 106.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 106--108
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+[8 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/2_3.png> <D
+:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/2_4.png>]
+<gambar/3_1.png, id=51, 386.19281pt x 216.81pt>
+File: gambar/3_1.png Graphic file (type png)
+<use gambar/3_1.png>
+Package pdftex.def Info: gambar/3_1.png  used on input line 114.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 114--116
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+<gambar/3_2.png, id=52, 386.19281pt x 216.81pt>
+File: gambar/3_2.png Graphic file (type png)
+<use gambar/3_2.png>
+Package pdftex.def Info: gambar/3_2.png  used on input line 117.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 117--119
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+
+ []
+
+[9 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/2_5.png> <D
+:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/3_1.png>]
+<gambar/3_3.png, id=58, 386.19281pt x 216.81pt>
+File: gambar/3_3.png Graphic file (type png)
+<use gambar/3_3.png>
+Package pdftex.def Info: gambar/3_3.png  used on input line 120.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 120--122
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+<gambar/3_4.png, id=59, 386.19281pt x 216.81pt>
+File: gambar/3_4.png Graphic file (type png)
+<use gambar/3_4.png>
+Package pdftex.def Info: gambar/3_4.png  used on input line 123.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 123--125
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+[10 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/3_2.png> <
+D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/3_3.png>]
+<gambar/4_1.png, id=65, 386.19281pt x 216.81pt>
+File: gambar/4_1.png Graphic file (type png)
+<use gambar/4_1.png>
+Package pdftex.def Info: gambar/4_1.png  used on input line 131.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 131--133
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+
+ []
+
+<gambar/4_2.png, id=66, 386.19281pt x 216.81pt>
+File: gambar/4_2.png Graphic file (type png)
+<use gambar/4_2.png>
+Package pdftex.def Info: gambar/4_2.png  used on input line 134.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 134--136
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+
+ []
+
+[11 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/3_4.png> <
+D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/4_1.png>]
+<gambar/5_1.png, id=72, 386.19281pt x 216.81pt>
+File: gambar/5_1.png Graphic file (type png)
+<use gambar/5_1.png>
+Package pdftex.def Info: gambar/5_1.png  used on input line 142.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 142--144
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+ []
+
+<gambar/5_2.png, id=73, 386.19281pt x 216.81pt>
+File: gambar/5_2.png Graphic file (type png)
+<use gambar/5_2.png>
+Package pdftex.def Info: gambar/5_2.png  used on input line 145.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 145--147
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
+
+ []
+
+[12 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/4_2.png> <
+D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/5_1.png>]
+<gambar/5_3.png, id=80, 386.19281pt x 216.81pt>
+File: gambar/5_3.png Graphic file (type png)
+<use gambar/5_3.png>
+Package pdftex.def Info: gambar/5_3.png  used on input line 148.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 148--150
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+ []
+
+<gambar/6_1.png, id=81, 386.19281pt x 216.81pt>
+File: gambar/6_1.png Graphic file (type png)
+<use gambar/6_1.png>
+Package pdftex.def Info: gambar/6_1.png  used on input line 156.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 156--158
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+ []
+
+[13 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/5_2.png> <
+D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/5_3.png>]
+<gambar/7_1.png, id=87, 386.19281pt x 216.81pt>
+File: gambar/7_1.png Graphic file (type png)
+<use gambar/7_1.png>
+Package pdftex.def Info: gambar/7_1.png  used on input line 164.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+<gambar/7_2.png, id=88, 386.19281pt x 216.81pt>
+File: gambar/7_2.png Graphic file (type png)
+<use gambar/7_2.png>
+Package pdftex.def Info: gambar/7_2.png  used on input line 166.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+<gambar/7_3.png, id=89, 386.19281pt x 216.81pt>
+File: gambar/7_3.png Graphic file (type png)
+<use gambar/7_3.png>
+Package pdftex.def Info: gambar/7_3.png  used on input line 168.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 164--170
+[][]
+ []
+
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 164--170
+[]
+ []
+
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 164--170
+[]
+ []
+
+[14 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/6_1.png> <
+D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/7_1.png>]
+<gambar/8_1.jpg, id=95, 485.56406pt x 230.36063pt>
+File: gambar/8_1.jpg Graphic file (type jpg)
+<use gambar/8_1.jpg>
+Package pdftex.def Info: gambar/8_1.jpg  used on input line 173.
+(pdftex.def)             Requested size: 485.56287pt x 230.36005pt.
+
+Overfull \hbox (116.59897pt too wide) in paragraph at lines 173--175
+[][]
+ []
+
+[15 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/7_2.png> <
+D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/7_3.png>]
+Overfull \hbox (10.5926pt too wide) in paragraph at lines 180--182
+[]\OT1/ptm/m/n/12 Pengertian Indentasi adalah penulisan paragraf yang menjorok 
+kedalam. Bahasa
+ []
+
+
+Overfull \hbox (0.35669pt too wide) in paragraph at lines 180--182
+\OT1/ptm/m/n/12 pemrograman python mengunakan identasi sebagai tatacara menulis
+ dan tidak
+ []
+
+<gambar/identasi1.png, id=101, 386.19281pt x 216.81pt>
+File: gambar/identasi1.png Graphic file (type png)
+<use gambar/identasi1.png>
+Package pdftex.def Info: gambar/identasi1.png  used on input line 185.
+(pdftex.def)             Requested size: 386.19185pt x 216.80946pt.
+
+Overfull \hbox (17.22795pt too wide) in paragraph at lines 185--187
+[][]
+ []
+
+
+Overfull \hbox (5.45728pt too wide) in paragraph at lines 185--187
+\OT1/ptm/m/n/12 Error disini disebabkan karena indentasi yang kurang benar pada
+ pemrograman
+ []
+
+[16 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/8_1.jpg>]
+<gambar/identasi3.jpg, id=105, 411.78844pt x 99.37125pt>
+File: gambar/identasi3.jpg Graphic file (type jpg)
+<use gambar/identasi3.jpg>
+Package pdftex.def Info: gambar/identasi3.jpg  used on input line 191.
+(pdftex.def)             Requested size: 411.78741pt x 99.371pt.
+
+Overfull \hbox (42.82352pt too wide) in paragraph at lines 191--194
+[][]
+ []
+
+
+Overfull \hbox (27.29662pt too wide) in paragraph at lines 191--194
+\OT1/ptm/m/n/12 IndentationError: expected an indented block berarti error pada
+ line tadi disebabkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--194
+
+ []
+
+<gambar/identasi4.jpg, id=106, 515.67656pt x 266.49562pt>
+File: gambar/identasi4.jpg Graphic file (type jpg)
+<use gambar/identasi4.jpg>
+Package pdftex.def Info: gambar/identasi4.jpg  used on input line 198.
+(pdftex.def)             Requested size: 515.6753pt x 266.49496pt.
+
+Overfull \hbox (146.7114pt too wide) in paragraph at lines 198--200
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
+
+ []
+
+[17 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/identasi1.
+png> <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/identasi3
+.jpg>]) [18 <D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)/gambar/id
+entasi4.jpg>]
+\openout2 = `section/part2.aux'.
+
+
+("D:/KOOLYEAH/Pemrograman_II/Faris Muhammad Ihsan(1184099)\section/part2.tex"
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 ...hasa lainnya hanya perlu menuliskan "nama_
+                                                  variabel = data". Pengguna...
+
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 11.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.12 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.12 
+     
+? 
+
+Overfull \hbox (39.17888pt too wide) in paragraph at lines 10--12
+\OT1/ptm/m/n/12 python hampir sama dengan bahasa lainnya hanya perlu menuliskan
+ "nama$[]\OML/cmm/m/it/12 ariabel \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (336.82278pt too wide) in paragraph at lines 10--12
+\OML/cmm/m/it/12 data\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 :Penggunaanvariabeltidak
+bolehmenggunakankeywordyangsudahada; tidakbolehdiawalidengan[]danvariabelbersif
+atcasesensitive:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.12 
+     
+? 
+)
+Underfull \hbox (badness 10000) in paragraph at lines 13--43
+
+ []
+
+[19
+
+
+]
+
+! LaTeX Error: \begin{enumerate} on input line 9 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \end{document}
+                   
+? 
+(main.aux (section/part1.aux) (section/part2.aux)) )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 9 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 3225 strings out of 492452
+ 47042 string characters out of 3133058
+ 127744 words of memory out of 3000000
+ 7496 multiletter control sequences out of 15000+200000
+ 16957 words of font info for 39 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 46i,6n,30p,674b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/KOOLYEAH/LatexApp/fonts/enc/dvips/base/8r.enc}<D:/KOOLYEAH/
+LatexApp/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/KOOLYEAH/LatexApp/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><D:/KOOLYEAH/LatexApp/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><D:/KOOLYEAH/LatexApp/fonts/type1/urw/times/utmb8a.pfb><D:/K
+OOLYEAH/LatexApp/fonts/type1/urw/times/utmr8a.pfb><D:/KOOLYEAH/LatexApp/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on main.pdf (20 pages, 1868375 bytes).
+PDF statistics:
+ 142 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+

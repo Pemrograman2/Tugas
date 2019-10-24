@@ -1,0 +1,254 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+
+\title{Tugas Pemrograman Section 2}
+\author{Ahmad Agung Tawakkal\\1184015\\D4 TI 1B}
+\date{October 2019}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\section{Teori}
+    
+    \subsection{Jenis variable dan cara penggunaan variable pada python}
+        \subsubsection{Variable Global}
+            \paragraph{}Variabel global merupakan variabel yang dapat digunakan atau dipanggil oleh semua fungsi. Variabel global juga dapat digunakan jika ada variabel yang digunakan pada beberapa fungsi/prosedur. Hal ini betujuan untuk menghemat penulisan, karena tidak perlu lagi berkali – kali menuliskan variabel yang sama pada beberapa fungsi/prosedur.
+                \begin{enumerate}
+                    \item Contoh Penggunaan variable Global:
+                        \begin{itemize}
+                        \item def f(): \\
+                                s = "I love Indonesia"\\
+                                print(s) \\
+                                s = "I love Bandung" \\
+                                f()\\
+                                print(s)
+                        \item Output:\\ 
+                                I love Indonesia\\ 
+                                I love Bandung
+                        \end{itemize}
+                \end{enumerate}
+            \paragraph{}Variabel lokal adalah variabel yang hanya dapat digunakan atau dipanggil dalam satu prosedur saja. Variabel lokal ini hanya dikenal oleh fungsi tempat variabel tersebut dideklarasikan dan tidak ada inisialisasi secara otomatis atau saat variabel dibuat, nilainya tidak menentu.
+                \begin{enumerate}
+                    \item Contoh Penggunaan variable Local:
+                        \begin{itemize}
+                            \item Makanan = "Ikan bakar"\\
+                                    def ubahMakanan(MakananCepatSaji):\\
+                                        Makanan = MakananCepatSaji\\
+                                        print("Makanan Cepat Saji :",Makanan)\\
+                                     
+                                    ubahMakanan('Pizza')\\
+                                    print('Makanan Seafood :',Makanan)\\
+                            \item Output:\\ 
+                                    Makanan Cepat Saji : Pizza\\
+                                    Makanan Seafood : Ikan bakar
+                        \end{itemize}
+                \end{enumerate}
+        
+    \subsection{Menulis inputan dari output}   
+        \paragraph{}
+            \begin{itemize}
+                \item   nama = input ('Masukkan nama anda:')\\
+                        kabar = (" apakah kamu baik baik saja?")\\
+                        print ("Hay "+nama+kabar)\\    
+                    
+                 \item  Output1(sebelum memberikan inputan dari user):\\
+                            Masukkan nama anda:\\
+                        Output2(sesudah memberikan inputan dari user):\\
+                            Masukkan nama anda:Agung\\
+                            Hay agung apakah kamu baik baik saja?                
+            \end{itemize}
+            
+    \subsection{Operator Arikmatika dan mengubah sting ke integer atau integer ke string}
+        \begin{enumerate}
+            \item Operator Arikmatika
+                \begin{itemize}
+                    \item Penjumlahan +
+                    \item Pengurangan -
+                    \item Perkalian   *
+                    \item Pembagian   /
+                    \item Sisa Bagi  0/0
+                    \item Pemangkatan **
+                \end{itemize}
+            \item Mengubah sting ke integer atau integer ke string
+                \begin{itemize}
+                    \item String adalah type data huruf sedangkan Integer type data angka, contoh penulisan:\\
+                        angka = 1\\
+                        {2,5cm} angka adalah variable, 1 adalah nilai dari variable yang type datanya integer\\
+                        {3cm} angka = "satu"\\
+                        {2,5cm} angka adalah variable, "satu" adalah nilai dari variable angka yang memiliki type data string.
+                    
+                \end{itemize}
+        \end{enumerate}
+        
+    \subsection{Sintak untuk perulangan}
+        \begin{enumerate}
+            \item While
+                \paragraph{}While digunakan untuk looping. While akan dieksesusi statement berkali-kali selama kondisi bernilai benar atau true.
+                \begin{itemize}
+                    \item   ulang = 0\\
+                            while (ulang < 9):\\
+                                print ('Perulangan:', ulang)\\
+                                ulang = ulang + 1\\
+                            
+                            print ("Selesai!")\\
+                    \item   Perulangan: 0\\
+                            Perulangan: 1\\
+                            Perulangan: 2\\
+                            Perulangan: 3\\
+                            Perulangan: 4\\
+                            Perulangan: 5\\
+                            Perulangan: 6\\
+                            Perulangan: 7\\
+                            Perulangan: 8\\
+                            Selesai!
+                \end{itemize}
+            \item For 
+                \paragraph{}For memiliki kemampuan untuk mengulangi item dari urutan apapun.
+                    \begin{itemize}
+                        \item   angka = [1,2,3,4,5]\\
+                                for x in angka:\\
+                                    print(x)\\
+                                
+                                buahkesukaan = ["nanas", "apel", "jeruk"]\\
+                                for makanan in buahkesukaan:\\
+                                    print("Saya suka ", makanan)\\
+                                    
+                        \item   1\\
+                                2\\
+                                3\\
+                                4\\
+                                5\\
+                                Saya suka  nanas\\
+                                Saya suka  apel\\
+                                Saya suka  jeruk\\
+                    \end{itemize}
+            \item Nested
+                \begin{itemize}
+                    \item   i = 2\\
+                            while(i < 100):\\
+                                j = 2\\
+                                while(j <= (i/j)):\\
+                                    if not(i%j): break\\
+                                    j = j + 1\\
+                                if (j > i/j) : print(i, " is prime")\\
+                                i = i + 1\\
+                            
+                            print ("Good bye!")\\
+                    \item Output\\
+                            2  is prime\\
+                            3  is prime\\
+                            5  is prime\\
+                            7  is prime\\
+                            11  is prime\\
+                            13  is prime\\
+                            17  is prime\\
+                            19  is prime\\
+                            23  is prime\\
+                            29  is prime\\
+                            31  is prime\\
+                            37  is prime\\
+                            41  is prime\\
+                            43  is prime\\
+                            47  is prime\\
+                            53  is prime\\
+                            59  is prime\\
+                            61  is prime\\
+                            67  is prime\\
+                            71  is prime\\
+                            73  is prime\\
+                            79  is prime\\
+                            83  is prime\\
+                            89  is prime\\
+                            97  is prime\\
+                            Good bye!\\
+                \end{itemize} 
+        \end{enumerate}
+        
+    \subsection{Kondisi(if)}
+        \paragraph{}Cara menggunakan sintak kondisi atau if pada pemrograman bertujuan untuk menyelesaikan permasalahan yang timbul. Contoh sederhana struktuf if dalam Python dijalankan untuk memeriksa apakah kondisi ini adalah bernilai benar atau salah. Jika kondisi ini bernilai true, maka python akan menjalankan statemen didalam blok kondisi tersebut dan sebaliknya jika kondisi bernilai false maka statemen didalam blok tersebut tidak akan dijalankan.
+            \begin{itemize}
+                \item Cotoh kondisi di dalam konsisi(if bersarang)\\    
+                    Gaji = 10000000\\
+                    Berkeluarga = True\\
+                    PunyaRumah = True\\
+                    
+                    if Gaji > 3000000:\\
+                        print ("Gaji sudah diatas UMR")\\
+                        if Berkeluarga:\\
+                            print ("Wajib ikutan asuransi dan menabung untuk pensiun")\\
+                        else:\\
+                            print ("Tidak perlu ikutan asuransi")\\
+                    
+                        if PunyaRumah:\\
+                            print ("wajib bayar pajak rumah")\\
+                        else:\\
+                            print ("tidak wajib bayar pajak rumah")\\
+                    else:\\
+                        print ("Gaji belum UMR")\\
+                \item Output\\
+                    Jika gajinya dibawah 3000000 maka outputnya:\\
+                    Gaji belum UMR\\
+                    
+                    Sedangakan jika gajinya diatas 3000000 maka outputnya:\\
+                    Gaji sudah diatas UMR\\
+                    Wajib ikutan asuransi dan menabung untuk pensiun\\
+                    wajib bayar pajak rumah\\
+            \end{itemize}
+        
+    \subsection{Jenis error yang sering ditemui dan cara mengatasinya}    
+        \begin{itemize}
+            \item Penambahan tanda kurung jika ingin print, nah untuk melihat bagaimana cara melihat errornya anda tinggal melihat tanda tanda error yang terdapat pada console dan line ke berapa.
+            \item Penambahan spasi pada pada baris setelah sitak kondisi, untuk melihat errornya sama dengan melihat console.
+        \end{itemize}
+    
+        \subsection{Try Except}
+            \paragraph{} Try Except dapat mengurung suatu blok kode dengan try except untuk menangani error yang mungkin kita sendiri tidak mengetahuinya.
+                \begin{itemize}
+                    \item   try:\\
+                              print("Hello")\\
+                            except:\\
+                              print("Ada yang error")\\
+                            else:\\
+                              print("Tidak ada yang error") \\
+                    \item   Output:\\
+                            Hello\\
+                            Tidak ada yang error
+                \end{itemize}
+                
+\section{Keterampilan Pemrograman}
+    \subsection{Soal 1}
+        \lstinputlisting[language=Python]{src/soal1.py}
+    \subsection{Soal 2}
+        \lstinputlisting[language=Python]{src/soal2.py}    
+    \subsection{Soal 3}
+        \lstinputlisting[language=Python]{src/soal3.py}
+    \subsection{Soal 4}
+        \lstinputlisting[language=Python]{src/soal4.py}
+    \subsection{Soal 5}
+        \lstinputlisting[language=Python]{src/soal5.py}
+    \subsection{Soal 6}
+        \lstinputlisting[language=Python]{src/soal6.py}
+    \subsection{Soal 7}
+        \lstinputlisting[language=Python]{src/soal7.py}
+    \subsection{Soal 8}
+        \lstinputlisting[language=Python]{src/soal8.py}
+    \subsection{Soal 9}
+        \lstinputlisting[language=Python]{src/soal9.py}
+    \subsection{Soal 10}
+        \lstinputlisting[language=Python]{src/soal10.py}
+    \subsection{Soal 11}
+        \lstinputlisting[language=Python]{src/soal11.py}
+    
+\section{Keterampilan penanganan error dan link vidio}    
+    \subsection{Penanganan Error}
+        \paragraph{}Pada contoh dibawah anda bisa lihat, terdapat dua variable, variable a berisi kalimat yang type datanya string, sedangkan variable b berisi kalimat namun jika tidak diberi tanda petik maka bahasa pemrograman akan mengangapnya sebagai integer. Jadi integer dan string harus disesuikan dengan kebutuhan dan ketelitia dalam penulisan.
+            \lstinputlisting[language=Python]{src/2err.py}
+            
+    \subsection{Link Vidio}
+        \paragraph{}
+    
+\end{document}

@@ -1,0 +1,82 @@
+\begin{center}
+\title{\LARGE\bf Chapter 2}\\
+\title{\LARGE \bf Pemrograman Dasar}\\
+\end{center}
+
+\appendix
+\section{Teori}
+
+\begin{enumerate}
+\item Variable\\ 
+Variable adalah tempat penyimpanan sementara untuk data yang dapat berupa integer, string, boolean, float, dan array. cara menggunakan variable pada python hampir sama dengan bahasa lainnya hanya perlu menuliskan "nama\textunderscore Variabel = data". Penggunaan variabel tidak boleh menggunakan keyword yang sudah ada, tidak boleh diawali dengan \textunderscore dan variabel bersifat case sensitive.
+
+\item Input dan Output\\
+Untuk memberikan inputan oleh user diperlukan kode "inputan = input(" ")"\\
+Sedangkan untuk output ke user menggunakan "print("inputan")"
+
+\item OperatorAritmatika\\
+\begin{tabular}{|c|c|}
+\hline
+Operator & Simbol\\
+\hline
+Penjumlahan & +\\
+\hline
+Pengurangan & -\\
+\hline
+Perkalian & *\\
+\hline
+Pembagian & /\\
+\hline
+Modulus & \% \\
+\hline
+Pemangkatan & **\\ 
+\hline
+\end{tabular}
+
+Untuk mengubah string ke integer type data string harus dilakukan casting dengan cara "int(variable)". Sedangkan untuk integer ke string menggunakan "str(variable)".
+
+\item Syntax Perulangan
+\begin{enumerate}[label=\alph*.]
+\item for\\
+Contoh:\\ 
+ulang = 10
+for i in range(ulang):\\
+print "ulang ke"+str(i)
+\item while
+While digunakan untuk perulangan yang tidak pasti. Contoh:\\
+i=0\\
+while True:\\
+	if i < 0\\
+		print("Saat ini i bernilai: "), i\\
+		i = i + 1\\
+	elif i >= 10:\\
+		break\\
+
+\item Kondisi\\
+Contoh: 
+umur = 14\\
+if umur > 17\\
+	print("Anda Boleh Masuk")\\
+
+Contoh syntax if bersarang:\\
+if nilai>70:\\
+	print("Mantap")\\
+elif nilai >=40:\\
+	print("oke")\\
+elif nilai >=20:\\
+	print("halah")\\
+else:\\
+	print("belajar lagi ya")\\
+
+\item Error
+
+\item Cara memakai try except\\
+try:\\
+	x = 1 / 0\\
+except Exception, e:\\
+	print e\\
+
+print (x+1)
+\end{enumerate}
+
+\end{enumerate}
