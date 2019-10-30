@@ -1,12 +1,6 @@
 import kelas3lib
 import lib3
 
-try:
-    2/0
-except Exception:
-    print(Exception)
-    
-
 
 npm=input("Masukan NPM kalian : ")
 i=0
@@ -21,12 +15,10 @@ while i<1:
         i=1
 
 #Contoh pemanggilan fungsi pada class
-cobakelas=kelas3lib.Kelas3ngitung(npm) 
+cobakelas=kelas3lib.Kelas3lib(npm) 
 hasilkelas=cobakelas.npm1()
-
 
 print("")
 
 #Contoh pemanggilan fungsi pada library
 lib3.npm3(npm)
-

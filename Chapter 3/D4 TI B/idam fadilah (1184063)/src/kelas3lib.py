@@ -1,5 +1,5 @@
 import lib3
-class Kelas3ngitung:
+class Kelas3lib:
     def __init__(self,npm):
         self.npm = npm
     def npm1(self):
