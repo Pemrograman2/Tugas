@@ -1,0 +1,143 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=python
+}
+ 
+\lstset{style=mystyle}
+
+\title{Tugas pemrograman 2}
+\author{idam fadilah}
+\date{23 oktober 2019}
+\begin{document}
+\maketitle
+\chapter{Python}
+\section{Fungsi}
+\paragraph{}
+Fungsi adalah blok kode yang akan dieksekusi ketika dipanggil dalam sebuah program
+\subsection*{Parameter}
+parameter yaitu inputan sebuah fungsiyang bertujuan untuk menyimpan sebuah nilai
+\subsection*{Return}
+return digunakan untuk mengembalikan sebuah nilai, atau bisa juga mengakhiri eksekusi sebuah fungsi
+
+\begin{lstlisting)
+\end
+\section{Package}
+\paragraph{}
+package merupakan sebuah folder yang menyimpan source code
+\section{Class}
+class merupakan blueprint dari sebuah object, jika diibaratkan membuat sebuah kue, class merupakan cetakan kuenya, contoh kode :
+\begin{lstlisting}[language=Python]
+class Kelas3ngitung:
+    def __init__(self,npm):
+        self.npm = npm
+    def npm1(self):
+        return lib3.npm1()
+    def npm2(self):
+        return lib3.npm2(self.npm)
+\end{lstlisting}
+\subsection*{Object}
+object merupakan hasil cetakan dari sebuah class
+contoh kode :
+\begin{lstlisting}[language=Python]
+#import kelas terlebih dahulu
+import kelas3lib
+#membuat object
+cobakelas=kelas3lib.Kelas3ngitung(npm) 
+hasilkelas=cobakelas.npm1()
+\end{lstlisting}
+\subsection*{Atrribute}
+attribute merupakan variabel global yang dimiliki oleh sebuah class
+\begin{lstlisting}[language=Python]
+class Kelas3ngitung:
+	#pendefinisian attribute
+    def __init__(self,npm):
+        self.npm = npm
+    def npm1(self):
+        return lib3.npm1()
+    def npm2(self):
+        return lib3.npm2(self.npm)
+\end{lstlisting}
+\subsection*{Method}
+\begin{lstlisting}[language=Python]
+class Kelas3ngitung:
+    def __init__(self,npm):
+        self.npm = npm
+    #Pembuatan method pada class
+    def npm1(self):
+        return lib3.npm1()
+    def npm2(self):
+        return lib3.npm2(self.npm)
+\end{lstlisting}
+
+\begin{lstlisting}[language=Python]
+import kelas3lib
+cobakelas=kelas3lib.Kelas3ngitung(npm) 
+#pemanggilan method pada program
+hasilkelas=cobakelas.npm1()
+\end{lstlisting}
+
+\chapter{Keterampilan pemrograman}
+\section*{Soal 1}
+\lstinputlisting[language=Python]{src/npm1.py}
+\section*{Soal 2}
+\lstinputlisting[language=Python]{src/npm2.py}
+\section*{Soal 3}
+\lstinputlisting[language=Python]{src/npm3.py}
+\section*{Soal 4}
+\lstinputlisting[language=Python]{src/npm4.py}
+\section*{Soal 5}
+\lstinputlisting[language=Python]{src/npm5.py}
+\section*{Soal 6}
+\lstinputlisting[language=Python]{src/npm6.py}
+\section*{Soal 7}
+\lstinputlisting[language=Python]{src/npm7.py}
+\section*{Soal 8}
+\lstinputlisting[language=Python]{src/npm8.py}
+\section*{Soal 9}
+\lstinputlisting[language=Python]{src/npm9.py}
+\section*{Soal 10}
+\lstinputlisting[language=Python]{src/npm10.py}
+\section*{Soal 11}
+\lstinputlisting[language=Python]{src/lib3.py}
+\section*{Soal 12}
+\lstinputlisting[language=Python]{src/kelas3lib.py}
+
+\section*{main.py}
+\lstinputlisting[language=Python]{src/main.py}
+
+\chapter{Keterampilan penanganan error}
+\section*{}
+
+
+
+
+
+
+
+\end{document}
