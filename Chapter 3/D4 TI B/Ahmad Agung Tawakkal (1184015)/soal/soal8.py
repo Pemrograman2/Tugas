@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Oct 22 14:16:19 2019
+
+@author: ahmad agung tawakkal
+"""
+
+def NPM8(npm):
+    
+    i=0
+    NPM = input("NPM : ")
+    while i<1:
+        if len(NPM)<7:
+            print("NPM kurang dari 7!")
+            NPM = input("NPM : ")
+        elif len(NPM)>7:
+            print("NPM lebih dari 7!")
+            NPM = input("NPM : ")
+        else:
+            i=1
+            
+    A=NPM[0]
+    B=NPM[1]
+    C=NPM[2]
+    D=NPM[3]
+    E=NPM[4]
+    F=NPM[5]
+    G=NPM[6]
+    
+    X=1
+    
+    for this in A,B,C,D,E,F,G:
+       
+        if int(this)%2==0:
+            if int(this)==0:
+                this=""
+            print(this,end =" ")   
+    
+NPM8(npm)
