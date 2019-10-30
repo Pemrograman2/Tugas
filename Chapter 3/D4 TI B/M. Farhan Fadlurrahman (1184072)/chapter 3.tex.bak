@@ -1,0 +1,107 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{listings}
+
+\begin{document}
+
+\title{Chapter 3 \\ fungsi dan kelas}
+\author{M. Farhan F. (1184072)}
+\date{}
+\maketitle
+
+\section{pemahaman Teori}
+	\begin{enumerate}
+		\item 
+			\begin{itemize}
+				\item fungsion adalah blok kode teroganisir yang digunakan untuk melakukan sebuah tindakan atau action dan bisa di gunakan kembali. fungsion diawali dengan \textit{def} kemudain nama fungsion lalu parameter kemudain titik dua dan di akhiri \textit{return} untuk mengakhiri funsion.
+				\lstinputlisting[language=Python]{src/n1.py}			
+				
+				\item parameter adalah untuk menyimpan nilai 
+				\lstinputlisting[language=Python]{src/n2.py}
+				
+				\item inputan kembalian adalah untuk mengembalikan nilai yang telah di proses dalam suatu fungsi dan juga bisa untuk mengakhiri sebuah fungsi				
+				\lstinputlisting[language=Python]{src/n3.py}				
+				
+			\end{itemize}
+			
+		\item 
+			\begin{itemize}
+			\item paket adalah sebuah direktory dengan file python dan file dengan nama \_init\_.py. jadi sebuah direktori didalam sebuah python dengan nama \_init\_.py, akan dianggap sebagai paket oleh python.			 
+			\item untuk memanggil sebuah paket atau library adalah dengan cara \textit{import} nama paket atau library tersebut lalu paket atau library tersebut dapat di gunakan.
+			\lstinputlisting[language=Python]{src/n4.py}			 			
+			 		
+			\end{itemize}
+			
+		\item 
+			\begin{itemize}
+				\item kelas adalah sebuah blueprint dari sebuah objek yang akan di bangun
+				\lstinputlisting[language=Python]{src/n5.py}			
+				\item objek memiliki variable dan kode yang saling terhubung. objek di buat dengan class.
+				\lstinputlisting[language=Python]{src/n6.py}
+				\item adalah sebuah tempat tampungan sebuah data atau perintah yang berhubungan dengan attribut tersebut
+				\lstinputlisting[language=Python]{src/n7.py}
+				\item method adalah sebuah fungsi dalam class.
+				\lstinputlisting[language=Python]{src/n5.py}
+				\lstinputlisting[language=Python]{src/n6.py}
+			\end{itemize}			
+			
+		\item cara pemanggilan kelas library adalah hampir sama dengan pemanggilan library yaitu dengan menggunakan \textit{import} dahulu tetapi untuk penggunaan klass library menggunakan penambahan variable yang menjadi objek dari kelas.
+		\lstinputlisting[language=Python]{src/n9.py}
+		
+		\item program memanggil sebuah package terlebih dahulu baru menambahkan source code penambahan. contoh lain :
+		\lstinputlisting[language=Python]{src/n10.py}
+		
+		\item untuk mengakses sebuah library dalam sebuah folder lain, perlu menuliskan nama folder kemudian lalu mengimport nama librarynya :
+		\lstinputlisting[language=Python]{src/n11.py}
+		
+		\item sama seperti mengimport library yaitu deangan menuliskan nama folder kemudain lalu mengimport nama classnya :
+		\lstinputlisting[language=Python]{src/n12.py}
+		
+			
+		
+	\end{enumerate}
+
+\section{Keterampilan pemograman}
+	\begin{enumerate}
+		\item[Soal No 1] \lstinputlisting[language=Python]{src/n13.py}
+
+		\item[Soal No 2] \lstinputlisting[language=Python]{src/n14.py}
+		
+		\item[Soal No 3] \lstinputlisting[language=Python]{src/n15.py}
+		
+		\item[Soal No 4] \lstinputlisting[language=Python]{src/n16.py}
+		
+		\item[Soal No 5] \lstinputlisting[language=Python]{src/n17.py}
+		
+		\item[Soal No 6] \lstinputlisting[language=Python]{src/n18.py}
+		
+		\item[Soal No 7] \lstinputlisting[language=Python]{src/n19.py}
+		
+		\item[Soal No 8] \lstinputlisting[language=Python]{src/n20.py}
+		
+		\item[Soal No 9] \lstinputlisting[language=Python]{src/n21.py}
+		
+		\item[Soal No 10] \lstinputlisting[language=Python]{src/n22.py}
+		
+		\item[Soal No 11] \lstinputlisting[language=Python]{src/n23.py}
+		
+		\item[Soal No 12] \lstinputlisting[language=Python]{src/kelas3lib.py} \lstinputlisting[language=Python]{src/main.py}
+		
+	\end{enumerate}
+	
+	
+\section{Keterampilan penanganan error}
+		\begin{enumerate}
+			\item File "C:/Users/SAM/Desktop/M. Farhan Fadlurrahman (1184072)/src/n23.py", line 149, in <module>
+    prima()
+
+TypeError: prima() missing 1 required positional argument: 'npm'\\
+		error disini terjadi karena dalam memanggil sebauh method tidak parameter dalam pemanggilan tersebut tudak di tulis maka dari itu parameter harus di tulis sama dengan parameter method saat memanggil.
+		
+
+
+		\end{enumerate}
+
+\end{document}

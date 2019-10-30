@@ -1,0 +1,24 @@
+import n23
+class Kelas3lib:
+    def __init__(self,npm):
+        self.npm = npm
+    def npm(self):
+        return n23.npm(self.npm)
+    def lur(self):
+        return n23.lur(self.npm)
+    def mulai(self):
+        return n23.mulai(self.npm)
+    def zero(self):
+        return n23.zero(self.npm)
+    def abc(self):
+        return n23.abc(self.npm)
+    def jumlah(self):
+        return n23.jumlah(self.npm)
+    def perkalian(self):
+        return n23.perkalian(self.npm)
+    def genap(self):
+        return n23.genap(self.npm)
+    def ganjil(self):
+        return n23.ganjil(self.npm)
+    def prima(self):
+        return n23.prima(self.npm)
