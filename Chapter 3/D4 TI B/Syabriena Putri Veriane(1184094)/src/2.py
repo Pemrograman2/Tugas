@@ -1,0 +1,1 @@
+from lib3 import kelas3lib
