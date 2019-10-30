@@ -1,0 +1,122 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{listings}
+\title{Tugas Chapter 3}
+\author{Rayhan Yuda Lesmana}
+\date{27 Oktober 2019}
+
+\begin{document}
+\maketitle
+\chapter*{Teori}
+\section*{Fungsi}
+\paragraph{}
+Fungsi dalam python merupakan satu blok program yang terdiri dari nama fungsi, input variabel, dan variabel kembalian. Nama fungsi di python diawali dengan def dan setelahnya tanda titik dua. Fungsi input() dan raw\_input digunakan untuk mengambil data angka dan teks.Cara mengembalikan nilai dari sebuah fungsi dengan  menggunkan kata kunci return lalu diikuti dengan nilai atau variabel yang akan dikembalikan.\\
+\paragraph{}
+Inputan fungsi(parameter) adalah inputan sebuah fungsi bertujuan menyimpan sebuah nilai.\\
+\paragraph{}
+kembalian fungsi(return) berfungsi untuk mengembalikan sebuah nilai, dan bisa juga mengakhiri sebuah eksekusi fungsi.\\
+Contoh syntax:\\
+def function(a,b):\\
+	c=a*b\\
+	return c\\
+\section*{Paket dan Library}
+\paragraph{}
+Package adalah folder yang menyimpan syntax code. Semisal kita membuat folder yang di dalam nya terdapat syntax program kita dengan nama remote.py.\\
+Cara memanggil package:\\
+from remote import batre
+ 
+\section*{Kelas, Objek, Atribut dan methode}
+\paragraph{Class}
+Class adalah cetak biru (blueprint) dari sebuah onject.\\
+Contoh syntax:\\
+class Name:
+	def \_ \_init\_ \_(self,name):
+		self.name = name
+	def hayname(self):
+		print("Haii", name)	
+\paragraph{Obejct}
+Obejct adalah hasil cetak dari sebuah class.\\
+Contoh syntax:\\
+import kelas3lib\\
+\\
+cobakelas=kelas3lib.aku(npm)\\
+hasil=cobakelas.NPM2()\\
+\paragraph{Atribut}
+Atribut adalah variabel yang dimiliki olleh sebuah class.\\
+Contoh syntax:\\
+class Name:\\
+def \_ \_init\_ \_(self,nama):\\
+		self.nama = nama\\
+\paragraph{Method}
+Method fungsi dari sebuah class.\\
+Contoh syntax:\\
+class Name:\\
+	def \_ \_init\_ \_(seld,name):\\
+		self.name = name\\
+	def name(self):\\
+		print("hayy",name)\\
+\section*{Library}
+\paragraph{}
+Membuat folder library dengan nama try:\\
+def Name():\\
+	print("Rayhan yuda")\\
+Contoh memanggil fungsi dari library:\\
+import try\\
+try.Name()\\
+\paragraph{Penggunaan package}
+from kalkulator import perkalian\\
+Contoh lainnya:\\
+from motor import bensin\\
+\paragraph{Pemanggilan library dalam folder}
+Contoh syntax:\\
+from motor import bensin\\
+Memakai library bensin.\\
+\paragraph{Pemanggilan class dalam folder}
+Contoh syntax:\\
+from motor import bensin\\
+Memakai class bensin.\\
+\chapter*{Keterampilan pemograman}
+\begin{enumerate}
+\item Question1
+\lstinputlisting[language=Python]{src/NPM1.py}
+\item Question2
+\lstinputlisting[language=Python]{src/NPM2.py}
+\item Question3
+\lstinputlisting[language=Python]{src/NPM3.py}
+\item Question4
+\lstinputlisting[language=Python]{src/NPM4.py}
+\item Question5
+\lstinputlisting[language=Python]{src/NPM5.py}
+\item Question6
+\lstinputlisting[language=Python]{src/NPM6.py}
+\item Question7
+\lstinputlisting[language=Python]{src/NPM7.py}
+\item Question8
+\lstinputlisting[language=Python]{src/NPM8.py}
+\item Question9
+\lstinputlisting[language=Python]{src/NPM9.py}
+\item Question10
+\lstinputlisting[language=Python]{src/NPM10.py}
+\item Question11
+\lstinputlisting[language=Python]{src/lib3.py}
+\item Question12
+\lstinputlisting[language=Python]{src/kelas3lib.py}
+\end{enumerate}
+\chapter*{Keterampilan penanganan error}
+\paragraph{Penanganan error}
+error:\\
+Tipe error: \_ \_ init\_ \_ missing 1 required positional argument: "npm"\\
+Penyelesaian:\\
+Menambahkan para meter.\\
+
+Syntax:\\
+def perkalian(a,b):
+	c=a*b
+	return c
+	
+d=int(input("Angka"))
+e=int(input("Angka"))
+try:
+	print(perkalian(d,e))
+except:
+	print("Tidak boleh 0")		
+\end{document}
