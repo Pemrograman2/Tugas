@@ -1,0 +1,196 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=python
+}
+ 
+\lstset{style=mystyle}
+
+\title{Tugas pemrograman 2}
+\author{idam fadilah}
+\date{23 oktober 2019}
+\begin{document}
+\maketitle
+\chapter{Python}
+\section{Fungsi}
+\paragraph{}
+Fungsi adalah blok kode yang akan dieksekusi ketika dipanggil dalam sebuah program
+\subsection*{Parameter}
+parameter yaitu inputan sebuah fungsiyang bertujuan untuk menyimpan sebuah nilai
+\subsection*{Return}
+return digunakan untuk mengembalikan sebuah nilai, atau bisa juga mengakhiri eksekusi sebuah fungsi
+\begin{lstlisting}[language=Python]
+def fungsi(a,b):
+	c=a+b
+	return c
+\end{lstlisting}
+\section{Package}
+\paragraph{}
+package merupakan sebuah folder yang menyimpan source code, misalkan pada ditempat kita menyimpan main program kita membuat sebuah folder mobil dan dalamnya kita membuat sebuah source code dengan nama mesin.py, cara pemanggilannya yaitu sebagai berikut :
+\begin{lstlisting}[language=Python]
+from mobil import mesin
+\end{lstlisting}
+\section{Class}
+class merupakan blueprint dari sebuah object, jika diibaratkan membuat sebuah kue, class merupakan cetakan kuenya, contoh kode :
+\begin{lstlisting}[language=Python]
+class Nama:
+    def __init__(self,nama):
+        self.nama = nama
+    def helonama(self):
+        print("Helo",nama)
+\end{lstlisting}
+\subsection*{Object}
+object merupakan hasil cetakan dari sebuah class
+contoh kode :
+\begin{lstlisting}[language=Python]
+#import kelas terlebih dahulu
+import kelas3lib
+#membuat object
+cobakelas=kelas3lib.Kelas3ngitung(npm) 
+hasilkelas=cobakelas.npm1()
+\end{lstlisting}
+\subsection*{Atrribute}
+attribute merupakan variabel global yang dimiliki oleh sebuah class
+\begin{lstlisting}[language=Python]
+class Kelas3ngitung:
+	#pendefinisian attribute
+    def __init__(self,nama):
+        self.nama = nama
+\end{lstlisting}
+\subsection*{Method}
+method merupakan fungsi fungsi dalam sebuah class
+\begin{lstlisting}[language=Python]
+class Nama:
+    def __init__(self,nama):
+        self.nama = nama
+    #Pembuatan method pada class
+    def nama(self):
+       	print("hello",nama,",apa kabar ?")
+\end{lstlisting}
+
+\begin{lstlisting}[language=Python]
+import kelas3lib
+cobakelas=nama.Nama(nama) 
+#pemanggilan method pada program
+hasilkelas=cobakelas.nama()
+\end{lstlisting}
+\section{penggunaan library}
+\paragraph{}
+contoh membuat sebuah library, contoh disini kita membuat pada folder libra :
+\begin{lstlisting}{language=Python}
+def helo():
+    print("Hello world")
+\end{lstlisting}
+
+contoh jika kita ingin memanggil fungsi dari library pada main program kita harus terlebih dahulu import :
+\begin{lstlisting}{language=Python}
+#import library yang telah dibuat
+import libra
+#pemanggilan fungsi pada library
+libra.helo()
+\end{lstlisting}
+\section{pemakaian package from kalkulator import penambahan}
+\begin{lstlisting}{language=Python}
+from kalkulator import penambahan
+\end{lstlisting}
+kode diatas berarti program memanggil sebuah package terlebih dahulu baru menambahkan source code penambahan, kode diatas dapat dibaca seperti ini "import penambahan dari folder kalkulator", contoh lainnya :
+\begin{lstlisting}{language=Python}
+from dapur import memasak
+\end{lstlisting}
+\section{pemanggilan library dalam sebuah folder}
+untuk mengakses sebuah library dalam sebuah folder kita perlu menuliskan foldernya terlebih dahulu lalu mengimport nama librarynya, contoh :
+\begin{lstlisting}{language=Python}
+from me import libheart
+\end{lstlisting}
+artinya dalam package me kita akan memakai library libheart
+
+\section{pemanggilan class dalam sebuah folder}
+untuk mengakses sebuah class dalam sebuah folder kita perlu menuliskan foldernya terlebih dahulu lalu mengimport nama class nya, contoh :
+\begin{lstlisting}{language=Python}
+from me import clheart
+\end{lstlisting}
+artinya dalam package me kita akan memakai class cheart
+
+\chapter{Keterampilan pemrograman}
+\section*{Soal 1}
+\lstinputlisting[language=Python]{src/npm1.py}
+\section*{Soal 2}
+\lstinputlisting[language=Python]{src/npm2.py}
+\section*{Soal 3}
+\lstinputlisting[language=Python]{src/npm3.py}
+\section*{Soal 4}
+\lstinputlisting[language=Python]{src/npm4.py}
+\section*{Soal 5}
+\lstinputlisting[language=Python]{src/npm5.py}
+\section*{Soal 6}
+\lstinputlisting[language=Python]{src/npm6.py}
+\section*{Soal 7}
+\lstinputlisting[language=Python]{src/npm7.py}
+\section*{Soal 8}
+\lstinputlisting[language=Python]{src/npm8.py}
+\section*{Soal 9}
+\lstinputlisting[language=Python]{src/npm9.py}
+\section*{Soal 10}
+\lstinputlisting[language=Python]{src/npm10.py}
+\section*{Soal 11}
+\lstinputlisting[language=Python]{src/lib3.py}
+\section*{Soal 12}
+\lstinputlisting[language=Python]{src/kelas3lib.py}
+\section*{main.py}
+\lstinputlisting[language=Python]{src/main.py}
+
+\chapter{Keterampilan penanganan error}
+\section*{penanganan error}
+error :\\
+TypeError: \_\_init\_\_() missing 1 required positional argument: 'npm'\\
+solusi :\\
+menambahkan parameter pada fungsi
+\section*{Try except}
+\begin{lstlisting}{language=Python}
+def pembagian(a,b):
+    c=a/b
+    return c
+
+d=int(input("angka pertama : "))
+e=int(input("angka kedua : "))
+try:
+    print(pembagian(d,e))
+except:
+    print("jangan masukan angka 0")
+\end{lstlisting}
+
+
+
+
+
+
+
+
+
+
+\end{document}
