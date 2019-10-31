@@ -1,0 +1,124 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\begin{document}
+
+\title{Pemrograman II - Chapter 3}
+\author{Hanif Amrullah (1184020)}
+\date{}
+\maketitle
+
+\section{Fungsi}
+	\subsection{pemahaman teori}
+		\begin{enumerate}
+			\item fungsi\\
+			fungsi adalah blok kode teroganisir yang digunakan untuk melakukan sebuah tindakan atau action dan bisa di gunakan kembali. fungsion diawali dengan \textit{def} kemudain nama fungsion lalu parameter kemudain titik dua dan di akhiri \textit{return} untuk mengakhiri funsion.\\
+			
+			\item parameter berfungsi untuk menyimpan nilai
+			
+			\item return berfungsi untuk mengembalikan nilai yang telah di proses dalam suatu fungsi dan mengakhiri sebuah fungsi
+			\begin{lstlisting}[language=Python]
+			def fungsi(x,y):
+					z=x+y
+					return z
+			\end{lstlisting}
+			
+			\item item paket adalah sebuah direktory dengan file python dan file dengan nama \_init\_.py. jadi sebuah direktori didalam sebuah python dengan nama \_init\_.py, akan dianggap sebagai paket oleh python.untuk memanggil sebuah paket atau library adalah dengan cara \textit{import} nama paket atau library tersebut lalu paket atau library tersebut dapat di gunakan.
+			\begin{lstlisting}[language=Python]
+			from kampus import mahasiswa
+			\end{lstlisting}
+			
+			\item class adalah sebuah blueprint dari sebuah objek yang akan di bangun
+			\begin{lstlisting}[language=Python]
+class World:
+    def __init__(self,World):
+        self.World = World
+    def heloWorld(self):
+        print("Helo",World)
+			\end{lstlisting}
+			
+			\item objek memiliki variable dan kode yang saling terhubung. objek di buat dengan class.
+			\begin{lstlisting}[language=Python]
+#import kelas terlebih dahulu
+import kelas3lib
+#membuat object
+cobakelas=kelas3lib.Kelas3ngitung(npm) 
+hasilkelas=cobakelas.npm1()
+			\end{lstlisting}
+			
+			\item attribut adalah sebuah tempat tampungan sebuah data atau perintah yang berhubungan dengan attribut tersebut
+			\begin{lstlisting}[language=Python]
+class Kelas3ngitung:
+	#pendefinisian attribute
+    def __init__(self,World):
+        self.World = World
+			\end{lstlisting}
+			
+			\item method adalah sebuah fungsi dalam class.
+			\begin{lstlisting}[language=Python]
+class world:
+    def __init__(self,world):
+        self.world = world
+    #Pembuatan method pada class
+    def world(self):
+       	print("hello",world,",apa kabar ?")
+			\end{lstlisting}
+			
+			\item contoh membuat sebuah library, contoh disini kita membuat pada folder libra :
+			\begin{lstlisting}{language=Python}
+def hello():
+    print("Hello world")
+			\end{lstlisting}
+
+			\item contoh jika kita ingin memanggil fungsi dari library pada main program kita harus terlebih dahulu import :
+			\begin{lstlisting}{language=Python}
+#import library yang telah dibuat
+import library
+#pemanggilan fungsi pada library
+library.helo()
+			\end{lstlisting}
+			
+			\item pemakaian package from kalkulator import penambahan
+			\begin{lstlisting}{language=Python}
+from kalkulator import penambahan
+			\end{lstlisting}
+kode diatas berarti program memanggil sebuah package terlebih dahulu baru menambahkan source code penambahan, kode diatas dapat dibaca seperti ini "import penambahan dari folder kalkulator"
+
+			\item pemanggilan library dalam sebuah folder\\
+			untuk mengakses sebuah library dalam sebuah folder kita perlu menuliskan foldernya terlebih dahulu lalu mengimport nama librarynya, contoh :
+			\begin{lstlisting}{language=Python}
+from mahasiswa import kampus
+			\end{lstlisting}
+artinya dalam package mahasiswa akan memakai library kampus
+
+			\item pemanggilan class dalam sebuah folder\\
+			untuk mengakses sebuah class dalam sebuah folder kita perlu menuliskan foldernya terlebih dahulu lalu mengimport nama class nya, contoh :
+			\begin{lstlisting}{language=Python}
+from mahasiswa import kampus
+			\end{lstlisting}
+artinya dalam package mahasiswa kita akan memakai class kampus
+			
+			\end{enumerate}
+			
+	\subsection{Ketrampilan Pemrograman}
+			\begin{enumerate}
+				\item \lstinputlisting[language=Python]{task/npm1.py}
+				\item \lstinputlisting[language=Python]{task/npm2.py}
+				\item \lstinputlisting[language=Python]{task/npm3.py}
+				\item \lstinputlisting[language=Python]{task/npm4.py}
+				\item \lstinputlisting[language=Python]{task/npm5.py}
+				\item \lstinputlisting[language=Python]{task/npm6.py}
+				\item \lstinputlisting[language=Python]{task/npm7.py}
+				\item \lstinputlisting[language=Python]{task/npm8.py}
+				\item \lstinputlisting[language=Python]{task/npm9.py}
+				\item \lstinputlisting[language=Python]{task/npm10.py}
+				\item \lstinputlisting[language=Python]{task/lib3.py}
+				\item \lstinputlisting[language=Python]{task/kelas3lib.py}
+				\item \lstinputlisting[language=Python]{task/main.py}
+	
+			\end{enumerate}
+\end{document}
