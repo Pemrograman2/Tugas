@@ -1,0 +1,184 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.10.13)  31 OCT 2019 01:34
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2018-12-01>
+
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bas
+e\article.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bas
+e\size10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bas
+e\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lis
+tings\listings.sty"
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/gra
+phics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\lst@mode=\count88
+\lst@gtempboxa=\box27
+\lst@token=\toks17
+\lst@length=\count89
+\lst@currlwidth=\dimen103
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen106
+
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lis
+tings\lstmisc.sty"
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box28
+)
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lis
+tings\listings.cfg"
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/gra
+phics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/gra
+phics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/gra
+phics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lis
+tings\lstlang1.sty"
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+\c@lstlisting=\count96
+
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/context/b
+ase/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count97
+\scratchdimen=\dimen107
+\scratchbox=\box29
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen108
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks19
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 44.
+ [1
+
+{C:/Users/Ahmad Agung Tawakkal/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.ma
+p}] (src/fungsi.py
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1.
+
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bas
+e\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+) (src/fungsi1.py [2]) (src/library.py) [3] (src/kelas.py)
+(src/fungsi1.py [4]) (src/library1.py) (src/kalkulator.py) (src/main.py
+[5])
+Overfull \hbox (2.33401pt too wide) in paragraph at lines 89--90
+ [] \OT1/cmr/m/n/10 Un-tuk men-gak-ses se-buah class dalam se-buah folder, ter-
+lebi-h-dahulu menuliskan
+ []
+
+(soal/soal1.py [6]) (soal/soal2.py) (soal/soal3.py
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 14.
+
+("C:\Users\Ahmad Agung Tawakkal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bas
+e\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 14.
+) (soal/soal4.py [7]) (soal/soal5.py) (soal/soal6.py [8])
+(soal/soal7.py [9]) (soal/soal8.py) (soal/soal9.py [10]) (soal/soal10.py
+[11]) (soal/lib3.py [12] [13] [14] [15]) (soal/kelas3lib.py [16]) (soal/main.py
+) [17] (main.aux) ) 
+Here is how much of TeX's memory you used:
+ 2695 strings out of 492945
+ 38487 string characters out of 3119589
+ 475048 words of memory out of 3000000
+ 6560 multiletter control sequences out of 15000+200000
+ 8241 words of font info for 29 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,6n,47p,550b,1767s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Ahmad Agung Tawakkal/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Ahmad Agung Tawakkal/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Users/Ahmad Agung Tawakkal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Users/Ahmad Agung Tawakkal/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ahmad Agung Tawakka
+l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Users/Ahmad Agung Tawakkal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb><C:/Users/Ahmad Agung Tawakkal/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Ahmad Agung Tawakk
+al/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Users/Ahmad Agung Tawakkal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb><C:/Users/Ahmad Agung Tawakkal/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (17 pages, 177462 bytes).
+PDF statistics:
+ 97 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
