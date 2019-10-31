@@ -1,0 +1,122 @@
+\chapter{Mengenal Python dan Anaconda}
+Tujuan pembelajaran pada pertemuan pertama antara lain:
+\begin{enumerate}
+\item
+Mengerti sejarah python, perkembangan dan penggunaan python di perusahaan
+\item
+Memahami tahapan instalasi python dan anaconda
+\item
+Memahami cara penggunaan spyder
+\end{enumerate}
+Tugas dengan cara dikumpulkan dengan pull request ke github dengan menggunakan format latex pada repo yang dibuat oleh asisten IRC.
+
+\section{Teori}
+Praktek teori penunjang yang dikerjakan :
+\begin{enumerate}
+\item
+Buat Resume Sejarah Python, perbedaan python 2 dan 3, dengan bahasa yang mudah dipahami dan dimengerti. Buatan sendiri bebas plagiat(10)
+\item
+Buat Resume Implementasi dan penggunaan Python di perusahaan dunia, bahasa yang mudah dipahami(10)
+\end{enumerate}
+
+\section{Instalasi}
+Melakukan instalasi python dan anaconda versi 3 serta uji coba spyder. Dengan menggunakan bahasa yang mudah dimengerti dan bebas plagiat. 
+Dan wajib skrinsut dari komputer sendiri.
+\begin{enumerate}
+\item
+Instalasi python 3 (5)
+\item
+instalasi pip(5)
+\item
+cara setting environment (5)
+\item
+mencoba entrepreter/cli melakui terminal atau cmd windows(5)
+\item 
+Menjalankan dan mengupdate anaconda dan spyder(5)
+\item
+Cara menjalankan Script hello word di spyder(5)
+\item
+Cara menjalankan Script otomatis login aplikasi akademik dengan library selenium dan inputan user(5)
+\item
+Cara pemakaian variable explorer di spyder(5)
+\end{enumerate}
+
+
+\section{Identasi}
+Membuat file main.py dan mengisinya dengan script contoh python penggunaan selenium(minimal 20 baris) yang melibatkan inputan user, kemudian mencoba untuk mengatasi error identasi.
+\begin{enumerate}
+	\item
+Penjelasan Identasi (10)
+	\item
+jenis jenis error identasi yang didapat(10)
+\item
+cara membaca error(10)
+\item 
+cara menangani errornya(10)
+\end{enumerate}
+
+\section{Presentasi Tugas}
+Pada pertemuan ini, diadakan tiga penilaiain yaitu penilaian untuk tugas mingguan dengan nilai maksimal 100. Kemudian dalam satu minggu kedepan maksimal sebelum waktu mata kuliah. Ada presentasi kematerian dengan nilai presentasi yang terpisah masing-masing 100. Dan nilai terpisah untuk tutorial dari jawaban tugas di YouTube.Jadi ada tiga komponen penilaiain pada pertemuan ini yaitu :
+\begin{enumerate}
+	\item tugas minggu hari ini dan besok (maks 100). pada chapter ini
+	\item presentasi csv (maks 100). Mempraktekkan kode python dan menjelaskan cara kerjanya.
+	\item pembuatan video tutorial youtube tentang tutorial dari jawaban tugas.(nilai maks 100)
+\end{enumerate}
+Waktu presentasi pada jam kerja di IRC. Kriteria penilaian presentasi sangat sederhana, presenter akan ditanyai 20(10 pertanyaan program, 10 pertanyaan teori) pertanyaan tentang pemahamannya menggunakan python dan program agan dibuat error hingga presenter bisa menyelesaikan errornya. jika presenter tidak bisa menjawab satu pertanyaan asisten maka nilai nol. Jika semua pertanyaan bisa dijawab maka nilai 100. Presentasi bisa diulang apabila gagal, sampai bisa mendapatkan nilai 100 dalam waktu satu minggu kedepan.
+\section{Pengertian Python}
+    Python adalah bahasa pemrograman interperatif multiguna dengan filosofil perancangan yang berfokus pada tingkat keterbacaan kode.Python diklaim sehingga bahasa yang menggabungkan kapabilitas,kemampuan,dengan sintaksis kode yang sangat jelas,dan dilengkapi dengan fungsionalitas pustaka standar yang besar serta komphrensif.Python juga didukung oleh komunitas yang besar.
+\section{Sejarah Python}
+    Python dikembangkan oleh Guido Van Rossum pada tahun 1990, Versi terakhir yang dikeluarkan adalah 1.6.Tahun 2000,Guido dan para pengembang inti python 
+\subsection{Perbedaan Python 2 dan Python 3}
+    Python 2 dan Python 3 memiliki beberapa hal yang menjadi kunci perbedaan antar versinya.
+\subsection{Python 2}
+    Dipublikasikan pada akhir tahun 2000, python dinilai lebih transparan untuk melakukan pengembangan software,hal ini didukung dengan adanya PEP-Python Enhancement Proposal.Sebuah spesifikasi teknis yang menjdi tuntutan informsi untukk penggunanya dan menggambarkan fitur Python sendiri.
+\subsection{Python }
+    Merupakan versi yang saat ini masih aktif ,fokus dari pyhton 3 itu sendiri untuk melalkukan perapian pada codebase dan menghapus duplikai(redudancy) perubahan pada statement buil in function
+\subsection{Langkah Langkah meng-install Python3}
+\begin{enumerate}
+    \item Buka file Pthon3 artinya file Python 3 adalah file instalator Python.
+    \item Pilih pengguna artinya pada tahpan ini kita akan diminta untuk memilih siapa saja yang boleh memakai pyhon.
+    \item Lokasi Installasi artinya kita harus menentukan lokasi python yang akan di install.
+    \item Kostumisasi artinya pada tahapan ini kita akan menentukan fitur fitur yang akan di install. Jangan lupa mengaktifkan'Add python.exe to path.
+    \item SelesaiSelesai(Finish)
+\end{enumerate}
+\subsubsection{Langkah langkah meng-istall Python pip 5}
+\begin{enumerate}
+    \item Langkah pertama dalah berkunjung ke web 
+https://pip.pypa.io/en/stable/installing/ untuk melakukan download dan melihat cara install pip di Windows.
+    \item Download get-pip.py pada web tersebut.
+    \item Instal file get-pip.py tersebut dengan cara membuka file tersebut (open with) dengan Python atau dengan cara menjalankan dengan command prompt ketikan pertintah python get-pip.py yang dijalankan dalam folder yang terdapat file get-pip.py tersebut.
+    \item Kemudian set PATH dalam environmental variabel ke tempat dimana
+     pip.exe
+    berada, disini saya menggunakan Python bawaan dari ArcGIS maka lokasi path tersebut berada di 
+    C:\Python27\ArcGIS10.3\Scripts.
+    Namun jika kita mengunstal Python secara manual biasanya pythohnya berada di C:\Python27\Scripts.
+    \item Untuk mengecek instalasi pip apakah berhasil dilakukan di komputer kita ketika perintah pip id command prompt. Pada gambar di bawah ini dapat dilihat hasil eksekusi dari perintah pip.
+\subsection{Indentasi}
+     \begin{enumerate}
+         \item Penjelasan Indentas:
+     penulisan paragraf yang sedikit menjorok masuk ke kanan. Indentasi pada umumnya digunakan jika kita merespon pesan sebelumnya. Untuk membuat indentasi, Anda dapat menambahkan tanda titik dua (:) di awal baris/paragraf. Jika kita menambah tanda titik dua (:) lagi, maka paragraf akan semakin menjorok.
+     \item Jenis jenis eror Indentasi yang didapat
+Penulisan String pada Python
+String mmerupakan sebuah teks atau kumpulan dari suatu karakter.
+String didalam sebuah pemrograman biasanya ditulis dengan menggunakan tanda petik.Bisa menggunakan tanda petik tunggal maupun ganda.
+    \item Penuilsan Case pada Python
+Sintak Python bersifat case sensitive, artinya teksini dengna TeksIni dibedakan.
+     \item  Penulisan Blok Program Python
+Blok program adalah kumpulan dari beberpaa statement yang digabungkan dalam satu blok.
+Penulisan blok program harus ditambahkan indentasi.
+
+.
+
+
+
+
+
+    
+     \end{enumerate}
+     
+
+\end{enumerate}
+    
+  

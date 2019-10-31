@@ -1,0 +1,278 @@
+\chapter{Pemrograman Dasar}
+Tujuan pembelajaran pada pertemuan kedua antara lain:
+\begin{enumerate}
+\item
+Mengenal Jenis Variabel Python
+\item
+Input dan output user
+\item
+Operator Dasar
+\item
+Perulangan
+\item
+Kondisi
+\item
+Mengatasi Error
+\item
+Try Except
+\end{enumerate}
+Tugas dengan cara dikumpulkan dengan pull request ke github dengan menggunakan latex pada repo yang dibuat oleh asisten IRC. Kode program dipisah dalam folder src NPM.py yang berisi praktek dari masing-masing tugas file terpisah sesuai nomor yang kemudian dipanggil menggunakan input listing ke dalam file latex penjelasan atau nomor pengerjaan. Masing masing soal bernilai 5 dengan total nilai 100.
+
+\section{Teori}
+Variabel adalah ‘penanda’ identitas yang digunakan untuk menampung suatu nilai. Nilai tersebut dapat diubah sepanjang kode program. Secara teknis, variabel merujuk kepada suatu alamat di memory komputer. Setiap variabel memiliki nama yang sebagai identitas variabel tersebut.
+
+Dalam matematika, konsep variabel biasanya menggunakan x atau y, seperti persamaan berikut:
+
+x = y + 2
+
+Disini, nilai ‘x’ dan ‘y’ bisa diisi dengan angka apapun (walaupun dalam persamaan diatas, nilai x bergantung kepada nilai y).
+
+Di dalam pemrograman, nilai variabel bisa berubah dari waktu ke waktu, tergantung kebutuhkan. Sebagai contoh, jika saya membuat program menghitung luas lingkaran, saya bisa membuat variabel ‘jari2’ dan mengisinya dengan nilai ‘7’, kemudian di dalam kode program, saya bisa mengubah nilainya menjadi ‘8’, ‘10’ atau ‘1000’.
+
+Cara Penulisan Variabel di dalam Pascal
+Untuk membuat variabel di dalam pascal, kita harus men-deklarasikan-nya sebelum main program. Setiap variabel juga memiliki tipe data tertentu, dan sepanjang kode program, variabel tersebut hanya dapat diubah nilainya asalkan masih dalam tipe yang sama.
+
+Sebagai contoh, jika variabel ‘jari2’ di-set dengan tipe data ‘angka’, kita hanya bisa mengisi variabel ini dengan nilai angka seperti 4, 6, atau 90. Kita tidak bisa mengisinya dengan nilai huruf atau kata seperti ‘empat’,Variabel adalah ‘penanda’ identitas yang digunakan untuk menampung suatu nilai. Nilai tersebut dapat diubah sepanjang kode program. Secara teknis, variabel merujuk kepada suatu alamat di memory komputer. Setiap variabel memiliki nama yang sebagai identitas variabel tersebut.
+
+Dalam matematika, konsep variabel biasanya menggunakan x atau y, seperti persamaan berikut:
+
+x = y + 2
+
+Disini, nilai ‘x’ dan ‘y’ bisa diisi dengan angka apapun (walaupun dalam persamaan diatas, nilai x bergantung kepada nilai y).
+
+Di dalam pemrograman, nilai variabel bisa berubah dari waktu ke waktu, tergantung kebutuhkan. Sebagai contoh, jika saya membuat program menghitung luas lingkaran, saya bisa membuat variabel ‘jari2’ dan mengisinya dengan nilai ‘7’, kemudian di dalam kode program, saya bisa mengubah nilainya menjadi ‘8’, ‘10’ atau ‘1000’.
+
+Cara Penulisan Variabel di dalam Pascal
+Untuk membuat variabel di dalam pascal, kita harus men-deklarasikan-nya sebelum main program. Setiap variabel juga memiliki tipe data tertentu, dan sepanjang kode program, variabel tersebut hanya dapat diubah nilainya asalkan masih dalam tipe yang sama.
+
+Sebagai contoh, jika variabel ‘jari2’ di-set dengan tipe data ‘angka’, kita hanya bisa mengisi variabel ini dengan nilai angka seperti 4, 6, atau 90. Kita tidak bisa mengisinya dengan nilai huruf atau kata seperti ‘empat’,
+Praktek teori penunjang yang dikerjakan :
+\begin{enumerate}
+\item
+sebutkan jenis-jenis variabel dan jelaskan cara pemakaian variabel tersebut di kode Python
+\item
+tuliskan bagaimana kode untuk meminta input dari user dan tuliskan bagaimana melakukan output ke layar
+\item
+Tuliskan operator dasar aritmatika, tambah, kali, kurang bagi, dan 
+bagaimana mengubah string ke integer dan integer ke string
+\item
+Tuliskan dan jelaskan sintak untuk perulangan, jenis-jenisnya contoh kode dan cara pakainya di python
+\item
+Tuliskan jelaskan cara pakai sintak untuk memilih kondisi, dan bagiamana contoh sintak kondisi di dalam kondisi.
+\item
+Tuliskan apa saja jenis error yang sering ditemui di python dalam mengerjakan sintak diatas. 
+dan bagaimana cara mengatasinya
+\item
+Tuliskan dan jelaskan cara memakai Try Except.
+\end{enumerate}
+
+\section{Ketrampilan Pemrograman}
+Buat program di python dengan ketentuan:
+\begin{enumerate}
+\item
+Buatlah luaran huruf yang dirangkai dari tanda bintang, pagar atau plus dari NPM kita.
+Tanda bintang untuk NPM mod 3=0, tanda pagar untuk NPM mod 3 =1, tanda plus untuk NPM mod3=2.
+Contoh Output : 
+\begin{verbatim}
+*****    *** ******     *****    ****
+*******  *** ***  **    *** **  *****
+***  ******* ******     ***  **** ***
+***    ***** ***        ***       ***
+***     **** ***        ***       ***
+\end{verbatim}
+NPM sesuai dengan nomor NPM nya.
+\item
+Buatlah program hello word dengan input NPM yang disimpan dalam sebuah variabel string bernama \textbf{NPM} dan output sebanyak dua dijit belakang NPM, 
+contoh NPM : 113040087 maka akan ada output sebanyak 87 dengan tulisan `Hallo, 113040087 apa kabar?'
+\begin{verbatim}
+Input : 113040087
+Output : 
+Halo, 113040087 apa kabar? 
+Halo, 113040087 apa kabar?
+Halo, 113040087 apa kabar?
+Halo, 113040087 apa kabar?
+Halo, 113040087 apa kabar?
+Halo, 113040087 apa kabar?
+Halo, 113040087 apa kabar?
+Halo, 113040087 apa kabar?
+.....87 kali...
+\end{verbatim}
+\item
+Buatlah program hello word dengan input nama yang disimpan dalam sebuah variabel string bernama \textbf{NPM} dan beri luaran output berupa tiga karakter belakang dari NPM sebanyak penjumlahan tiga dijit tersebut, 
+\begin{verbatim}
+Input : 113040087
+Output : Halo, Nama apa kabar? 
+Halo, 087 apa kabar?
+Halo, 087 apa kabar?
+Halo, 087 apa kabar?
+Halo, 087 apa kabar?
+Halo, 087 apa kabar?
+Halo, 087 apa kabar?
+Halo, 087 apa kabar?
+........15 kali(0+8+7).........
+\end{verbatim}
+\item
+Buatlah program hello word dengan input nama yang disimpan dalam sebuah variabel string bernama \textbf{NPM} dan beri luaran output berupa digit ketiga dari belakang dari variabel NPM, 
+\begin{verbatim}
+Input : 113040087
+Output :
+Halo, 0 apa kabar?
+\end{verbatim}
+\item
+\label{digitvar}
+(untuk soal no \ref{digitvar} dan selanjutnya wajib menggunakan perulangan dan kondisi) buat program dengan mengisi variabel alfabet dengan nomor npm satu persatu berurut.
+Contoh untuk NPM : 113040087 maka,
+\begin{verbatim}
+a = 1
+b = 1
+c = 3
+e = 0
+f = 4
+g = 0
+h = 0
+i = 8
+j = 7
+\end{verbatim}
+Lakukan print NPM lengkap anda menggunakan variabel diatas :
+
+contoh : 113040087
+\item
+Dari soal no \ref{digitvar}, Lakukan penjumlahan dari seluruh variabel tersebut,
+\item 
+Dari soal no \ref{digitvar}, Lakukan perkalian dari seluruh variabel tersebut,
+\item
+Dari soal no \ref{digitvar}, Lakukan print secara vertikal dari NPM anda menggunakan variabel diatas. Contoh:
+\begin{verbatim}
+1
+1
+3
+0
+4
+0
+0
+8
+7
+\end{verbatim}
+\item
+Dari soal no \ref{digitvar}, Lakukan print NPM anda tapi hanya dijit genap saja. Contoh:
+\begin{verbatim}
+48
+\end{verbatim}
+\item
+Dari soal no \ref{digitvar}, Lakukan print NPM anda tapi hanya dijit ganjil saja. Contoh:
+\begin{verbatim}
+1137
+\end{verbatim}
+\item 
+Dari soal no \ref{digitvar}, Lakukan print NPM anda tapi hanya dijit yang termasuk bilangan prima saja. Contoh:
+\begin{verbatim}
+37
+\end{verbatim}
+\end{enumerate}
+
+
+\section{Ketrampilan Penanganan Error}
+Bagian Penanganan error dari script python.
+\begin{enumerate}
+\item
+Tuliskan peringatan error yang didapat dari mengerjakan praktek kedua ini, dan jelaskan cara penanganan error tersebut.
+\item
+Membuat file 2err.py dan mengisinya dengan script pengisian variabel sebagai string dan pengisian variabel sebagai interger. 
+Kemudian jumlahkan antara variabel integer dan string dan tangkap jenis errornya, gunakan try except untuk menunjukkan error tersebut dengan
+bahasa indonesia.
+\end{enumerate}
+
+\section{Mengenal Jenis Variable Python}
+    Variabel merupakan sebuah lokasi memori yang dicadangkan untuk menyimpan suatu nilai-nilai,berarti bahwa ketika kita membuat sebuah variabel kita memesan beberapa ruang di memori. 
+    Dalam bahasa pemrograman, terdapat sebuah aturan pembuatan nama variabel, dan ini juga berlaku di dalam bahasa pemrograman Python:
+    \begin{enumerate}
+    \item  Variabel bisa terdiri dari huruf, angka dan karakter underscore / garis bawah.
+    \item  Karakter pertama dari variabel hanya boleh berupa huruf dan underscore tidak bisa berupa angka. Namun variabel yang diawali dengan karakter underscore bisa bermakna khusus di dalam Python.
+    \item Variabel harus selain dari keyword. Sebagai contoh, kita tidak bisa memakai kata continue sebagai nama variabel, karena continue merupakan keyword atau perintah khusus dalam bahasa Python.
+\section{Input dan Output user}
+    Fungsi digunakan untuk mengambil data angka. Sedangkan raw input adalah untuk mengambil sebuah teks.
+    Fungsi Output untuk menampilkan sebuah output pada user kita harus menggunakan Print.
+\section{Operator Dasar}
+    Operator merupakan sebuah karakter khusus yang digunakan untuk menghasilkan suatu nilai atau suatu simbol atau tanda yang digunakan untuk mengoperasikan dua value atau lebih untuk mendapatkan hasil.
+    Berikut jenis jenis operator;
+    \begin{enumerate}
+    \item  Operator Aritmatika:
+    Operator Aritmatika merupakan operator yang digunakan untuk melakukan operasi aritmatika seperti pembagian, perkalian, penjumlahan, pengurangan dan modulus,
+    \item  Operator Assignment atau Penugasan: 
+    Operator Assignment atau Penugasan merupakan operator yang digunakan untuk memberi tugas suatu variable untuk melakukan suatu proses
+    \item Operator Pembanding atau Relasional: 
+    Operator Pembanding atau Relasional merupakan operator yang digunakan untuk membandingkan antara dua buah nilai dan hasil dari operasi dari operator ini
+    bernilai TRUE atau FALSE
+\section{Perulangan}
+    \begin{enumerate}
+      \item Perulngan For: Variabel i berfungsi untuk menampung indeks, dan fungsi range berfungsi untuk membuat list dengan range dari 0-10. Fungsi str berfungsi merubah tipe data ineger ke string.
+      \item Perulangan While:Pertama menentukan variabel untuk menghitung, dan menentukan kapan perulangan berhenti. kalau pengguna menjawab tidak maka perulangan akan terhenti.
+\section{Kondisi}
+\subsection{Kondisi Python}
+     \begin{enumerate}
+     \item Kondisi If
+      Pengambilan keputusan (kondisi if) digunakan untuk mengantisipasi kondisi yang terjadi saat jalannya program dan menentukan tindakan apa yang akan diambil sesuai dengan kondisi.Pada python ada beberapa statement/kondisi diantaranya adalah if, else dan elif Kondisi if digunakan untuk mengeksekusi kode jika kondisi bernilai benar True.
+      Jika kondisi bernilai salah False maka statement/kondisi if tidak akan di-eksekusi
+     \item Kondisi If Else
+      Pengambilan keputusan (kondisi if else) tidak hanya digunakan untuk menentukan tindakan apa yang akan diambil sesuai dengan kondisi, tetapi juga digunakan untuk menentukan tindakan apa yang akan diambil/dijalankan jika kondisi tidak sesuai.Pada python ada beberapa langkah/kondisi diantaranya adalah if, else dan elif Kondisi if digunakan untuk mengeksekusi kode jika kondisi bernilai benar.Kondisi if else adalah kondisi dimana jika pernyataan benar True maka kode dalam if akan dieksekusi, tetapi jika bernilai salah False maka akan mengeksekusi kode di dalam else.
+    \item Kondisi Elif
+     Pengambilan keputusan (kondisi if elif) merupakan lanjutan/percabangan logika dari “kondisi if”. Dengan elif kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan yang bisa terjadi. Hampir sama dengan kondisi “else”, bedanya kondisi “elif” bisa banyak dan tidak hanya satu.
+     \item Kondisi Elif
+     Pengambilan keputusan (kondisi if elif) merupakan lanjutan/percabangan logika dari “kondisi if”. Dengan elif kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan yang bisa terjadi. Hampir sama dengan kondisi “else”, bedanya kondisi “elif” bisa banyak dan tidak hanya satu.
+\section{Mengatasi Eror}
+     Penanganan error adalah aspek desain yang kritikal, dan itu menyebrangi dari level terendah  hingga ke pengguna akhir. Jika kita tidak memiliki strategi yang konsisten, maka sistemmu akan tidak dapat diandalkan, pengalaman pengguna akan jelek, dan kita akan memiliki banyak tantangan dalam debugging dan troubleshooting. Ada dua penanganan model eror utama yaitu:
+     \begin{enumerate}
+         \item Status Code dapat digunakan oleh bahasa pemrograman apapun.
+         \item Exception memerlukan dukungan bahasa.
+         Python mendukung exception. Python dan librari standarnya menggunakan exception secara liberal untuk melaporkan banyak situasi luar biasa seperti I/O error, pembagian dengan nol, indexing di luar batas, dan juga beberapa situasi yang tidak begitu luar biasa seperti akhir iterasi (walaupun itu tersembunyi). Kebanyakan librari akan mengikuti kecocokan dan menaikkan exception.
+         \item Python Exceptions
+         Python exceptions adalah obyek diatur di dalam sebuah hirarki 
+         Ada beberapa exception khusus yang diturunkan secara langsung dari BaseException, seperti SystemExit, KeyboardInterrupt dan GeneratorExit. Kemudian ada Exception class, yaitu class dasar untuk StopIteration, StandardError dan Warning. Semua error standard diturunkan dari StandardError.
+         \item Menaikkan Exceptions
+         Melakukan raise pada exception sangat mudah. Kamu hanya perlu menggunakan kata kunci raise untuk menaikkan sebuah obyek yaitu sebuah sub-class dari class Exception
+         Ketika kamu menaikkan sebuah exception atau beberapa fungsi yang kamu panggil menaikkan sebuah exception, alur code normal itu mulai menyebarkan kumpulan panggilan hingga itu menghadapi exception handler yang pantas.
+          \end{enumerate}
+          
+          
+\section{Menangkap Exciation} 
+     \begin{enumerate}
+     Ketika kamu menangkap sebuah exception, kamu memiliki tiga pilihan:
+         \item Menelan itu secara diam (menangani itu dan tetap berjalan).
+         \item Melakukan sesuatu seperti logging, namun menaikkan kembali exception
+         \item menaikkan kembali exception yang sama untuk mengijinkan penanganan tingkat yang lebih tinggi.
+\section{Try Except}
+     Salah satu bentuk penangan error di Python dengan menggunakan statement try.except. Mungkin kita pernah mendeteksi error dengan memanfaatkan kondisional biasa menggunakan if..else, namun hal tersebut akan lebih praktis ditangani bila dengan menggunakan try.except.
+     Sekarang kita akan mengenal beberapa kasus sederhana yang menggunakan try.except:
+     \begin{enumerate}
+         \item Menangani error pembagian nol Misalkan dalam kode berikut terjadi pembagian yang membagi suatu angka dengan nol. Sudah menjadi ketentuan bahwa jika sebuah angka dibagi nol maka program akan error. Oleh karena itu kita kurung dengan try.except, kemudian kita. keluarkan error-nya begitu error tertangkap oleh except.
+    \item Menangani Error pembacaan File Di kode ini kita akan mencoba menangkap dua error pada kode yang dikurung oleh try..except. Terdapat sebuah dictionary yang berisi key nama, kota, dan umur. Kemudian kita membuka sebuah file yang bernama contact.txt. Walaupun ada kode error setelahnya yang akan mengakibatkan error pengaksesan indeks, yang akan ditangkap terlebih dahulu adalah error yang diakibatkan gagalnya membaca file.
+
+orang = {"nama":"syuaib", "kota":"jepara", "umur":"20"}
+
+try:
+    contact = open("contact.txt", 'r')
+    print orang["pekerjaan"]
+except IOError, e:
+    print "Terjadi error IO: ", e
+except KeyError, e:
+    print "Terjadi kesalahan pada akses list/dict/tuple:", e
+
+print orang
+  \item Mengenal Finally Misalkan kita  ingin memutuskan koneksi kepada server jika terdapat error karena request yang overload atau ada struktur folder yang berubah. 
+  \item Mengenal Raise Biasanya raise ini digunakan bersamaan dengan if else atau pemeriksaan kondisi lainnya.  Suatu Objek error yang dapat dilemparkan beragam macamnya. Kita juga dapat melempar error NetworkError, KeyError, ImportError, IOError, atau error lainnya. 
+     \end{enumerate}
+
+
+  
+    
+     \end{enumerate}
+
+     \end{enumerate}
+     
+        
+    \end{enumerate}
+    \end{enumerate}
+    
+    
+\end{enumerate}
+
