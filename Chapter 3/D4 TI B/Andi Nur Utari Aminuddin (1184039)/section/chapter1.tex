@@ -1,0 +1,108 @@
+\chapter{Fungsi dan Kelas}
+\section{Pemahaman Teori}
+\begin{enumerate}
+\item Pengertian fungsi, inputan fungsi, dan kembalian fungsi serta contoh kode programnya.
+\begin{itemize}
+    \item Fungsi adalah sebuah blok program yang digunakan untuk melakukan suatu tugas-tugas tertentu yang reusable, hanya didefinisikan sekali saja yang dapat digunakan berulang kali dari tempat lain didalam sebuah program. Fungsi pada python didefinisikan menggunakan def sebelum nama fungsinya.
+    \item Inputan fungsi adalah inputan yang berasal dari luar fungsi yang akan di proses di dalam fungsi itu sendiri.
+    \item Kembalian fungsi adalah untuk mengembalikan suatu nilai ekspresi dari proses yang dilakukan fungsi.
+\end{itemize}
+    Penggunaan Fungsi pada Python
+    \lstinputlisting[firstline=1, lastline=5]{src/1184039.py}
+    
+\item{Pengertian paket dan cara pemanggilannya serta contoh kode programnya.}
+	\begin{itemize}
+	    \item Paket atau library yaitu sebuah file yang berisi kode program python yang bisa digunakan berulang dimana saja paket itu diperlukan/dipanggil.
+	    \item Cara pemanggilan paket atau library yaitu dengan meng-import paket atau library yang akan digunakan. Lalu panggil dengan cara mendefinisikan namapaket.namafungsinya.
+	\end{itemize} 
+	\newpage
+	Berikut adalah contoh kode dari penggunaan paket/library
+	\lstinputlisting[firstline=7, lastline=10]{src/1184039.py}
+	    
+\item{Pengertian kelas, objek, atribut, method, dan contoh kode programnya.}
+\begin{itemize}
+    \item Kelas adalah sebuah blue print atau prototipe dari objek dimana kita mendefinisikan atribut dari suatu objek di dalam kelas.
+	\item Objek adalah sebuah instansi atau perwujudan dari sebuah kelas. class adalah sebuah prototipenya sedangkan objek adalah hasilnya.
+	\item Atribut adalah variabel yang menyimpan data yang berhubungan dengan kelas dan objeknya.
+    \item Metode adalah sebuah fungsi yang dapat digunakan pada suatu kelas.
+\end{itemize}
+    Berikut adalah cara penggunaan kelas, objek, atribut dan method pada python
+	\lstinputlisting[firstline=13, lastline=26]{src/1184039.py}
+
+\item{Cara pemanggilan library kelas, dan contoh kode programnya.}
+    Cara pemanggilan library kelas dari instansi dan pemakaiannya. Library kelas yang akan di import yaitu Mahasiswa dari file Mahasiswa.py. Untuk melakukan panggilan kelasnya dengan menggunakan import lalu nama file.
+    	\lstinputlisting[firstline=28, lastline=35]{src/1184039.py}
+
+\item{Penjelasan pemakaian paket disertai dengan contoh kode programnya.}
+	Berikut ini adalah contoh pemakaian paket dengan perintah from kalkulator import Penambahan. Setelah mengimport paketnya, lakukan pemapanggilan fungsi penambahannya.
+		\lstinputlisting[firstline=37, lastline=40]{src/1184039.py}
+
+\item{Contoh kode pemakaian paket fungsi apabila file library ada di dalam folder.}
+    Berikut ini adalah pemakaian paket fungsi apabila file library ada di dalam folder.
+    	\lstinputlisting[firstline=42, lastline=55]{src/1184039.py}
+\newpage
+
+\item{Contoh kode pemakaian paket kelas apabila file library ada di dalam folder.}
+    Berikut ini adalah pemakaian paket kelas apabila file library ada di dalam folder.
+    \lstinputlisting[firstline=57, lastline=64]{src/1184039.py}
+\end{enumerate}
+
+\section{Keterampilan Pemrograman}
+\begin{enumerate}
+    \item Jawaban Nomor 1
+        \lstinputlisting[firstline=1, lastline=36]{src/keterampilan.py}
+    \item Jawaban Nomor 2
+        \lstinputlisting[firstline=38, lastline=46]{src/keterampilan.py}
+    \item Jawaban Nomor 3
+        \lstinputlisting[firstline=48, lastline=57]{src/keterampilan.py}
+    \newpage
+    
+    \item Jawaban Nomor 4
+        \lstinputlisting[firstline=59, lastline=64]{src/keterampilan.py}
+    \item Jawaban Nomor 5
+        \lstinputlisting[firstline=66, lastline=72]{src/keterampilan.py}
+    \item Jawaban Nomor 6
+        \lstinputlisting[firstline=74, lastline=83]{src/keterampilan.py}
+    \item Jawaban Nomor 7
+        \lstinputlisting[firstline=85, lastline=94]{src/keterampilan.py}
+    \newpage
+    
+    \item Jawaban Nomor 8
+        \lstinputlisting[firstline=96, lastline=104]{src/keterampilan.py}
+    \item Jawaban Nomor 9
+        \lstinputlisting[firstline=106, lastline=113]{src/keterampilan.py}
+    \item Jawaban Nomor 10
+        \lstinputlisting[firstline=115, lastline=132]{src/keterampilan.py}
+    \newpage
+    
+    \item Jawaban Nomor 11
+        \lstinputlisting[firstline=1, lastline=14]{src/main.py}
+    \item Jawaban Nomor 12
+        \lstinputlisting[firstline=16, lastline=30]{src/main.py}
+\end{enumerate}
+
+\section{Keterampilan Penanganan Error}
+\begin{enumerate}
+	\item Peringatan error yang ditemukan dan penjelasannya serta buat sebuah fungsi try except untuk menanggulangi error.
+	
+	Adapun peringatan error yang muncul ketika mengerjakan tugas chapter3, yaitu:
+	\begin{itemize}
+		\item Zero Division Error
+		ZeroDivisonError adalah exceptions yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol (0). Solusinya adalah tidak membagi suatu yang hasilnya nol.
+
+	    \item Syntax Error
+        Syntax error adalah suatu keadaan atau kondisi ketika ada kesalahan penulisan kode pada program python hal ini menyebabkan program tidak dapat dijalankan. contohnya kesalahan pemberian titik dua atau tanda kutip. Output pemberitahuan error nya yaitu invalid syntax. Yang harus dilakukan saat terjadi syntax error pada kode program yaitu memperbaiki penulisan kodenya.
+   
+        \item Name Error
+        Name error, yaitu exception yang muncul ketika melakukan eksekusi pada suatu program terhadapa lokal name dan global name tidak terdefinisi. error ini terjadi saat pemanggilan variabel yang tidak di definisikan atau memnaggil sebuah function yang tidak ada. Output pemberitahuan error nya yaitu name 'a' is not defined. Untuk mengatasi terjadi name error yaitu dengan memastikan variabel dan function yang akan dipanggil benar-benar ada dalam kode program dan tidak terjadi kesalahan penulisan.
+   
+        \item Type Error
+        Type Error, yaitu suatu keadaan yang terjadi ketika melakukan eksekusi pada suatu operasi atau fungsi yang tipe datanya berbeda atau tidak sesuai dengan operasi yang akan dilakukan. Contoh kasusnya pada kesalahan tipe data antara string dan integer, kesalahan dalam input list,tupl dan dictionary. Cara penanganannya yaitu dengan mengkorversi variabel yang digunakan sesuai dengan tipe datanya.
+   
+        \item Identation error
+        Identation error, yaitu tulisasn kode program yang menjorok. identation error akan terjadi ketika mengetik kode program namun tidak memperhatikan identasinya. Jika terjadi identasi maka program akan error. cara mengatasinya yaitu memperhatikan identasi saat menuliskan suatu program.
+	\end{itemize}
+	
+\item Contoh fungsi yang menggunakan try except
+\lstinputlisting[firstline=1, lastline=7]{src/tryex.py}
+\end{enumerate}
