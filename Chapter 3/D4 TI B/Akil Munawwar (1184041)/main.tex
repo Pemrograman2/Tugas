@@ -1,0 +1,112 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\title{Fungsi}
+\author{itsmeakil707 }
+\date{October 2019}
+
+\begin{document}
+\title{Fungsi dan Kelas}
+\author{Akil Munawwar \\ D4 TI 1B \\ 1184041}
+\maketitle
+
+\part{Pemahaman Teori}
+\section{Fungsi Dasar}
+\paragraph{}
+Fungsi adalah satu blok program yang terdiri dari nama fungsi, input variabel dan variabel kembalian. Nama fungsi diawali dengan def dan setelahnya tanda titik dua. Nama bisa sama dengan isi berbeda jika menggunakan huruf besar dan kecil atau sering disebut dengan case sensitive. Input variabel bisa lebih dari satu dengan pemisah tanda koma. variabel kembalian pasti satu, bebas apakan itu jenis string, integer, list atau dictionary. Contoh dari fungsi sederhana bisa dilihat dibawah ini.
+\lstinputlisting[firstline =8, lastline =14]{src/CthFungsi.py}
+
+\newpage
+\section{Paket}
+\paragraph{}
+Paket adalah sesuatu yang digunakan untuk memanggil kodingan lain dan menerapkannya pada kodingan kita dengan syarat harus satu folder dengan itu. Contoh nya ialah seperti dibawah ini.
+\lstinputlisting[firstline=8, lastline=19]{src/Kalkulator.py}
+\paragraph{}
+Pertama saya pisahkan fungsi kalkulator di file terpisah dengan file itung nantinya. Setelah itu, saya buat new file dengan nama \textit{itung}
+\lstinputlisting[firstline=8, lastline=18]{src/Itung.py}
+\paragraph{}
+Pada kodingan itung, saya import file kalkulator kedalam kodingan itung, supaya fungsi yang ada di kodingan kalkulator bisa dipakai nantinya.
+\newpage
+
+\section{Kelas}
+\paragraph{}
+Kelas merupakan blueprint dari sebuah objek. Biasanya kelas dipakai pada pemrograman OOP. Dan juga pada setiap kelas, pasti ada objek, atribut dan method. Berikut adalah contoh kodingan kelas.
+\lstinputlisting[firstline=8, lastline=15]{src/Kelas.py}
+\paragraph{}
+Ketika sudah, maka kita tinggal membuat kodingan baru yang berisi panggilan kelas Bakso
+\lstinputlisting[firstline=8, lastline=12]{src/HitungKelas.py}
+
+\section{Library Kelas}
+\paragraph{}
+Cara memanggil library kelas instansiasi seperti contoh diatas. Dimana kita memanggil file Kelas, yang dibawahnya kita memanggil kelas Bakso.
+\lstinputlisting[firstline=8, lastline=15]{src/HitungKelas.py}
+
+\section{Pemakaian Paket}
+\paragraph{}
+Contoh perintah \textit{from Kalkulator import Penambahan}
+\lstinputlisting[firstline=8, lastline=12]{src/PemakaianPaket.py}
+
+\newpage
+\section{Pemakaian Fungsi}
+\paragraph{}
+Contoh perintah pemakaian fungsi sama dengan seperti diatas, namun angka dari a dan b kita ubah sesuai keinginan kita.
+\lstinputlisting[firstline=8, lastline=15]{src/PemakaianFungsi.py}
+\section{Pemakaian Kelas}
+\paragraph{}
+Contoh perintah pemakaian kelas seperti dibawah ini.
+\lstinputlisting[firstline=8, lastline=12]{src/PemakaianKelas.py}
+
+\newpage
+\part{Keterampilan Pemrograman}
+\section{Jawaban No 1}
+Jawaban dari No 1 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=41]{src/NPM.py}
+\section{Jawaban No 2}
+Jawaban dari No 2 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=15]{src/PerulanganNPM.py}
+\section{Jawaban No 3}
+Jawaban dari No 3 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=16]{src/PerulanganNPM3Digit.py}
+
+\newpage
+\section{Jawaban No 4}
+Jawaban dari No 4 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=12]{src/PerulanganNPM3DigitBelakang.py}
+\section{Jawaban No 5}
+Jawaban dari No 5 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=13]{src/PerulanganNPMSatuSatu.py}
+\section{Jawaban No 6}
+Jawaban dari No 6 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=16]{src/PerjumlahanNPM.py}
+
+\newpage
+\section{Jawaban No 7}
+Jawaban dari No 7 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=16]{src/PerkalianNPM.py}
+\section{Jawaban No 8}
+Jawaban dari No 8 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=15]{src/NPMGenap.py}
+\section{Jawaban No 9}
+Jawaban dari No 9 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=14]{src/NPMGanjil.py}
+
+\newpage
+\section{Jawaban No 10}
+Jawaban dari No 10 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=10]{src/NPMPrima.py}
+\lstinputlisting[firstline=11, lastline=24]{src/NPMPrima.py}
+\newpage
+\section{Jawaban No 11}
+Jawaban dari No 11 Keterampilan Pemrograman
+\lstinputlisting[firstline=8, lastline=22]{src/main.py}
+\section{Jawaban No 12}
+Jawaban dari No 12 Keterampilan Pemrograman
+\lstinputlisting[firstline=24, lastline=39]{src/main.py}
+
+\newpage
+\section{Jawaban No 13}
+Jawaban dari No 13 Penanganan Error
+\lstinputlisting[firstline=8, lastline=14]{src/error.py}
+\end{document}
