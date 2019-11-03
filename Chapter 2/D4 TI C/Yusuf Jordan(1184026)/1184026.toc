@@ -1,0 +1,28 @@
+\contentsline {chapter}{\numberline {1}Teori}{1}% 
+\contentsline {section}{\numberline {1.1}Jenis-Jenis Variabel pada \textit {Python}}{1}% 
+\contentsline {subsection}{\numberline {1.1.1}Global}{1}% 
+\contentsline {subsection}{\numberline {1.1.2}Lokal}{1}% 
+\contentsline {section}{\numberline {1.2}Input dan Output}{1}% 
+\contentsline {section}{\numberline {1.3}Contoh Pemakaian Operator Dasar Aritmatika dan Pengubahan Tipe Data}{2}% 
+\contentsline {section}{\numberline {1.4}Perulangan}{2}% 
+\contentsline {subsection}{\numberline {1.4.1}\textit {for}}{2}% 
+\contentsline {subsection}{\numberline {1.4.2}\textit {while}}{3}% 
+\contentsline {subsection}{\numberline {1.4.3}\textit {nested}}{3}% 
+\contentsline {section}{\numberline {1.5}Percabangan}{3}% 
+\contentsline {section}{\numberline {1.6}Kesalahan yang Sering Terjadi}{4}% 
+\contentsline {section}{\numberline {1.7}\textit {Try and Except}}{4}% 
+\contentsline {chapter}{\numberline {2}Praktek}{6}% 
+\contentsline {section}{\numberline {2.1}Nomor 1}{6}% 
+\contentsline {section}{\numberline {2.2}Nomor 2}{6}% 
+\contentsline {section}{\numberline {2.3}Nomor 3}{7}% 
+\contentsline {section}{\numberline {2.4}Nomor 4}{7}% 
+\contentsline {section}{\numberline {2.5}Nomor 5}{7}% 
+\contentsline {section}{\numberline {2.6}Nomor 6}{7}% 
+\contentsline {section}{\numberline {2.7}Nomor 7}{8}% 
+\contentsline {section}{\numberline {2.8}Nomor 8}{8}% 
+\contentsline {section}{\numberline {2.9}Nomor 9}{8}% 
+\contentsline {section}{\numberline {2.10}Nomor 10}{8}% 
+\contentsline {section}{\numberline {2.11}Nomor 11}{9}% 
+\contentsline {chapter}{\numberline {3}Penanganan Error}{10}% 
+\contentsline {section}{\numberline {3.1}Error}{10}% 
+\contentsline {section}{\numberline {3.2}2err.py}{10}% 

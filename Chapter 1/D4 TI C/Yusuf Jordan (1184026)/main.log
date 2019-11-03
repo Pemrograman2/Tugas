@@ -1,0 +1,567 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200) (preloaded format=pdflatex 2019.10.23)  1 NOV 2019 10:46
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2019-10-01>
+(ociamthesis.cls
+Document Class: ociamthesis 2010/11/22 v2.2 OCIAM thesis class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2019/08/27 v1.4j Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.sty"
+\lst@mode=\count89
+\lst@gtempboxa=\box27
+\lst@token=\toks16
+\lst@length=\count90
+\lst@currlwidth=\dimen105
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen108
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box28
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg"
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks17
+\float@box=\box29
+\@float@everytoks=\toks18
+\@floatcapt=\box30
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen109
+\scratchbox=\box31
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen110
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks20
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\c@lstlisting=\count104
+<logo-poltekpos.png, id=1, 291.2481pt x 272.217pt>
+File: logo-poltekpos.png Graphic file (type png)
+<use logo-poltekpos.png>
+Package pdftex.def Info: logo-poltekpos.png  used on input line 66.
+(pdftex.def)             Requested size: 91.04881pt x 85.10081pt.
+ [1
+
+
+{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo-polte
+kpos.png>]
+\openout2 = `section/dedication.aux'.
+
+
+(section/dedication.tex [2
+
+
+])
+\openout2 = `section/acknowlegements.aux'.
+
+ (section/acknowlegements.tex [3
+
+
+
+])
+\openout2 = `section/chapter1.aux'.
+
+
+(section/chapter1.tex
+Chapter 1.
+
+Overfull \hbox (22.43639pt too wide) in paragraph at lines 4--7
+\OT1/cmr/m/n/12 Python meru-pakan salah satu ba-hasa pem-ro-gra-man tingkat tin
+ggi bersi-fat perangkat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+[4
+
+
+
+]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+1.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+<figures/1184026/perbedaan1.png, id=21, 191.9672pt x 69.25874pt>
+File: figures/1184026/perbedaan1.png Graphic file (type png)
+<use figures/1184026/perbedaan1.png>
+Package pdftex.def Info: figures/1184026/perbedaan1.png  used on input line 28.
+
+(pdftex.def)             Requested size: 113.81102pt x 41.06203pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--31
+
+ []
+
+<figures/1184026/perbedaan2.png, id=22, 115.93312pt x 33.12375pt>
+File: figures/1184026/perbedaan2.png Graphic file (type png)
+<use figures/1184026/perbedaan2.png>
+Package pdftex.def Info: figures/1184026/perbedaan2.png  used on input line 35.
+
+(pdftex.def)             Requested size: 113.81102pt x 32.51814pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--38
+
+ []
+
+[5 <./figures/1184026/perbedaan1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Overfull \hbox (2.85321pt too wide) in paragraph at lines 51--53
+\OT1/cmr/m/n/12 Berikut meru-pakan uru-tan yang di-lakukan saat melakukan in-st
+a-lasi python,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+<figures/1184026/anaconda/anaconda1.png, id=27, 386.94562pt x 287.57437pt>
+File: figures/1184026/anaconda/anaconda1.png Graphic file (type png)
+<use figures/1184026/anaconda/anaconda1.png>
+Package pdftex.def Info: figures/1184026/anaconda/anaconda1.png  used on input 
+line 56.
+(pdftex.def)             Requested size: 113.81102pt x 84.58359pt.
+[6 <./figures/1184026/perbedaan2.png>]
+<figures/1184026/anaconda/anaconda2.png, id=31, 384.6872pt x 288.3272pt>
+File: figures/1184026/anaconda/anaconda2.png Graphic file (type png)
+<use figures/1184026/anaconda/anaconda2.png>
+Package pdftex.def Info: figures/1184026/anaconda/anaconda2.png  used on input 
+line 62.
+(pdftex.def)             Requested size: 113.81102pt x 85.30215pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--65
+
+ []
+
+<figures/1184026/anaconda/anaconda3.png, id=32, 383.93437pt x 289.08pt>
+File: figures/1184026/anaconda/anaconda3.png Graphic file (type png)
+<use figures/1184026/anaconda/anaconda3.png>
+Package pdftex.def Info: figures/1184026/anaconda/anaconda3.png  used on input 
+line 68.
+(pdftex.def)             Requested size: 113.81102pt x 85.69249pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
+
+ []
+
+<figures/1184026/anaconda/anaconda4.png, id=33, 390.70969pt x 288.3272pt>
+File: figures/1184026/anaconda/anaconda4.png Graphic file (type png)
+<use figures/1184026/anaconda/anaconda4.png>
+Package pdftex.def Info: figures/1184026/anaconda/anaconda4.png  used on input 
+line 74.
+(pdftex.def)             Requested size: 113.81102pt x 83.9867pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--77
+
+ []
+
+[7 <./figures/1184026/anaconda/anaconda1.png> <./figures/1184026/anaconda/anaco
+nda2.png> <./figures/1184026/anaconda/anaconda3.png>]
+<figures/1184026/anaconda/anaconda5.png, id=38, 376.40625pt x 294.34969pt>
+File: figures/1184026/anaconda/anaconda5.png Graphic file (type png)
+<use figures/1184026/anaconda/anaconda5.png>
+Package pdftex.def Info: figures/1184026/anaconda/anaconda5.png  used on input 
+line 80.
+(pdftex.def)             Requested size: 113.81102pt x 89.00174pt.
+<figures/1184026/anaconda/anaconda6.png, id=39, 379.4175pt x 293.59688pt>
+File: figures/1184026/anaconda/anaconda6.png Graphic file (type png)
+<use figures/1184026/anaconda/anaconda6.png>
+Package pdftex.def Info: figures/1184026/anaconda/anaconda6.png  used on input 
+line 86.
+(pdftex.def)             Requested size: 113.81102pt x 88.0663pt.
+<figures/1184026/anaconda/anaconda7.png, id=40, 376.40625pt x 292.84406pt>
+File: figures/1184026/anaconda/anaconda7.png Graphic file (type png)
+<use figures/1184026/anaconda/anaconda7.png>
+Package pdftex.def Info: figures/1184026/anaconda/anaconda7.png  used on input 
+line 92.
+(pdftex.def)             Requested size: 113.81102pt x 88.5465pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
+
+ []
+
+<figures/1184026/anaconda/anaconda8.png, id=41, 377.15906pt x 293.59688pt>
+File: figures/1184026/anaconda/anaconda8.png Graphic file (type png)
+<use figures/1184026/anaconda/anaconda8.png>
+Package pdftex.def Info: figures/1184026/anaconda/anaconda8.png  used on input 
+line 97.
+(pdftex.def)             Requested size: 113.81102pt x 88.59492pt.
+[8 <./figures/1184026/anaconda/anaconda4.png> <./figures/1184026/anaconda/anaco
+nda5.png> <./figures/1184026/anaconda/anaconda6.png>]
+<figures/1184026/anaconda/anaconda9.png, id=47, 375.65344pt x 290.58563pt>
+File: figures/1184026/anaconda/anaconda9.png Graphic file (type png)
+<use figures/1184026/anaconda/anaconda9.png>
+Package pdftex.def Info: figures/1184026/anaconda/anaconda9.png  used on input 
+line 102.
+(pdftex.def)             Requested size: 113.81102pt x 88.03654pt.
+<figures/1184026/pip/downloadpip.png, id=48, 495.35063pt x 50.43843pt>
+File: figures/1184026/pip/downloadpip.png Graphic file (type png)
+<use figures/1184026/pip/downloadpip.png>
+Package pdftex.def Info: figures/1184026/pip/downloadpip.png  used on input lin
+e 114.
+(pdftex.def)             Requested size: 227.62204pt x 23.17732pt.
+
+Overfull \hbox (5.40335pt too wide) in paragraph at lines 112--117
+[]\OT1/cmr/m/n/12 Ketikkan "curl https://bootstrap.pypa.io/get-pip.py -o get-pi
+p.py".
+ []
+
+<figures/1184026/pip/upgrdpip.png, id=49, 981.6675pt x 98.61844pt>
+File: figures/1184026/pip/upgrdpip.png Graphic file (type png)
+<use figures/1184026/pip/upgrdpip.png>
+Package pdftex.def Info: figures/1184026/pip/upgrdpip.png  used on input line 1
+20.
+(pdftex.def)             Requested size: 227.62204pt x 22.86684pt.
+[9 <./figures/1184026/anaconda/anaconda7.png> <./figures/1184026/anaconda/anaco
+nda8.png> <./figures/1184026/anaconda/anaconda9.png> <./figures/1184026/pip/dow
+nloadpip.png>]
+<figures/1184026/pip/upgrd3.png, id=57, 538.26094pt x 37.64063pt>
+File: figures/1184026/pip/upgrd3.png Graphic file (type png)
+<use figures/1184026/pip/upgrd3.png>
+Package pdftex.def Info: figures/1184026/pip/upgrd3.png  used on input line 126
+.
+(pdftex.def)             Requested size: 227.62204pt x 15.9175pt.
+<figures/1184026/environtment/1.png, id=58, 328.97906pt x 262.73157pt>
+File: figures/1184026/environtment/1.png Graphic file (type png)
+<use figures/1184026/environtment/1.png>
+Package pdftex.def Info: figures/1184026/environtment/1.png  used on input line
+ 136.
+(pdftex.def)             Requested size: 227.62204pt x 181.79008pt.
+<figures/1184026/environtment/2.png, id=59, 147.55125pt x 164.11313pt>
+File: figures/1184026/environtment/2.png Graphic file (type png)
+<use figures/1184026/environtment/2.png>
+Package pdftex.def Info: figures/1184026/environtment/2.png  used on input line
+ 142.
+(pdftex.def)             Requested size: 227.62204pt x 253.1782pt.
+ [10 <./figures/1184026/pip/upgrdpip.png> <./figures/1184026/pip/upgrd3.png> <.
+/figures/1184026/environtment/1.png>]
+<figures/1184026/environtment/3.png, id=65, 139.27031pt x 151.3153pt>
+File: figures/1184026/environtment/3.png Graphic file (type png)
+<use figures/1184026/environtment/3.png>
+Package pdftex.def Info: figures/1184026/environtment/3.png  used on input line
+ 148.
+(pdftex.def)             Requested size: 227.62204pt x 247.31595pt.
+<figures/1184026/environtment/4.png, id=66, 126.4725pt x 51.94406pt>
+File: figures/1184026/environtment/4.png Graphic file (type png)
+<use figures/1184026/environtment/4.png>
+Package pdftex.def Info: figures/1184026/environtment/4.png  used on input line
+ 154.
+(pdftex.def)             Requested size: 227.62204pt x 93.4897pt.
+ [11 <./figures/1184026/environtment/2.png> <./figures/1184026/environtment/3.p
+ng>]
+File: figures/1184026/environtment/3.png Graphic file (type png)
+<use figures/1184026/environtment/3.png>
+Package pdftex.def Info: figures/1184026/environtment/3.png  used on input line
+ 160.
+(pdftex.def)             Requested size: 227.62204pt x 247.31595pt.
+<figures/1184026/interpreter/1.png, id=70, 510.40688pt x 255.20343pt>
+File: figures/1184026/interpreter/1.png Graphic file (type png)
+<use figures/1184026/interpreter/1.png>
+Package pdftex.def Info: figures/1184026/interpreter/1.png  used on input line 
+169.
+(pdftex.def)             Requested size: 227.62204pt x 113.81244pt.
+<figures/1184026/interpreter/4.png, id=71, 517.18219pt x 255.20343pt>
+File: figures/1184026/interpreter/4.png Graphic file (type png)
+<use figures/1184026/interpreter/4.png>
+Package pdftex.def Info: figures/1184026/interpreter/4.png  used on input line 
+176.
+(pdftex.def)             Requested size: 227.62204pt x 112.321pt.
+ [12 <./figures/1184026/environtment/4.png> <./figures/1184026/interpreter/1.pn
+g>]
+<figures/1184026/interpreter/6.png, id=75, 505.13719pt x 255.20343pt>
+File: figures/1184026/interpreter/6.png Graphic file (type png)
+<use figures/1184026/interpreter/6.png>
+Package pdftex.def Info: figures/1184026/interpreter/6.png  used on input line 
+190.
+(pdftex.def)             Requested size: 227.62204pt x 115.00014pt.
+ [13 <./figures/1184026/interpreter/4.png> <./figures/1184026/interpreter/6.png
+>]
+<figures/1184026/hello.png, id=80, 232.61906pt x 15.05624pt>
+File: figures/1184026/hello.png Graphic file (type png)
+<use figures/1184026/hello.png>
+Package pdftex.def Info: figures/1184026/hello.png  used on input line 203.
+(pdftex.def)             Requested size: 227.62204pt x 14.73317pt.
+<figures/1184026/hasil.png, id=81, 418.56375pt x 23.33719pt>
+File: figures/1184026/hasil.png Graphic file (type png)
+<use figures/1184026/hasil.png>
+Package pdftex.def Info: figures/1184026/hasil.png  used on input line 209.
+(pdftex.def)             Requested size: 227.62204pt x 12.6909pt.
+<figures/1184026/selenium.png, id=82, 498.36188pt x 237.13594pt>
+File: figures/1184026/selenium.png Graphic file (type png)
+<use figures/1184026/selenium.png>
+Package pdftex.def Info: figures/1184026/selenium.png  used on input line 219.
+(pdftex.def)             Requested size: 227.62204pt x 108.30951pt.
+<figures/1184026/eror/20.png, id=83, 512.66531pt x 162.6075pt>
+File: figures/1184026/eror/20.png Graphic file (type png)
+<use figures/1184026/eror/20.png>
+Package pdftex.def Info: figures/1184026/eror/20.png  used on input line 228.
+(pdftex.def)             Requested size: 227.62204pt x 72.19759pt.
+ [14 <./figures/1184026/hello.png> <./figures/1184026/hasil.png> <./figures/118
+4026/selenium.png>]
+<figures/1184026/login.png, id=87, 1028.34187pt x 578.16pt>
+File: figures/1184026/login.png Graphic file (type png)
+<use figures/1184026/login.png>
+Package pdftex.def Info: figures/1184026/login.png  used on input line 234.
+(pdftex.def)             Requested size: 227.62204pt x 127.97192pt.
+<figures/1184026/variabel/1.png, id=88, 369.63094pt x 179.16937pt>
+File: figures/1184026/variabel/1.png Graphic file (type png)
+<use figures/1184026/variabel/1.png>
+Package pdftex.def Info: figures/1184026/variabel/1.png  used on input line 243
+.
+(pdftex.def)             Requested size: 227.62204pt x 110.33476pt.
+<figures/1184026/variabel/2.png, id=89, 450.18187pt x 63.23625pt>
+File: figures/1184026/variabel/2.png Graphic file (type png)
+<use figures/1184026/variabel/2.png>
+Package pdftex.def Info: figures/1184026/variabel/2.png  used on input line 249
+.
+(pdftex.def)             Requested size: 227.62204pt x 31.97409pt.
+[15 <./figures/1184026/eror/20.png> <./figures/1184026/login.png> <./figures/11
+84026/variabel/1.png> <./figures/1184026/variabel/2.png>]
+<figures/1184026/variabel/3.png, id=93, 391.4625pt x 178.41656pt>
+File: figures/1184026/variabel/3.png Graphic file (type png)
+<use figures/1184026/variabel/3.png>
+Package pdftex.def Info: figures/1184026/variabel/3.png  used on input line 256
+.
+(pdftex.def)             Requested size: 227.62204pt x 103.74301pt.
+<figures/1184026/eror/1.png, id=94, 529.98pt x 238.64156pt>
+File: figures/1184026/eror/1.png Graphic file (type png)
+<use figures/1184026/eror/1.png>
+Package pdftex.def Info: figures/1184026/eror/1.png  used on input line 272.
+(pdftex.def)             Requested size: 227.62204pt x 102.4937pt.
+ [16 <./figures/1184026/variabel/3.png>]
+<figures/1184026/eror/2.png, id=98, 454.69875pt x 163.3603pt>
+File: figures/1184026/eror/2.png Graphic file (type png)
+<use figures/1184026/eror/2.png>
+Package pdftex.def Info: figures/1184026/eror/2.png  used on input line 278.
+(pdftex.def)             Requested size: 227.62204pt x 81.77965pt.
+File: figures/1184026/eror/1.png Graphic file (type png)
+<use figures/1184026/eror/1.png>
+Package pdftex.def Info: figures/1184026/eror/1.png  used on input line 287.
+(pdftex.def)             Requested size: 227.62204pt x 102.4937pt.
+File: figures/1184026/eror/2.png Graphic file (type png)
+<use figures/1184026/eror/2.png>
+Package pdftex.def Info: figures/1184026/eror/2.png  used on input line 293.
+(pdftex.def)             Requested size: 227.62204pt x 81.77965pt.
+ [17 <./figures/1184026/eror/1.png> <./figures/1184026/eror/2.png>]
+File: figures/1184026/eror/20.png Graphic file (type png)
+<use figures/1184026/eror/20.png>
+Package pdftex.def Info: figures/1184026/eror/20.png  used on input line 299.
+(pdftex.def)             Requested size: 227.62204pt x 72.19759pt.
+) [18] (main.aux (section/dedication.aux) (section/acknowlegements.aux)
+(section/chapter1.aux)) ) 
+Here is how much of TeX's memory you used:
+ 3775 strings out of 492452
+ 56025 string characters out of 3129810
+ 296663 words of memory out of 3000000
+ 8068 multiletter control sequences out of 15000+200000
+ 6351 words of font info for 23 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 46i,7n,47p,769b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (18 pages, 916936 bytes).
+PDF statistics:
+ 122 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+
