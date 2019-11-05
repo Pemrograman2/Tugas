@@ -1,0 +1,150 @@
+\documentclass[12pt,times new roman]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+
+\title{Chapter 2}
+\author{Ariq rafi kusumah (1184076)}
+\date{October 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Teori}
+\begin{enumerate}
+\item Jenis variable.
+\par variabel adalah ‘penanda’ identitas yang digunakan untuk menampung suatu nilai.
+\begin{enumerate}	
+	\item Variable global yaitu variable yang bisa diakses dengan semua fungsi
+	\item Variable local yaitu variable yang hanya bisa diakses dalam fungsi tempat 
+	\item Variable build-in yaitu variable yang sudah ada di dalam python.
+    \item Pemakaian variable
+\begin{verbatim}
+
+	A=Ariq 
+	Print(\hi", A,"lagi apa?") 
+	Outputnya : hi, Ariq, lagi apa ?
+
+\end{verbatim}
+
+\end{enumerate}
+
+\item  Input dan output user
+\par Contoh :
+\begin{verbatim}
+	#input
+	A=input("Masukan Nama:")
+	#output
+	print "Hai",A,"apa kabar ?" 	
+\end{verbatim}
+\item Operator Dasar
+\par penjumlahan +
+\par pengurangan -
+\par perkalian *
+\par pembagian /
+\begin{verbatim}
+	a = 5
+
+	b = 5
+
+	c = a + b
+
+	print(c)
+	
+	output : 10
+	
+int() untuk mengubah menjadi integer. Kode yang digunakan 
+untuk mengkonversikan String(str) ke integer(int) p=’333’ 
+integer = int(p) #konversi string ke integer print(integer) 
+#mencetak hasil str() untuk mengubah menjadi string. 
+Kode yang digunakan untuk mengkonversikan integer(int) ke 
+String(str) p=333 #variabel string = str(p) 
+#konversi integer ke string print(string) #mencetak hasil
+
+\end{verbatim}
+\item Perulangan
+\par perulangan pada python untuk mengulangi item dari urutan apapun
+\begin{verbatim}
+	n=1
+	while n<5:
+		print(n)
+		n=n+1
+	outputnya : 1 2 3 4 
+\end{verbatim}
+\item Kondisi
+\begin{enumerate}
+\item IF
+\par IF yaitu kondisi yang bernilai benar atau salah. Jika nilai statementnya bernilai benar maka statement akan dijalankan dan jika nilai statementnya bernilai salah maka statement tidak akan dijalankan. Contohnya yaitu :
+
+\begin{verbatim}
+    X=1 
+    IF x >0: 
+    Print("Nilai %x adalah besar dari 0"% x) 
+    #NIlai 1 adalah besar dari 0
+
+\end{verbatim}
+\item If-Else 
+\par IF- Else yaitu jika kondisi bernilai true maka statemen didalam if akan dieksekusi dan jika bernilai false maka statemen yang dieksekusi adalah statemen didalam else. Contohnya:
+\begin{verbatim}
+	X=1 
+	IF x> 5: Print("Nilai %d adalah besar dari 5" % X) 
+	Else: 
+	Print("Nilai %d adalah kecil dari %" % X) 
+	#Nilai 1 adalah kecil dari 5
+\end{verbatim}
+\item IF ELIF ELSE 
+\par IF ELIF ELSE yaitu Kondisi Elif Kondisi Elif ini lanjutan dari percabangan kondisi if dengan kondisi elif ini kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan yang bisa terjadi. 
+\begin{verbatim}
+x = 5 
+if x < 5: 
+print("Nilai %d adalah kecil dari 5" % x ) 
+elif x == 5 : 
+print("Nilai %d adalah sama dengan 5" % x) 
+else : 
+print("Nilai %d adalah besar dari 5" % x)
+
+\end{verbatim}
+\end{enumerate}
+\item Jenis error yang sering ditemui pada python
+\begin{enumerate}
+\item  TypeError: unsupported operand type(s) for +: ’int’ and ’str’ cara mengatasinya yaitu: menggunakan casting operand kedua menjadi integer
+\item  TypeError: can only concatenate str (not ”int”) to str cara mengatasinya yaitu: menggunakan casting operand kedua menjadi string
+\end{enumerate}
+\item Try Except
+\par Try except adalah bentuk penanganan error yang terdapat dalam python. Contoh penggunaannya : Setiap bilangan yang dibagi 0 akan terjadi error karena sudah ketentuan dari awal dan tidak bisa di eksekusi tetapi dengan menggunakan try except dapat di eksekusi walaupun akan terjadi error seperti contoh dibawah ini :
+\begin{verbatim}
+X=0 
+Try: 
+X=9/0 
+Except exception,e; Print e
+
+Print x=1
+\end{verbatim}
+\end{enumerate}
+\section{Ketrampilan Pemrograman}
+\begin{enumerate}
+\item SOAL 1
+\lstinputlisting[language=Python]{src/SOAL1.py}
+\item SOAL 2
+\lstinputlisting[language=Python]{src/SOAL2.py}
+\item SOAL 3
+\lstinputlisting[language=Python]{src/SOAL3.py}
+\item SOAL 4
+\lstinputlisting[language=Python]{src/SOAL4.py}
+\item SOAL 5
+\lstinputlisting[language=Python]{src/SOAL5.py}
+\item SOAL 6
+\lstinputlisting[language=Python]{src/SOAL6.py}
+\item SOAL 7
+\lstinputlisting[language=Python]{src/SOAL7.py}
+\item SOAL 8
+\lstinputlisting[language=Python]{src/SOAL8.py}
+\item SOAL 9
+\lstinputlisting[language=Python]{src/SOAL9.py}
+\item SOAL 10
+\lstinputlisting[language=Python]{src/SOAL10.py}
+\item SOAL 11
+\lstinputlisting[language=Python]{src/SOAL11.py}
+\end{enumerate}
+
+\end{document}
