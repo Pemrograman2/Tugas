@@ -1,0 +1,102 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{listings}
+
+\begin{document}
+
+\title{Chapter 4 \\ fungsi dan kelas}
+\author{M. Farhan F. (1184072)}
+\date{}
+\maketitle
+
+\section{Pemahan Teori}
+
+	\begin{enumerate}
+		\item CSV (comma sepreted value) adalah tipe file yang berguna untuk pengolahan informasii yang dihasilkan \textit{speadsheet} yang diproses lebih lanjut dengan mesin analitik. CSV dapat digunakan oleh berbagai database untuk proses backup data dan dianggap sebagai file yang \textit{agnostik}.\\
+		CSV file sudah ada sepuluh tahun sebelum kompurter personal pertama kali ditmukan (pada tahun 1972).\\
+		
+		
+		\item 			
+			\begin{itemize}
+		\item Notepad
+		\item intuit quicken deluxe
+		\item LibreOffice
+		\item Apache Open Office
+		\item Corel Quarttro Pro
+		\item File Viewer Plus
+		\item Microsoft Excel
+				
+			\end{itemize}
+		
+		\item 
+		\begin{itemize}
+			\item buka excel
+			\item kemudian masukan npm, nama, kelas di kolom 1
+			\item kemudian masukan masukan data sesuai dengan kolom 1
+			\item setelah di isi save as file dengan  tipe ekstensinya csv.
+		\end{itemize}
+		
+		\item Format  yang  disebut  CSVComma Separated Valuesadalah  format  impordan ekspor paling umum untuk spreadsheet dan basis data.  Format CSV di-gunakan selama bertahun-tahun sebelum upaya untuk menggambarkan formatdengan cara standar di RFC 4180.  Kurangnya standar yang didefinisikan den-gan baik berarti bahwa perbedaan halus sering ada dalam data yang diproduksidan  dikonsumsi  oleh  aplikasi  yang  berbeda.   Perbedaan-perbedaan  ini  dapatmembuatnya menjengkelkan untuk memproses file CSV dari berbagai sumber.\\Namun,  sementara  pembatas  dan  mengutip  karakter  bervariasi,  format  ke-seluruhan cukup mirip sehingga dimungkinkan untuk menulis satu modul yangdapat  secara  efisien  memanipulasi  data  seperti  itu,  menyembunyikan  detailmembaca dan menulis data dari programmer.  Modul csv mengimplementasikankelas untuk membaca dan menulis data tabular dalam format CSV.
+		\item Pandas adalah toolkit yang powerfull sebagai alat analisis data dan strukturuntuk bahasa pemrograman Python.  Dengan menggunakan pandas kita dapatmengolah data dengan mudah, salah satu fiturnya adalah Dataframe.  Denganadanya fitur dataframe kita dapat membaca sebuah file dan menjadikannya tab-ble serta juga dapat mengolah suatu data dengan menggunakan operasi sepertijoin, distinct, group by, agregasi, dan lain-lain yang terdapat pada SQL. Banyakformat file yang dapat dibaca menggunakan Pandas, seperti file .txt, .csv, .tsvdan lainnya.  Agar lebih jelas mari kita mencobanya secara langsung.
+		\item
+		
+		\begin{itemize}
+			\item (csv.fild\_size) mengembalikan ukuran maksimal field
+			\item (csv.get\_dialect) memanggil dialek yang berhubungan dengan nama
+			\item (csv.list\_dialects) menampilkan semua dialek yang terdaftar
+			\item (csv.reader) membaca data dari csv. file
+			\item (csv.register\_dialect) menghubungkan dialect dengan nama yang sama
+			\item (csv.writer) menulis data ke csv. file
+			\item (csv.unregister\_dialect) menghapus dialok yang berhubungan dengan nama dialok yang terdaftar
+			\item (csv.QUOTE\_ALL) mengutip semua, file apapun itu
+			\item (csv.QUOTE\_MINIMAL) kutip yang memiliki character spesial
+			\item (csv.QUOTE\_NONNUMERIC) mengutip semua yang bukan angka
+			\item (csv.QUOTE\_NONE) tidak mengutip apapun di output
+			
+		\end{itemize}
+		
+		\item 
+		\begin{itemize}
+		 \item (def adder(ele1,ele2)) memasukan dua nilai angka sebagai paramater dan mengembalikan sum.
+		\item (apply()) untuk menerapakn funsi yang berubah-ubah dengan potongan dataframe atau panel.
+		\end{itemize}
+		
+	\end{enumerate}
+	
+\section{Ketrampilan Pemograman}
+
+\begin{enumerate}
+	\item[No. 1] \lstinputlisting[language=Python]{src/1184072_csv1.py}
+	
+	\item[No. 2] \lstinputlisting[language=Python]{src/1184072_csv2.py}
+	
+	\item[No. 3]\lstinputlisting[language=Python]{src/1184072_pandas1.py}
+	
+	\item[No. 4]\lstinputlisting[language=Python]{src/11	84072_pandas2.py}
+	
+	\item[No. 5]\lstinputlisting[language=Python]{src/1184072_pandas_dates.py}
+	
+	\item[No. 6]\lstinputlisting[language=Python]{src/1184072_pandas_index_col.py}
+	
+	\item[No. 7]\lstinputlisting[language=Python]{src/1184072_pandas_attribute.py}
+	
+	\item[No. 8]\lstinputlisting[language=Python]{src/1184072_csv_membuat_dan_membuat.py}
+	
+	\item[No. 8]\lstinputlisting[language=Python]{src/1184072_pandas_membuat_dan_membaca.py}
+	
+\end{enumerate}
+
+\section{Ketrampilan Penangan Error}
+
+\begin{enumerate}
+	\item File "C:/Users/SAM/Desktop/M. Farhan Fadlurrahman(1184072)/src/1184072\_pandas\_dates.py", line 2, in <module>
+    df = pandas.read\_csv('source2.csv', phrase\_dates=['Hire Date'])
+
+TypeError: parser\_f() got an unexpected keyword argument 'phrase\_dates'
+\paragraph*{}	cara penangan error tersebut adalah dengan mengganti tulisan phrase menjadi parse.
+	
+\end{enumerate}
+
+\end{document}
