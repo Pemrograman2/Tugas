@@ -1,0 +1,267 @@
+\chapter{Tugas}
+\section*{Soal 1}
+\begin{lstlisting}[language=Python]
+def Npm(npm):
+    mod = int(npm) % 3 
+    if mod == 0:
+        print("*")
+    elif mod == 1:
+        print("#")
+    elif mod == 2:
+        print("+")
+
+
+print("******   ******    *********   ***   ***  *********  ********* ********* ")
+print("******   ******    ***   ***   ***   ***  ***   ***  ***       ***   *** ")
+print("  ****     ****    *********   *********  ***   ***  ********* ********* ")
+print("  ****     ****    *********   *********  ***   ***  ***   ***       *** ")
+print("******** ********  ***   ***        ****  ***   ***  ***   ***       *** ")
+print("******** ********  *********        ****  *********  ********* ********* ")
+
+\end{lstlisting}
+
+\section*{Soal 2}
+\begin{lstlisting}[language=Python]
+def ulang(npm):
+    mod = int(npm) % 100
+    for i in range(mod):
+        print("hallo",npm,"apa kabar ?")
+
+\end{lstlisting}
+
+\section*{Soal 3}
+\begin{lstlisting}[language=Python]
+def ulangplus(npm):
+    mod = int(npm)%1000
+    string = str(mod)
+    sub = npm[4] + npm[5] + npm[6]
+    
+    for i in range(int(npm[4])+int(npm[5])+int(npm[6])):
+        print("hallo",npm[4] + npm[5] + npm[6],"apa kabar ?")
+
+
+\end{lstlisting}
+\section*{Soal 4}
+\begin{lstlisting}[language=Python]
+
+def ulangnol(npm):
+    sub = npm[4]
+        
+    print("hallo",npm[4],"apa kabar")
+
+\end{lstlisting}
+\section*{Soal 5}
+\begin{lstlisting}[language=Python]
+
+def turun(npm):
+    
+    i = 0
+    while i<1:
+        if len(npm) < 7:
+            print("npm kurang dari 7 digit, silahkan masukkan npm anda kembali")
+        elif len(npm) > 7:
+            print("npm yang diinputkan lebih dari 7, silahkan masukkan npm anda kembali")
+        else:
+            i=1
+    a=npm[0]
+    b=npm[1]
+    c=npm[2]
+    d=npm[3]
+    e=npm[4]
+    f=npm[5]
+    g=npm[6]
+
+    for x in a,b,c,d,e,f,g:
+        print(x,""),
+
+
+
+\end{lstlisting}
+\section*{Soal 6}
+\begin{lstlisting}[language=Python]
+
+def jumlah(npm):
+    
+    i = 0
+    while i<1:
+        if len(npm) < 7:
+            print("npm kurang dari 7 digit, silahkan masukkan npm anda kembali")
+        elif len(npm) > 7:
+            print("npm yang diinputkan lebih dari 7, silahkan masukkan npm anda kembali")
+        else:
+            i=1
+    a=npm[0]
+    b=npm[1]
+    c=npm[2]
+    d=npm[3]
+    e=npm[4]
+    f=npm[5]
+    g=npm[6]
+    y=0
+
+    for x in a,b,c,d,e,f,g:
+        y+=int(x)
+    print(y)
+
+
+
+
+\end{lstlisting}
+\section*{Soal 7}
+\begin{lstlisting}[language=Python]
+
+
+def kali(npm):
+    
+    i = 0
+    while i<1:
+        if len(npm) < 7:
+            print("npm kurang dari 7 digit, silahkan masukkan npm anda kembali")
+        elif len(npm) > 7:
+            print("npm yang diinputkan lebih dari 7, silahkan masukkan npm anda kembali")
+        else:
+            i=1
+    a=npm[0]
+    b=npm[1]
+    c=npm[2]
+    d=npm[3]
+    e=npm[4]
+    f=npm[5]
+    g=npm[6]
+    y=0
+
+    for x in a,b,c,d,e,f,g:
+        y*=int(x)
+    print(y)
+
+\end{lstlisting}
+\section*{Soal 8}
+\begin{lstlisting}[language=Python]
+
+def genap(npm):
+    
+    i = 0
+    while i<1:
+        if len(npm) < 7:
+            print("npm kurang dari 7 digit, silahkan masukkan npm anda kembali")
+        elif len(npm) > 7:
+            print("npm yang diinputkan lebih dari 7, silahkan masukkan npm anda kembali")
+        else:
+            i=1
+    a=npm[0]
+    b=npm[1]
+    c=npm[2]
+    d=npm[3]
+    e=npm[4]
+    f=npm[5]
+    g=npm[6]
+
+    for x in a,b,c,d,e,f,g:
+
+        if int(x)%2==0:
+            if int(x)==0:
+                x=""
+            print(x,end ="")
+
+
+\end{lstlisting}
+\section*{Soal 9}
+\begin{lstlisting}[language=Python]
+
+def ganjil(npm):
+    
+    i = 0
+    while i<1:
+        if len(npm) < 7:
+            print("npm kurang dari 7 digit, silahkan masukkan npm anda kembali")
+        elif len(npm) > 7:
+            print("npm yang diinputkan lebih dari 7, silahkan masukkan npm anda kembali")
+        else:
+            i=1
+    a=npm[0]
+    b=npm[1]
+    c=npm[2]
+    d=npm[3]
+    e=npm[4]
+    f=npm[5]
+    g=npm[6]
+
+    for x in a,b,c,d,e,f,g:
+
+        if int(x)%3==0:
+            if int(x)==0:
+                x=""
+            print(x,end ="")
+
+
+\end{lstlisting}
+\section*{Soal 10}
+\begin{lstlisting}[language=Python]
+
+import lib3
+
+class Kelas3lib:
+    def __init__(self,npm):
+        self.npm = npm
+    def npm1(self):
+        return lib3.Npm(self.npm)
+    def npm2(self):
+        return lib3.ulang(self.npm)
+    def npm3(self):
+        return lib3.ulangplus(self.npm)
+    def npm4(self):
+        return lib3.ulangnol(self.npm)
+    def npm5(self):
+        return lib3.turun(self.npm)
+    def npm6(self):
+        return lib3.jumlah(self.npm)
+    def npm7(self):
+        return lib3.kali(self.npm)
+    def npm8(self):
+        return lib3.genap(self.npm)
+    def npm9(self):
+        return lib3.ganjil(self.npm)
+    
+
+
+
+
+
+
+
+
+
+
+
+\end{lstlisting}
+\section*{Soal 11}
+\begin{lstlisting}[language=Python]
+
+import kls3lib
+import lib3
+
+
+npm=input("Input NPM : ")
+i=0
+while i<1:
+    if len(npm) < 7:
+        print("NPM Kurang dari 7 digit")
+        npm=input("Input NPM : ")
+    elif len(npm) > 7:
+        print("NPM lebih dari 7 digit")
+        npm=input("Input NPM : ")
+    else:
+        i=1
+
+#Contoh pemanggilan fungsi pada class
+cobakelas=kls3lib.Kelas3lib(npm) 
+hasilkelas=cobakelas.npm1()
+
+print("")
+
+#Contoh pemanggilan fungsi pada library
+lib3.kali(npm)
+lib3.turun(npm)
+
+
+\end{lstlisting}

@@ -1,0 +1,124 @@
+\chapter{Fungsi dan Kelas}
+\section{Fungsi}
+\subsection{Fungsi}
+\par 
+Fungsi merupakan suatu blok kode yang berfungsi untuk menampung suatu bari program yang nantinya dapat dieksekusi dengan cara memanggil fungsi tersebut.
+
+\subsection{Parameter}
+\par
+Parameter adalah sebuah variabel yang dapat menampung suatu nilai yang nantinya dijalan kan pada sebuah fungsi, contohnya.
+
+\begin{lstlisting}[language=Python]
+
+def npm(npm):
+	print("hai")
+	
+\end{lstlisting}
+
+\subsection{Mengembalikan Nilai(\textit{Return}}
+\par
+Return merupakan sebuah fungsi yang digunakan untuk menampilkan output dari fungsi yang sebelumnya telah dibuat
+
+\begin{lstlisting}[language=Python]
+def keliling(kotak):
+	keliling = p * l
+	return keliling 
+\end{lstlisting}
+
+\section{Package}
+\subsection{Package}
+Package adalah sebuah wadah untuk menyimpan sekumpulan file-file modul.
+Cara memanggil sebuah package adalah sebagai berikut
+
+\begin{lstlisting}[language=Python]
+form mahasiswa input npm
+\end{lstlisting}
+
+\section{Class}
+\subsection{Class}
+Class merupakan sebuah prototipe/blueprint dari sebuah objek. contohnya class ini akan diberi nama \textbf{satu.py}
+
+\begin{lstlisting}[language=Python]
+class Mahasiswa:
+	def __init__(self,npm):
+		self.npm = npm
+	def mhs(self,npm):
+		print(npm)
+\end{lstlisting}
+
+
+\subsection{Objek}
+Objek merupakan hasil yang telah terdefinisikan dari sebuah class.
+
+\begin{lstlisting}[language=Python]
+import satu
+
+test=satu.npm(npm)
+\end{lstlisting}
+
+\subsection{Atribut}
+Atribut merupakan variabel yang dimiliki suatu class
+
+\begin{lstlisting}[language=Python]
+class Mahasiswa:
+	def __init__(self,npm):
+		self.npm = npm
+\end{lstlisting}
+
+\subsection{Method}
+Method merupakan kumpulan fungsi-fungsi pada sebuah class
+
+\begin{lstlisting}[language=Python]
+class Mahasiswa:
+	def __init__(self,npm):
+		self.npm = npm
+	def mhs(self,npm):
+		print(npm)
+\end{lstlisting}
+
+
+\begin{lstlisting}[language=Python]
+import satu
+
+test=satu.npm(npm)
+\end{lstlisting}
+
+\section{Package}
+\subsection{Penggunaan Package}
+Buat suatu library terlebih dahulu
+
+\begin{lstlisting}[language=Python]
+class Mahasiswa:
+	def __init__(self,npm):
+		self.npm = npm
+	def mhs(self,npm):
+		print(npm)
+\end{lstlisting}
+
+Import library yang tadi sudah dibuat, dan panggil fungsi yang dibutuhkan
+\begin{lstlisting}[language=Python]
+import satu
+
+test=satu.npm(npm)
+\end{lstlisting}
+
+\section{Import}
+\subsection{from kalkulator import penambahan}
+\begin{lstlisting}[language=Python]
+from kalkulator import penambahan
+\end{lstlisting}
+
+Kode tersebut memiliki arti memanggil package kalkulator dan mengimport fungsi penambahan. Contoh code lainnya adalah sebagai berikut.
+\begin{lstlisting}[language=Python]
+from mahasiswa import npm
+\end{lstlisting}
+
+\section{Library}
+\subsection{Pemanggilan library dalam folder}
+Untuk memanggil sebuah library, pertama kita harus memanggil foldernya terlebih dahulu baru memanggil library yang diiinginkan.
+\begin{lstlisting}[language=Python]
+from mahasiswa import npm
+\end{lstlisting}
+
+\subsection{Pemanggilan class dalam folder}
+Untuk memanggil sebuah class, pertama kita harus memanggil foldernya terlebih dahulu baru memanggil library yang diiinginkan.

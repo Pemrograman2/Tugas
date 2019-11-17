@@ -1,0 +1,8 @@
+\contentsline {chapter}{\numberline {I}Pengelolaan File CSV}{1}{chapter.1}% 
+\contentsline {section}{\numberline {I}Teori}{1}{section.1.1}% 
+\contentsline {subsection}{\numberline {A}Sejarah dan Contoh}{1}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {B}Aplikasi Pembuat File CSV}{1}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {C}Cara Membaca dan Menulis File CSV di Excel atau Spreadsheet}{1}{subsection.1.1.3}% 
+\contentsline {subsection}{\numberline {D}Library Pada CSV}{2}{subsection.1.1.4}% 
+\contentsline {subsection}{\numberline {E}Library Pada Pandas}{2}{subsection.1.1.5}% 
+\contentsline {chapter}{\numberline {II}Soal}{3}{chapter.2}% 

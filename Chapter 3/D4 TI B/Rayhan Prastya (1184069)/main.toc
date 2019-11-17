@@ -1,0 +1,20 @@
+\contentsline {chapter}{\numberline {I}Fungsi dan Kelas}{1}{chapter.1}% 
+\contentsline {section}{\numberline {I}Fungsi}{1}{section.1.1}% 
+\contentsline {subsection}{\numberline {A}Fungsi}{1}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {B}Parameter}{1}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {C}Mengembalikan Nilai(\textit {Return}}{1}{subsection.1.1.3}% 
+\contentsline {section}{\numberline {II}Package}{1}{section.1.2}% 
+\contentsline {subsection}{\numberline {A}Package}{1}{subsection.1.2.1}% 
+\contentsline {section}{\numberline {III}Class}{2}{section.1.3}% 
+\contentsline {subsection}{\numberline {A}Class}{2}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {B}Objek}{2}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {C}Atribut}{2}{subsection.1.3.3}% 
+\contentsline {subsection}{\numberline {D}Method}{2}{subsection.1.3.4}% 
+\contentsline {section}{\numberline {IV}Package}{2}{section.1.4}% 
+\contentsline {subsection}{\numberline {A}Penggunaan Package}{2}{subsection.1.4.1}% 
+\contentsline {section}{\numberline {V}Import}{3}{section.1.5}% 
+\contentsline {subsection}{\numberline {A}from kalkulator import penambahan}{3}{subsection.1.5.1}% 
+\contentsline {section}{\numberline {VI}Library}{3}{section.1.6}% 
+\contentsline {subsection}{\numberline {A}Pemanggilan library dalam folder}{3}{subsection.1.6.1}% 
+\contentsline {subsection}{\numberline {B}Pemanggilan class dalam folder}{3}{subsection.1.6.2}% 
+\contentsline {chapter}{\numberline {II}Tugas}{4}{chapter.2}% 
