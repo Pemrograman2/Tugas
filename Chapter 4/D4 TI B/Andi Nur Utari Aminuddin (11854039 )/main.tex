@@ -1,0 +1,95 @@
+\documentclass[12pt]{ociamthesis}  % default square logo 
+%\documentclass[12pt,beltcrest]{ociamthesis} % use old belt crest logo
+%\documentclass[12pt,shieldcrest]{ociamthesis} % use older shield crest logo
+
+%load any additional packages
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{graphics}
+\usepackage{listings}
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=python
+}
+\lstset{style=mystyle}
+%input macros (i.e. write your own macros file called mymacros.tex 
+%and uncomment the next line)
+%\include{mymacros}
+
+\title{\large CHAPTER IV \\ [1ex]     %your thesis title,
+        \textit{Pemrograman} II}   %note \\[1ex] is a line break in the title
+
+\author{Andi Nur Utari Aminuddin}             %your name
+\college{1184039\\D4 TI 2B\\[5ex]}
+
+%\renewcommand{\submittedtext}{change the default text here if needed}
+\degree{Politeknik Pos Indonesia}     %the degree
+\degreedate{Bandung}         %the degree date
+\degreedate{2019}  
+
+%end the preamble and start the document
+\begin{document}
+
+%this baselineskip gives sufficient line spacing for an examiner to easily
+%markup the thesis with comments
+\baselineskip=18pt plus1pt
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+\maketitle                  % create a title page from the preamble info
+\include{section/dedication}        % include a dedication.tex file
+\include{section/acknowlegements}   % include an acknowledgements.tex file
+\include{section/abstract}          % include the abstract
+
+\begin{romanpages}          % start roman page numbering
+\tableofcontents            % generate and include a table of contents
+\listoffigures
+\listoftables           % generate and include a list of figures
+\end{romanpages}            % end roman page numbering
+
+%now include the files of latex for each of the chapters etc
+\include{section/chapter1} 
+\include{section/chapter2} 
+\include{section/chapter3} 
+\include{section/chapter4} 
+\include{section/chapter5} 
+\include{section/chapter6} 
+
+%now enable appendix numbering format and include any appendices
+%\appendix
+%\include{section/appendix1}
+%\include{section/appendix2}
+
+%next line adds the Bibliography to the contents page
+\addcontentsline{toc}{chapter}{Daftar Pustaka}
+%uncomment next line to change bibliography name to references
+%\renewcommand{\bibname}{References}
+\bibliography{references}        %use a bibtex bibliography file refs.bib
+\bibliographystyle{plain}  %use the plain bibliography style
+
+\end{document}
+
