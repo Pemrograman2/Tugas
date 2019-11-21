@@ -1,0 +1,75 @@
+\chapter{Teori}
+
+\section{Pemahaman Teori}
+
+\subsection{Fungsi}
+Fungsi adalah sebuah block method jika dijalankan maka fungsi itu akan mengembalikan nilai. Fungsi memiliki parameter yang didalamnya adalah sebuah isian variabel yang akan diisi. Fungsi dapat dipanggil berulang-ulang sesuai yang kita inginkan. contoh kode :
+\begin{verbatim}
+def nambahinAngka(angka1, angka2):
+	hasil = angka1 + angka2
+	return hasil
+\end{verbatim}
+Jika kita input angka1 = 1 dan angka2 = 2 maka akan mengembalikan nilai sebesar 3. Bisa juga sebuah fungsi untuk mengolah string contoh :
+\begin{verbatim}
+def rangkaiKata(nama, umur):
+	hasil = "halo nama saya " + nama + ", dan umur saya " + umur
+	return hasil
+\end{verbatim}
+Jika kita input nama = "angga" dan umur = "20", maka hasil dari return akan menjadi seperti "halo nama saya angga, dan umur saya 20".
+
+\subsection{Paket}
+Paket adalah sebuah bungkusan yang membungkus semua isi yang ada didalamnya. untuk cara pemanggilan paket atau library cukup mudah.
+\begin{verbatim}
+import selenium
+\end{verbatim}
+Ketika kita mengetikkan perintah diatas maka paket telah kita panggil dan siap digunakan.
+
+\subsection{Class, Object, Atribute, and Method}
+Class atau Kelas adalah sebuah kerangka dari objek yang akan kita inisiasikan nantinya. Objek adalah sebuah wujud yang dapat kita lakukan perintah sesuai dengan methodnya. Atribut ada 2 yaitu kelas atribut dan instansi atribut, perbedaannya hanya di letak, kalau kelas atribut ada di bawah kelas, dan instansi atribut ada didalam fungsi, atribut itu sebuah variabel yang dimiliki oleh parentnya seperti fungsi atau class.
+\begin{verbatim}
+class Auahelap(object):
+	iniNamanyaKelasAtribut = "paksayaganteng"
+	
+	def sayaGanteng(self, kamujelek):
+		self.iniNamanyaIntansiAtribut = kamujelek
+\end{verbatim}
+
+\subsection{Pemanggilan Class}
+Cara pemanggilan class dari instansiasi pemanggilan sebuah paket caranya gini,
+\begin{verbatim}
+from filegelap import Auahelap
+\end{verbatim}
+\textit{from} itu tuh manggil si filenya, abis itu \textit{import} itu kita panggil si classnya.
+
+\subsection{Penggunaan Fungsi}
+\begin{verbatim}
+from kalkulator import Penambahan
+
+Penambahan(1,2)
+\end{verbatim}
+Jika perintah diatas dilakukan maka fungsi Penambahan akan dijalankan dimana fungsi Penambahan yaitu menambahkan parameter ke-1 dan parameter ke-2. contoh kode lain :
+\begin{verbatim}
+from sayaganteng import gantengBanget
+
+ganteng("angga")
+\end{verbatim}
+
+\subsection{Pemanggilan Fungsi dari Folder}
+\begin{verbatim}
+from folderKu import kalkulator
+
+a,b = 10, 15
+
+run = kalkulator.Ngitung(a,b)
+
+run.Penambahan()
+\end{verbatim}
+Sebuah fungsi Penambahan ada didalam file kalkulator dan file kalkulator itu ada di folder yang lain jadi begitulah cara pemanggilannya.
+
+\subsection{Pemanggilan Class dari Folder}
+\begin{verbatim}
+from folderKu import kalkulator
+
+run = kalkulator.Ngitung()
+\end{verbatim}
+Sebuah kelas Perhitungan ada didalam file kalkulator dan file kalkulator itu ada di folder yang lain jadi begitulah cara pemanggilannya.
