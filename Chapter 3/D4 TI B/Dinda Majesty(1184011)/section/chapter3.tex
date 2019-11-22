@@ -1,0 +1,116 @@
+\chapter{Fungsi dan Kelas}
+
+\section{Teori}
+\section{Fungsi}
+Fungsi adalah sebuah blok kode yang memiliki nama fungsi dan kode program didalamnya. Fungsi dapat dipanggil berkali-kali sesuai dengan nama fungsi yang telah didefenisikan. Fungsi memiliki nilai kembalian (return).\\
+contoh fungsi:
+\begin{verbatim}
+def my_biodata(nama, umur):
+    bio = "nama saya " + nama + " umur saya " + umur
+    return bio
+\end{verbatim}
+Inputan pada fungsi berada di dalam (). Contoh (str), ini merupakan inputan yang terdapat pada fungsi. Return merupakan kembalian dari fungsi. Misalnya return nama, maka program akan mengembalikan string yang terdapat dalam variabel nama yaitu "Nama Saya Dinda Majesty".
+
+\section{Package}
+Package merupakan sekumpulan modul yang dikemas oleh programmer dengan tujuan agar mempermudah dalam pembuatan kode program. Kita dapat membuat sebuah kode program atau fungsi didalamnya dan dapat secara mudah menggunakan kode program itu dengan cara memanggilnya pada kode program lainnya atau import package.\\
+Contoh package:
+\begin{verbatim}
+def my_biodata(nama, umur):
+    bio = "nama saya " + nama + " umur saya " + umur
+    return bio
+def my_study(kampus, prodi):
+	study = "saya berkuliah di " + kampus + " program studi " + prodi
+	return study
+\end{verbatim}
+Kode diatas merupakan isi dari file fungsi.py, sedangkan saya ingin menjalankan program fungsi.py pada main.py sehingga kode program pada file main.py akan dituliskan seperti berikut:
+\begin{verbatim}
+import fungsi
+
+nama = "Dinda Majesty"
+umur = "19 Tahun"
+biodata = my_biodata(nama, umur)
+print(biodata)
+
+kampus = "Politeknik Pos Indonesia"
+prodi = "D4-Teknik Informatika"
+kuliah = my_study(kampus, prodi)
+print(kuliah)
+\end{verbatim}
+Kode program pada file main.py akan mengimport kode program yang ada pada file fungsi.py, sehingga dengan adanya fungsi dan package kita dapat dengan mudah melakukan pemanggilan fungsi yang telah kita deskripsikan sebelumnya, walaupun berada pada file python yang berbeda.
+
+\section{Kelas, Objek, Atribut, dan Method}
+Kelas merupakan blueprint dari sebuah objek atau kode program yang berisi fungsi dan dibuat untuk mendefenisikan objek dengan atribut yang sesuai dengan kelas yang telah dibuat.\\
+Objek merupakan wujud dari kelas. Sebuah kelas harus memiliki objek yang nantinya akan di kodekan sesuai dengan fungsi yang telah dibuat pada kelas, tanpa adanya objek sebuah kelas tidak akan bisa menjalankan fungsi-fungsi didalamnya.\\
+Atribut berisi variabel yang memiliki tipe data dan dapat kita berikan pada objek.\\
+Method merupakan kode program yang berisi tindakan atau perintah untuk menjalankan objek.\\
+
+\subsection{Pemanggilan Library Kelas}
+Pemanggilan library kelas dapat dilakukan dengan cara import dan membuat objek dari kelas tersebut.\\
+Contohnya, kita memiliki file python yang diberi nama ngitung dan didalamnya terdapat class Ngitung yang memiliki banyak fungsi didalamnya. Untuk melakukan pemanggilan class maka kita bisa mengetikkan kode seperti berikut.
+\begin{verbatim}
+import ngitung
+
+hitung = ngitung.Ngitung
+\end{verbatim}
+
+\subsection{From kalkulator import Penambahan}
+Kode ini berarti dari module kalkulator kita ingin mengimportkan fungsi penambahannya saja. contohnya, kita memiliki sebuah module bernama kalkuator.py yang didalamnya terdapat fungsi Penambahan, untuk bisa menggunakan fungsi Penambahan yang ada pada module kalkulator maka kita bisa mengetikkan kode seperti berikut.
+\begin{verbatim}
+from kalkulator import Penambahan
+print(Penambahan(5,7))
+\end{verbatim}
+berikut kode yang terdapat pada module kalkulator.py
+\begin{verbatim}
+ def Penambahan(a ,b) : 
+ 	r = a + b 
+ 	return r  
+\end{verbatim}
+
+\subsection{Pemakaian Package Fungsi Apabila File Didalam Folder}
+Pemakaian Package fungsi apabila file terdapat didalam sebuah folder maka kita bisa menggunakan from folder import file dan from file import fungsi. Contohnya, kita memiliki folder src yang didalamnya terdapat file fungsi.py dan didalam fungsi.py terdapat fungsi Berhitung, untuk mengimportkan fungsi maka kita dapat mengetikkan kode seperti berikut.
+\begin{verbatim}
+from src import fungsi
+from fungsi import Berhitung
+\end{verbatim}
+
+\subsection{Pemakaian Package Kelas Apabila File didalam Folder}
+Pemakaian package kelas apabila file terdapat didalam sebuah folder maka kita bisa menggunakan from folder import file dan from file import kelas. Contohnya, kita memiliki folder src yang didalamnya terdapat file fungsi.py dan didalam fungsi.py terdapat kelas Ngitung, maka untuk melakukan import kelas kita dapat mengetikkan kode sebagai berikut.
+\begin{verbatim}
+from src import fungsi
+Kelas = fungsi.Ngitung(a,b)
+\end{verbatim}
+
+\section{Keterampilan Pemrograman}
+\subsection{Modulus}
+\lstinputlisting[caption=Modulus, language=Python, firstline=11, lastline=26]{src/3lib.py}
+\subsection{Hello NPM}
+\lstinputlisting[caption=Hello NPM, language=Python, firstline=28, lastline=35]{src/3lib.py}
+\subsection{Hello NPM (3 Digit Belakang)}
+\lstinputlisting[caption=3 Digit Belakang, language=Python, firstline=37, lastline=46]{src/3lib.py}
+\subsection{Hello NPM (Digit ke-3)}
+\lstinputlisting[caption=Digit ke-3, language=Python, firstline=48, lastline=53]{src/3lib.py}
+\subsection{Variabel Alfabet}
+\lstinputlisting[caption=Variabel Alfabet, language=Python, firstline=55, lastline=64]{src/3lib.py}
+\subsection{Penjumlahan NPM}
+\lstinputlisting[caption=Penjumlahan NPM, language=Python, firstline=66, lastline=78]{src/3lib.py}
+\subsection{Perkalian NPM}
+\lstinputlisting[caption=Perkalian NPM, language=Python, firstline=80, lastline=92]{src/3lib.py}
+\subsection{Print Vertical}
+\lstinputlisting[caption=Print Vertical, language=Python, firstline=94, lastline=99]{src/3lib.py}
+\subsection{Digit Genap NPM}
+\lstinputlisting[caption=Digit Genap NPM, language=Python, firstline=101, lastline=109]{src/3lib.py}
+\subsection{Digit Ganjil NPM}
+\lstinputlisting[caption=Digit Ganjil NPM, language=Python, firstline=111, lastline=119]{src/3lib.py}
+\subsection{Bilangan Prima NPM}
+\lstinputlisting[caption=Bilangan Prima NPM , language=Python, firstline=121, lastline=138]{src/3lib.py}
+\subsection{Pemanggilan Fungsi pada Main.py}
+\lstinputlisting[caption=Bilangan Prima NPM , language=Python, firstline=7, lastline=23]{src/main.py}
+
+\section{Keterampilan Penanganan Error}
+\subsection{Peringatan Error dan Cara Mengatasinya}
+\begin{enumerate}
+ \item IndentationError: expected an indented block, terjadi apabila kode perulangan atau pengkondisian tidak menjorok kedalam (tidak menggunakan identasi), error ini dapat diatasi dengan menambahkan tab atau spasi.
+ \item TypeError: can only concatenate str (not "int") to str, terjadi apabila kode melakukan operasi atau fungsi terhadap tipe data yang tidak sesuai. Contoh: melakukan penjumlahan terhadap tipe data string dan integer. eror ini dapat diatasi dengan mengubah tipe data string menjadi integer.
+ \item NameError: name 'NOM' is not defined, error ini dapat terjadi apabila terdapat kesalahan penulisan dan saat dijalankan, tidak ditemukan name NOM didalam kode yang dituliskan. error ini dapat diatasi dengan memperhatikan penulisan kode. 
+ \item SyntaxError: invalid syntax, error ini terjadi apabila kode yang dijalankan memiliki kesalahan penulisan syntax. Contoh: if(prima=True): salah karena kekurangan tanda =, seharusnya ditulis if(prima==True):, error ini dapat ditangani dengan memperhatikan penulisan kode program
+\end{enumerate}
