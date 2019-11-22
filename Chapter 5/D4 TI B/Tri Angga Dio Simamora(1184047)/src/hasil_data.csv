@@ -1,0 +1,2 @@
+data
+"Serial<id=0x7fd66e09c0d0, open=True>(port='/dev/ttyACM0', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)"
