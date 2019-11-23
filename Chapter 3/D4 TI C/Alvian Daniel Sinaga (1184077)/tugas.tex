@@ -1,0 +1,161 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=python
+}
+ 
+\lstset{style=mystyle}
+
+\title{Lanjutan Tugas pemrograman 2 Chapter III}
+\author{Alvian Daniel Sinaga 1184077}
+\date{26 oktober 2019}
+\begin{document}
+\maketitle
+\chapter{Python}
+\section{Fungsi}
+Fungsi adalah Sekumpulan blok kode dengan nama tertentu yang dapat dieksekusi ketika dipanggil dalam sebuah program.
+\subsection*{Parameter}
+parameter adalah sebuah variabel yang dinamis atau variabel yang berubah ubah yang memiliki inputan fungsi yang bertujuan untuk menyimpan sebuah nilai.
+\subsection*{Return}
+return digunakan untuk mengembalikan sebuah nilai, atau bisa juga mengakhiri eksekusi sebuah fungsi.
+\begin{lstlisting}[language=Python]
+def fungsi(x,y):
+	z=y*x
+	return z
+\end{lstlisting}
+\section{Package}
+\paragraph{}
+package merupakan pengorganisasian kelas-kelas dan interface yang sekelompok menjadi suatu unit tunggal dalam library. misalnya pada tempat menyimpan main program kita membuat kelas sayur dan didalam kelas itu kita membuat pengorganisasian dengan nama pasar.py, cara pemanggilannya yaitu sebagai berikut :
+\begin{lstlisting}[language=Python]
+from sayur import pasar
+\end{lstlisting}
+\section{Class atau Kelas}
+class ialah blueprint dari atau untuk sebuah object, misalnya Kelas Orang, contoh kode :
+\begin{lstlisting}[language=Python]
+class Orang:
+    pass
+org = Orang()
+print(org)
+\end{lstlisting}
+\subsection*{Object atau Objek}
+object dapat diartikan hasil cetakan dari sebuah class itu sendiri
+contoh kodenya :
+\begin{lstlisting}[language=Python]
+#import kelas terlebih dahulu
+import Orang
+#membuat object tertentu
+org = Orang()
+org.katakanHalo()
+
+\end{lstlisting}
+\subsection*{Atrribute atau Atribut}
+attribute merupakan variabel global yang dimiliki oleh sebuah class
+\begin{lstlisting}[language=Python]
+class orangngitung:
+	#makna attribute
+    def __init__(self,nama):
+        self.nama = nama
+\end{lstlisting}
+\subsection*{Method}
+method merupakan fungsi fungsi dalam sebuah class
+\begin{lstlisting}[language=Python]
+
+class Orang:
+
+    def katakanHalo(self):
+        print 'Halo, apa kabar?'
+
+org = Orang()
+
+org.katakanHalo()
+\end{lstlisting}
+
+\section{penggunaan library}
+\paragraph{}
+contoh membuat sebuah library, disini saya membuat folder perpus :
+\begin{lstlisting}{language=Python}
+def hati():
+    print("Hello world")
+\end{lstlisting}
+
+cara memanggil fungsi dari library pada main program :
+\begin{lstlisting}{language=Python}
+#import
+import perpus
+#pemanggilan fungsi
+perpus.hati()
+\end{lstlisting}
+
+\section{pemakaian package from kalkulator import perkalian}
+\begin{lstlisting}{language=Python}
+from kalkulator import perkalian
+\end{lstlisting}
+disini adalah contoh pemanggilan perkalian pada package.
+
+
+\chapter{Keterampilan pemrograman}
+\section*{Soal 1}
+\lstinputlisting[language=Python]{src/npm1.py}
+\section*{Soal 2}
+\lstinputlisting[language=Python]{src/npm2.py}
+\section*{Soal 3}
+\lstinputlisting[language=Python]{src/npm3.py}
+\section*{Soal 4}
+\lstinputlisting[language=Python]{src/npm4.py}
+\section*{Soal 5}
+\lstinputlisting[language=Python]{src/npm5.py}
+\section*{Soal 6}
+\lstinputlisting[language=Python]{src/npm6.py}
+\section*{Soal 7}
+\lstinputlisting[language=Python]{src/npm7.py}
+\section*{Soal 8}
+\lstinputlisting[language=Python]{src/npm8.py}
+\section*{Soal 9}
+\lstinputlisting[language=Python]{src/npm9.py}
+\section*{Soal 10}
+\lstinputlisting[language=Python]{src/npm10.py}
+\section*{Soal 11}
+\lstinputlisting[language=Python]{src/lib3.py}
+\section*{Soal 12}
+\lstinputlisting[language=Python]{src/kelas3lib.py}
+\section*{main.py}
+\lstinputlisting[language=Python]{src/main.py}
+
+\chapter{Keterampilan penanganan error}
+\section*{penanganan error}
+error :\\
+print(x,end ="")
+                    
+IndentationError: unindent does not match any outer indentation level\\
+solusi :\\
+menambahkan parameter pada nilai dan variabel
+
+
+
+
+\end{document}
