@@ -1,0 +1,1 @@
+from Mini4wd import dinamo
