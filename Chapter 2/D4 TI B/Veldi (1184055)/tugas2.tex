@@ -1,0 +1,69 @@
+\documentclass[12pt]{ociamthesis}  % default square logo 
+%\documentclass[12pt,beltcrest]{ociamthesis} % use old belt crest logo
+%\documentclass[12pt,shieldcrest]{ociamthesis} % use older shield crest logo
+
+%load any additional packages
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{charter}
+\usepackage{subfiles}
+\usepackage{etoolbox}
+%\patchcmd{\addcontentsline}
+ % {\thepage}
+  %{\thechapter-\thepage}
+  %{}
+  %{}
+
+\makeatletter
+\@addtoreset{subsubsection}{chapter}
+\makeatother
+
+\patchcmd{\cleardoublepage}{\ifodd}{\unless\ifodd}{}{}
+\preto\chapter{\cleardoublepage}
+\AtBeginDocument{\setcounter{page}{1}}
+
+
+
+
+
+\makeatletter
+\renewcommand*\@pnumwidth{3em}
+\makeatother
+%input macros (i.e. write your own macros file called mymacros.tex 
+%and uncomment the next line)
+%\include{mymacros}
+
+\title{\large PEMROGRAMAN II\\[1ex]     %your thesis title,
+        TUGAS CAHPTER II}   %note \\[1ex] is a line break in the title
+        
+
+\author{\\[5ex]
+O l e h : \\
+[1ex] Veldi Al-Hasib  \\ 
+\textbf{1.18.4.055}\\
+		 [5ex] } 
+		 
+\college{}  %your college
+
+%\renewcommand{\submitt edtext}{change the default text here if needed}
+\degree{POLITEKNIK POS INDONESIA}    %the degree
+\degreedate{\textbf{BANDUNG\\2019}}  
+
+%end the preamble and start the document
+\begin{document}
+
+%this baselineskip gives sufficient line spacing for an examiner to easily
+%markup the thesis with comments
+\baselineskip=18pt plus1pt
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\maketitle
+\include{section/chapter2}
+\end{document}
+

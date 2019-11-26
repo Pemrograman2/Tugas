@@ -1,0 +1,153 @@
+\chapter*{LAPORAN}
+
+\section{Penjelasan variable dan penjelasannya }
+\par
+Variable adalah tempat menyimpan data. Variabel memiliki beberapa jenis, diantaranya yaitu :
+\begin{itemize}
+\item   Variable global yaitu variable yang bisa  diakses dengan semua fungsi.
+\item	Variable local yaitu variable yang hanya bisa diakses dalam fungsi tempat ia berada
+\item   Variable build-in yaitu variable yang sudah ada dalam python. 
+\end{itemize}
+Cara membuat variable pada python yaitu 
+Contoh variable global:
+A=Veldi Al-Hasib
+Print(“halo”, A,”apa kabar?”)
+Outputnya : halo, Veldi, apa kabar ?
+\section{Cara meminta inputan user yaitu}
+\begin{enumerate}
+\item 
+A=input(“masukan nama kamu”)
+Cara menampilkan hasil inputan ke layar, yaitu:
+Print (“halo”,A,”apa kabar?”)
+\end{enumerate}
+\section{Operator dasar aritmatika}
+\begin{enumerate}
+\item   Tambah	    	+
+\item   Kurang			-
+\item   Kali			*
+\item   Bagi			/\\
+Cara mengubah tipe data 
+Syntak merubah tipe data string menjadi integer, dan begitu sebaliknya:
+int() untuk mengubah menjadi integer.
+Kode yang digunakan untuk mengkonversikan String(str) ke integer(int)
+p=’333’
+integer = int(p) (konversi string ke integer)
+print(integer) (mencetak hasil)
+str() untuk mengubah menjadi string.
+Kode yang digunakan untuk mengkonversikan integer(int) ke String(str)
+p=333 (variabel) 
+string = str(p) (konversi integer ke string) 
+print(string) (mencetak hasil) 
+\end{enumerate}
+\section{Perulangan}
+\begin{enumerate}
+\item   While Loop adalah perulangan yang dalam bahasa pemprograman python akan dieksekusi selama kondisi bernilai benar(true).
+
+Contoh penggunaannya:
+Count = 0
+While (count  <  9):
+	Print ‘ The count is:’, count
+	Count = count +1
+Print (“Good bye !”)
+\item   For Loop adalah perulangan pada python yang memiliki kemampuan untuk mengulangi item dari urutan apapun, seperti list atau string.
+Contoh penerapannya :
+Angka =[1,2,3,4,5]
+For x in angka:
+Print(x)
+\end{enumerate}
+\section{Kondisi}
+Kondisi pada python ada 3 macam yaitu :
+\begin{enumerate}
+\item   IF yaitu kondisi yang bernilai benar atau salah. Jika nilai statementnya bernilai benar maka statement akan dijalankan dan jika nilai statementnya bernilai salah maka statement tidak akan dijalankan. Contohnya yaitu :
+X=1
+IF x >0:
+	Print(“Nilai  /%x adalah besar dari 0”/% x)
+\#NIlai 1 adalah besar dari 0
+Kondisi diatas adalah bernilai true / benar, dimana nilai x(1) lebih besar dari 0. Coba ubah kondisinya seperti dibawah :
+ X=1
+IFx>2:
+Print(“Nilai /%X adalah besar  dari 0” /%x)
+Jika kita jalankan kode diatas maka python tidak akan menampilkan output apapun, karena sudah jelas bahwa kondisi diatas adalah bernilai false / salah.
+
+\item   IF- Else yaitu jika kondisi bernilai true maka statemen didalam if akan dieksekusi dan jika bernilai false maka statemen yang dieksekusi adalah statemen didalam else.
+Contohnya:
+X=1
+IF x> 5:
+Print(“Nilai /%d adalah besar dari 5” /% X)
+Else:
+Print(“Nilai /%d adalah kecil dari /%” /% X)
+\#Nilai 1 adalah kecil dari 5
+Sebaliknya, mari kita ubah nilai x menjadi 10 :
+X=10
+IF X >5:
+Print(“Nilai /%d adalah besar dari 5” /% X)
+Else:
+Print(“Nilai /%d adalah kecil dari 5” /% X)
+\item   IF ELIF ELSE yaitu Kondisi Elif Kondisi Elif ini lanjutan dari percabangan kondisi if dengan kondisi elif ini kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan yang bisa terjadi.
+Contohnya:
+x = 5
+if x < 5:
+	print("Nilai /%d adalah kecil dari 5" /% x )
+elif x == 5 :
+	print("Nilai /%d adalah sama dengan 5" /% x)
+else :
+	print("Nilai /%d adalah besar dari 5" /% x)
+\end{enumerate}
+\section{Jenis error yang sering ditemui pada python}
+\begin{enumerate}
+\item
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+penanganan error ini bisa ditangani menggunakan casting operand kedua menjadi integer
+TypeError: can only concatenate str (not "int") to str
+penanganan error ini bisa ditangani menggunakan casting operand kedua menjadi string
+\end{enumerate}
+\section{Penjelasan Try Except}
+\begin{enumerate}
+\item
+Try except adalah bentuk penanganan error yang terdapat dalam python.
+Contoh penggunaannya :
+Setiap bilangan yang dibagi 0 akan terjadi error karena sudah ketentuan dari awal dan tidak bisa di eksekusi tetapi dengan menggunakan try except dapat di eksekusi walaupun akan terjadi error seperti contoh dibawah ini :
+X=0
+Try:
+X=9/0
+Except exception,e;
+Print e
+Print x=1
+Maka akan muncul peringatan error integer division or modulo by zero 1
+Try except adalah bentuk penanganan error yang terdapat dalam python.
+Contoh penggunaannya :
+Setiap bilangan yang dibagi 0 akan terjadi error karena sudah ketentuan dari awal dan tidak bisa di eksekusi tetapi dengan menggunakan try except dapat di eksekusi walaupun akan terjadi error seperti contoh dibawah ini :
+X=0
+Try:
+X=9/0
+Except exception,e;
+Print e
+Print x=1
+Maka akan muncul peringatan error integer division or modulo by zero 1
+\end{enumerate}
+
+
+\section{Keterampilan}
+\subsection{soal1}
+\lstinputlisting[language=Python]{src/temp.py}
+\subsection{soal2}
+\lstinputlisting[language=Python]{src/temp2.py}
+\subsection{soal3}
+\lstinputlisting[language=Python]{src/temp3.py}
+\subsection{soal4}
+\lstinputlisting[language=Python]{src/temp4.py}
+\subsection{soal5}
+\lstinputlisting[language=Python]{src/temp5.py}
+\subsection{soal6}
+\lstinputlisting[language=Python]{src/temp6.py}
+\subsection{soal7}
+\lstinputlisting[language=Python]{src/temp7.py}
+\subsection{soal8}
+\lstinputlisting[language=Python]{src/temp8.py}
+\subsection{soal9}
+\lstinputlisting[language=Python]{src/temp9.py}
+\subsection{soal10}
+\lstinputlisting[language=Python]{src/temp10.py}
+\subsection{soal11}
+\lstinputlisting[language=Python]{src/temp11.py}
+
