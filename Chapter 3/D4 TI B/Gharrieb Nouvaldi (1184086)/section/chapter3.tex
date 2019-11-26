@@ -1,0 +1,20 @@
+\chapter*{Keterampilan penanganan error}
+\paragraph{Penanganan error}
+error:\\
+Tipe error: \_ \_ init\_ \_ missing 1 required positional argument: "npm"\\
+Penyelesaian:\\
+Menambahkan para meter.\\
+
+\section*{Try except}
+\begin{lstlisting}{language=Python}
+def pembagian(a,b):
+    c=a/b
+    return c
+
+d=int(input("angka pertama : "))
+e=int(input("angka kedua : "))
+try:
+    print(pembagian(d,e))
+except:
+    print("jangan masukan angka 0")
+\end{lstlisting}
