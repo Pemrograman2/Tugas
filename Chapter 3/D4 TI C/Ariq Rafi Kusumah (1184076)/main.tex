@@ -1,0 +1,151 @@
+\documentclass[12pt, times new roman]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{listings}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=python
+}
+
+\lstset{style=mystyle}
+
+\title{Tugas Pemrograman Chapter 3}
+\author{Ariq rafi kusumah (1184076)}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Teori}
+
+\section{Fungsi}
+
+\hspace{1cm}Fungsi adalah satu blok program yang terdiri dari nama fungsi, input variabel dan variabel kembalian. Nama fungsi diawali dengan def dan setelahnya tanda titik dua. Nama bisa sama dengan isi berbeda jika menggunakan huruf besar dan kecil atau sering disebut dengan case sensitive. Input variabel bisa lebih dari satu dengan pemisah tanda koma. variabel kembalian pasti satu, bebas apakan itu jenis string, integer, list atau dictionary.
+
+\lstinputlisting[language=python]{src/Fungsi.py}
+
+\section{Library}
+
+\hspace{1cm}Library adalah pemanggilan suatu file python yang berbeda dengan cara mengimportkan di file fungsi ataupun lain nya.
+
+\lstinputlisting[language=python]{src/Fungsi1.py}
+
+\hspace{1cm}Untuk Pembuatan File Library bisa menggunakan codingan seperti dibawah.
+
+\lstinputlisting[language=python]{src/Library.py}
+
+\section{Kelas,Objek,Atribut,Method}
+
+
+    \subsection{Kelas}
+    \hspace{1cm}Prototipe yang ditentukan pengguna untuk objek yang mendefinisikan seperangkat atribut yang menjadi ciri objek kelas apa pun.
+    
+    \lstinputlisting[language=python]{src/Kelas/Kelas1.py}
+    
+    \subsection{Objek}
+    \hspace{1cm}Contoh unik dari struktur data yang didefinisikan oleh kelasnya. Objek terdiri dari kedua anggota data (variabel kelas dan variabel contoh) dan metode.
+    
+    \lstinputlisting[language=python]{src/Objek/Objek.py}
+    
+    \subsection{Atribut}
+    \hspace{1cm}Atribut adalah data anggota (variabel kelas dan variabel contoh) dan metode, diakses melalui notasi titik.
+    
+    \lstinputlisting[language=python]{src/Atribut/Atribut.py}
+    
+    \subsection{Method}
+    \hspace{1cm}Jenis fungsi khusus yang didefinisikan dalam definisi kelas.
+    
+    \lstinputlisting[language=python]{src/Method/Kelas.py}
+    
+\section{Penggunaan Library}
+\hspace{1cm}Contoh Pemanggilan file yang akan di panggil :
+
+\lstinputlisting[language=python]{src/Library.py}
+\hspace{1cm}Lalu pemanggilannya menggunakan seperti di bawah ini :
+
+\lstinputlisting[language=python]{src/Fungsi2.py}
+
+\section{Import Kalkulator}
+\hspace{1cm}Contoh from dan Import penggunaan kalkulator :
+
+\lstinputlisting[language=python]{src/Kalkulator/Kalkulator.py}
+\hspace{1cm}Lalu dari file kalkulator dan import File :
+
+\lstinputlisting[language=python]{src/Kalkulator/Penambahan.py}
+
+\section{Pemanggilan paket fungsi apabila file library ada di dalam folder
+}
+\hspace{1cm}Untuk mengakses sebuah library dalam folder, buat foldernya kita
+tulis(src) kemudian mengimport nama librarynya(soal1).\\
+contoh :\\
+from (src) import.Library.
+
+\section{Pemanggilan paket kelas apabila file library ada di dalam folder}
+\hspace{1cm}Untuk mengakses sebuah class dalam sebuah folder, buat menuliskan
+foldernya, kemudian mengimport nama class-nya.
+contoh :\\
+form (src) import.Nama.
+
+\section{Ketrampilan Pemrograman}
+\section*{SOAL 1}
+\lstinputlisting[language=python]{src/SOAL/soal1.py}
+
+\section*{SOAL 2}
+\lstinputlisting[language=python]{src/SOAL/soal2.py}
+
+\section*{SOAL 3}
+\lstinputlisting[language=python]{src/SOAL/soal3.py}
+
+\section*{SOAL 4}
+\lstinputlisting[language=python]{src/SOAL/soal4.py}
+
+\section*{SOAL 5}
+\lstinputlisting[language=python]{src/SOAL/soal5.py}
+
+\section*{SOAL 6}
+\lstinputlisting[language=python]{src/SOAL/soal6.py}
+
+\section*{SOAL 7}
+\lstinputlisting[language=python]{src/SOAL/soal7.py}
+
+\section*{SOAL 8}
+\lstinputlisting[language=python]{src/SOAL/soal8.py}
+
+\section*{SOAL 9}
+\lstinputlisting[language=python]{src/SOAL/soal9.py}
+
+\section*{SOAL 10}
+\lstinputlisting[language=python]{src/SOAL/soal10.py}
+
+\section*{SOAL 11}
+\lstinputlisting[language=python]{src/SOAL/lib3.py}
+
+\section*{SOAL 12}
+\section*{kelas3lib.py}
+\lstinputlisting[language=python]{src/SOAL/kelas3lib.py}
+\section*{main.py}
+\lstinputlisting[language=python]{src/SOAL/main.py}
+
+\end{document}
