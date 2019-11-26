@@ -1,0 +1,184 @@
+\chapter{Pemrograman Dasar}
+
+\section{Teori}
+
+\begin{enumerate}
+\item Jenis-Jenis variable
+
+\par Variable adalah tempat untuk menyimpan suatu data. Variabel memiliki beberapa jenis, antara lain yaitu :
+\begin{enumerate}
+\item Variable global yaitu variable yang bisa diakses dengan semua fungsi.
+\item Variable local yaitu variable yang hanya bisa diakses dalam fungsi tempat dimana ia berada
+\item Variable build-in yaitu variable yang sudah ada di dalam python.
+\item Pemakaian variable
+
+\begin{verbatim}
+A=Wahyu
+Print(“halo”, A,”apa kabar?”)
+Outputnya : halo, Wahyu, apa kabar ?
+
+\end{verbatim}
+\end{enumerate}
+
+\item Inputan User
+\par contohnya yaitu :
+\begin{verbatim}
+A=input("masukan nama kamu")
+Cara menampilkan hasil inputan ke layar, yaitu:
+Print ("halo",A,"apa kabar?")
+
+\end{verbatim}
+
+\item Operasi Aritmatika\\
+Tambah		+ \\
+Kurang		- \\
+Kali		* \\
+Bagi		/ \\
+\\
+\par Cara mengubah tipe data syntax merubah tipe data string ke integer begitupun sebaliknya.
+
+\begin{verbatim}
+int() untuk mengubah menjadi integer.
+Kode yang digunakan untuk mengkonversikan String(str) ke integer(int)
+p=’333’
+integer = int(p) #konversi string ke integer
+print(integer) #mencetak hasil
+str() untuk mengubah menjadi string.
+Kode yang digunakan untuk mengkonversikan integer(int) ke String(str)
+p=333 #variabel 
+string = str(p) #konversi integer ke string 
+print(string) #mencetak hasil 
+
+\end{verbatim}
+
+\item Perulangan (Looping)
+\begin{enumerate}
+\item While Loop
+\par While Loop adalah perulangan yang digunakan dalam bahasa pemprograman python dan akan dieksekusi selama kondisinya bernilai benar(true).
+\begin{verbatim}
+Count = 0
+While (count  <  9):
+	Print ' The count is:', count
+	Count = count +1
+Print ("Good bye !")
+
+\end{verbatim}
+
+\item 	For Loop
+\par For Loop adalah perulangan pada python untuk mengulangi item dari urutan apapun, seperti list atau string.
+\begin{verbatim}
+Contoh penerapannya :
+Angka =[1,2,3,4,5]
+For x in angka:
+Print(x)
+\end{verbatim}
+\end{enumerate}
+
+\item Kondisi
+\par Konisi pada python ada 3 yaitu:
+\begin{enumerate}
+\item If
+\par IF yaitu kondisi yang bernilai benar atau salah. Jika nilai statementnya bernilai benar maka statement akan dijalankan dan jika nilai statementnya bernilai salah maka statement tidak akan dijalankan. Contohnya yaitu :
+\begin{verbatim}
+X=1
+IF x >0:
+	Print("Nilai  %x adalah besar dari 0"% x)
+#NIlai 1 adalah besar dari 0
+\end{verbatim}
+\par Kondisi diatas adalah bernilai true / benar, dimana nilai x(1) lebih besar dari 0. Coba ubah kondisinya seperti berikut:
+\begin{verbatim}
+ X=1
+IFx>2:
+Print("Nilai %X adalah besar  dari 0" %x)
+
+\end{verbatim}
+\par Jika kita jalankan kode diatas maka python tidak akan menampilkan output apapun, karena sudah jelas bahwa kondisi diatas adalah bernilai false / salah.
+
+\item If-Else
+\par IF- Else yaitu jika kondisi bernilai true maka statemen didalam if akan dieksekusi dan jika bernilai false maka statemen yang dieksekusi adalah statemen didalam else. Contohnya:
+\begin{verbatim}
+X=1
+IF x> 5:
+Print("Nilai %d adalah besar dari 5" % X)
+Else:
+Print("Nilai %d adalah kecil dari %" % X)
+#Nilai 1 adalah kecil dari 5
+\end{verbatim}
+\par Sebaliknya, mari kita ubah nilai x menjadi 10 :
+\begin{verbatim}
+X=10
+IF X >5:
+Print("Nilai %d adalah besar dari 5" % X)
+Else:
+Print("Nilai %d adalah kecil dari 5" % X)
+\end{verbatim}
+
+\item IF ELIF ELSE
+\par IF ELIF ELSE yaitu Kondisi Elif Kondisi Elif ini lanjutan dari percabangan kondisi if dengan kondisi elif ini kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan yang bisa terjadi.
+\\
+Contohnya:
+\begin{verbatim}
+x = 5
+if x < 5:
+	print("Nilai %d adalah kecil dari 5" % x )
+elif x == 5 :
+	print("Nilai %d adalah sama dengan 5" % x)
+else :
+	print("Nilai %d adalah besar dari 5" % x)
+
+\end{verbatim} 
+\end{enumerate}
+
+\item Jenis error yang sering ditemui pada python
+\begin{enumerate}
+\item TypeError: unsupported operand type(s) for +: 'int' and 'str'
+\\
+cara mengatasinya yaitu: 
+menggunakan casting operand kedua menjadi integer
+\\
+\item TypeError: can only concatenate str (not "int") to str
+\\
+cara mengatasinya yaitu:
+menggunakan casting operand kedua menjadi string
+\end{enumerate}
+
+\item Try Except
+\par Try except adalah bentuk penanganan error yang terdapat dalam python.
+Contoh penggunaannya :
+Setiap bilangan yang dibagi 0 akan terjadi error karena sudah ketentuan dari awal dan tidak bisa di eksekusi tetapi dengan menggunakan try except dapat di eksekusi walaupun akan terjadi error seperti contoh dibawah ini :
+\begin{verbatim}
+X=0
+Try:
+X=9/0
+Except exception,e;
+Print e
+
+Print x=1
+\end{verbatim}
+Maka akan muncul peringatan error integer division or modulo by zero 1
+
+\end{enumerate}
+
+\section{Keterampilan Pemrograman}
+\subsection{soal 1}
+\lstinputlisting[language=Python]{src/soal1.py}
+\subsection{soal 2}
+\lstinputlisting[language=Python]{src/soal2.py}
+\subsection{soal 3}
+\lstinputlisting[language=Python]{src/soal3.py}
+\subsection{soal 4}
+\lstinputlisting[language=Python]{src/soal4.py}
+\subsection{soal 5}
+\lstinputlisting[language=Python]{src/soal5.py}
+\subsection{soal 6}
+\lstinputlisting[language=Python]{src/soal6.py}
+\subsection{soal 7}
+\lstinputlisting[language=Python]{src/soal7.py}
+\subsection{soal 8}
+\lstinputlisting[language=Python]{src/soal8.py}
+\subsection{soal 9}
+\lstinputlisting[language=Python]{src/soal9.py}
+\subsection{soal 10}
+\lstinputlisting[language=Python]{src/soal10.py}
+\subsection{soal 11}
+\lstinputlisting[language=Python]{src/soal11.py}
