@@ -1,0 +1,113 @@
+\section{Fungsi}
+		\subsection{pemahaman teori}
+			\begin{enumerate}
+				\item fungsi\\
+				Fungsi adalah blok kode program yang akan dijalankan ketika  sebuah
+				program di panggil.\\
+				
+				\item parameter adalah variabel yang dapat menyimpan nilai untuk diproses didalam sebuah fungsi.
+				
+				\item return memiliki fungsi untuk mengembalikan nilai ataupun variabel.
+				\begin{lstlisting}[language=Python]
+				def fungsi(m,n):
+						p=m+n
+						return p
+				\end{lstlisting}
+				
+				\item item paket adalah direktory yang berisi file python dan file dengan nama \_init\_.py. Jadi jika ada direktori didalam python dengan nama \_init\_.py, akan terdeteksi sebagai paket oleh python.Cara memanggil sebuah paket atau library adalah dengan \textit{import} nama paket atau library tersebut.
+				\begin{lstlisting}[language=Python]
+				from kamar import buku
+				\end{lstlisting}
+				
+				\item class adalah sebuah blueprint dari sebuah objek yang akan di buat.
+				\begin{lstlisting}[language=Python]
+	class World:
+	    def __init__(self,World):
+	        self.World = World
+	    def heloWorld(self):
+	        print("Hello",World)
+				\end{lstlisting}
+				
+				\item Jika class adalah blue print maka objek adalah hasil cetak dari sebuah kelas. objek memiliki variable dan kode yang saling terhubung. objek di buat dengan class.
+				\begin{lstlisting}[language=Python]
+	#import kelas terlebih dahulu
+	import kelas3lib
+	#membuat object
+	cobakelas=kelas3lib.Kelas3ngitung(npm) 
+	hasilkelas=cobakelas.npm4()
+				\end{lstlisting}
+				
+				\item attribut adalah sebuah tempat untuk menampung data atau perintah yang berhubungan dengan attribut tersebut
+				\begin{lstlisting}[language=Python]
+	class Kelas3ngitung:
+		#pendefinisian attribute
+	    def __init__(self,World):
+	        self.World = World
+				\end{lstlisting}
+				
+				\item method adalah sebuah fungsi yand ada di dalam class.
+				\begin{lstlisting}[language=Python]
+	class world:
+	    def __init__(self,world):
+	        self.world = world
+	    #Pembuatan method pada class
+	    def world(self):
+	       	print("hello",world,",apa kabar ?")
+				\end{lstlisting}
+				
+				\item contoh membuat sebuah library,kita membuat pada folder library :
+				\begin{lstlisting}{language=Python}
+	def hello():
+	    print("Hello world")
+				\end{lstlisting}
+	
+	            \newpage
+				\item contoh jika kita ingin memanggil fungsi dari library pada main program kita harus terlebih dahulu import :
+				\begin{lstlisting}{language=Python}
+	#import library yang telah dibuat
+	import library
+	#pemanggilan fungsi pada library
+	library.hello()
+				\end{lstlisting}
+				
+				\item pemakaian package from kamar import buku
+				\begin{lstlisting}{language=Python}
+	from kalkulator import penambahan
+				\end{lstlisting}
+	kode diatas berarti program memanggil sebuah package terlebih dahulu baru menambahkan source code buku, kode diatas dapat dibaca seperti ini "import buku dari folder kamar"
+	
+				\item pemanggilan library dalam sebuah folder\\
+				untuk mengakses sebuah library dalam sebuah folder kita perlu menuliskan foldernya terlebih dahulu lalu mengimport nama librarynya, contoh :
+				\begin{lstlisting}{language=Python}
+	from mahasiswa import dasi
+				\end{lstlisting}
+	artinya dalam package mahasiswa akan memakai library dasi
+	
+				\item pemanggilan class dalam sebuah folder\\
+				untuk mengakses sebuah class dalam sebuah folder kita perlu menuliskan foldernya dulu kemudian mengimport nama class nya, contoh :
+				\begin{lstlisting}{language=Python}
+	from mahasiswa import kampus
+				\end{lstlisting}
+	artinya dalam package mahasiswa kita akan memakai class kampus
+				
+				\end{enumerate}
+	
+	    \newpage			
+		\subsection{Ketrampilan Pemrograman}
+				\begin{enumerate}
+					\item \lstinputlisting[language=Python]{src/npm1.py}
+					\item \lstinputlisting[language=Python]{src/npm2.py}
+					\item \lstinputlisting[language=Python]{src/npm3.py}
+					\item \lstinputlisting[language=Python]{src/npm4.py}
+					\item \lstinputlisting[language=Python]{src/npm5.py}
+					\item \lstinputlisting[language=Python]{src/npm6.py}
+					\item \lstinputlisting[language=Python]{src/npm7.py}
+					\item \lstinputlisting[language=Python]{src/npm8.py}
+					\item \lstinputlisting[language=Python]{src/npm9.py}
+					\item \lstinputlisting[language=Python]{src/npm10.py}
+					\item \lstinputlisting[language=Python]{src/lib3.py}
+					\item \lstinputlisting[language=Python]{src/kelas3lib.py}
+					\item \lstinputlisting[language=Python]{src/main.py}
+		
+	\end{enumerate}
+

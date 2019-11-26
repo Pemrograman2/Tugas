@@ -1,0 +1,37 @@
+\chapter{Pengelolaan File CSV}
+\section{Teori}
+\subsection{Sejarah dan Contoh}
+File comma-separated values (CSV) adalah file teks yang dibatasi menggunakan koma untuk memisahkan nilai. File CSV menyimpan data tabular/table (angka dan teks) dalam teks biasa. File ini juga sering digunakan untuk bertukar data antara aplikasi yang berbeda. dan database juga menggunakan file semacam ini\\
+\textbf{Contoh:}
+\begin{lstlisting}
+No, Nama, Jurusan
+1, Yusuf, D4 Teknik Informatika
+2, Jordan, D4 Teknik Informatika
+\end{lstlisting}
+
+\subsection{Aplikasi Pembuat File CSV}
+Berikut merupakan aplikasi-aplikasi yang dapat membuat file csv.
+\begin{itemize}
+\item Google sheet
+\item Ms.Excel
+\item Notepad
+\item Dll.
+\end{itemize}
+
+\subsection{Cara Membaca dan Menulis File CSV di Excel atau Spreadsheet}
+\begin{itemize}
+\item Jalankan Program Excel atau Spreadsheet Sejenis.
+\item Input Data Pada Baris dan Kolom, Contoh:
+\item Lalu pilih save as, dan save file dengan format .csv
+\end{itemize}
+
+\subsection{Library Pada CSV}
+\lstinputlisting[language=Python]{src/reader.py}
+\lstinputlisting[language=Python]{src/dictreader.py}
+\lstinputlisting[language=Python]{src/write.py}
+\lstinputlisting[language=Python]{src/dictwrite.py}
+
+
+\subsection{Library Pada Pandas}
+\lstinputlisting[language=Python]{src/read_csv.py}
+\lstinputlisting[language=Python]{src/to_csv.py}
