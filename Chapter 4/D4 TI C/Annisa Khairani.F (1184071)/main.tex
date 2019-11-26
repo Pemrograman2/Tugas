@@ -1,0 +1,219 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{babel}
+\usepackage{enumitem}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{geometry}
+	\geometry{left = 4cm, top = 4cm, right = 3cm, bottom = 3cm}
+\usepackage{float}
+\usepackage{setspace}
+	\setstretch{1.5}
+\usepackage{listings}
+
+
+\begin{document}
+\title{\huge\textbf{Tugas Praktikum Pemrograman II (Chapter 4)}}
+\date{}
+
+\maketitle
+
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width = 6cm, height = 6cm]{poltekpos.jpg}
+\end{center}
+\end{figure}
+
+\begin{center}
+\vspace{1cm}
+Disusun oleh :\\
+Annisa Khairani Febrianti\\
+D4 TI 2C\\
+1.18.4.071\\
+\vspace{1cm}
+\textbf{PROGRAM DIPLOMA IV POLITEKNIK POS INDONESIA} \linebreak
+\textbf{POLITEKNIK POS INDONESIA} \linebreak
+\textbf{BANDUNG}\linebreak
+\textbf{2019}
+
+\end{center}
+
+
+\thispagestyle{empty}
+
+\include{section/chapter4}
+\section{PEMAHAMAN TEORI}
+\begin{enumerate}
+\item Apa itu fungsi file csv, jelaskan sejarah dan contoh
+\subsection{Fungsi file CSV}
+File Comma Separated Value (CSV) adalah Format data yang memudahkan penggunaanya untuk memudahkan pengguna melakukan suatu penginputan data ke database secara sederhana dan digunakan untuk bertukar data antara aplikasi yang berbeda. CSV bisa digunakan dalam standar file ASCII yang artinya setiap record dipisahkan dengan tanda(,) atau titik koma(;).Format CSV biasanya digunakan oleh perusahaan besar seperti yayasan, sekolah karena merekalah yang memiliki basis data yang sangat besar dalam penggunaan csv yang memungkinkan pencarian data menjadi lebih mudah dengan menggunakan WordPad.File CSV digunakan untuk menyimpan informasi yang dipisahkan oleh koma, bukan menyimpan informasi dalam kolom.Dan jika teks dan angka disimpan dalam file csv maka mudah untuk memindahkannya dari satu program ke program lain.
+\subsection{Sejarah}
+	IBM Fortran (level H extended) compiler di bawah OS/360 mendukung fomat CSV pada tahun 1972. FORTRAN 77 mendefinisikan penulisannya dimana input atau output yang menggunakan tanda koma atau spasi untuk pembatas antara data dan penulisan tersebut sudah disetujui pada tahun 1978.
+\hfill\break
+	Osborne Executive computer yang mengembangkan SuperCalc spreadsheet pada tahun 1983 membuat konvensi kutipan CSV yang memungkinkan string mengandung koma(,).
+\hfill\break
+	Inisiatif standardisasi utama \- mentransformasi \"definisi fuzzy defacto\" menjadi definisi yang lebih tepat dan de jure \-adalah pada tahun 2005, dengan RFC4180, mendefinisikan CSV sebagai Tipe Konten MIME. Kemudian, pada tahun 2013, beberapa kekurangan RFC4180 ditangani oleh rekomendasi W3C.
+\hfill\break
+	Pada 2014 IETF menerbitkan RFC7111 yang menjelaskan aplikasi fragmen URI pada dokumen CSV. RFC7111 menentukan bagaimana rentang baris, kolom, dan sel dapat dipilih dari dokumen CSV menggunakan indeks posisi.
+\hfill\break
+	Pada 2015 W3C, dalam upaya meningkatkan CSV dengan semantik formal, mempublikasikan draftrekomendasi pertama untuk stadar metadata CSV, yang dimulai sebagai rekomendasi pada bulan Desembertahun yang sama.
+\subsection{contoh}
+\lstinputlisting[caption = Contoh penggunaan format CSV., firstline=1, lastline=3]{figures/src/Teori1.csv}
+\item Aplikasi-aplikasi apa saja yang bisa menciptakan suatu file dalam bentuk csv
+\begin{enumerate}
+\item Editor Text (Sublime, Notepad, Atom, visual studio code dan lain-lain) 
+\item Spreadshett (Microsoft Excel, google spreadsheet,libreOfficecalc dan lain-lain)
+\end{enumerate}
+\item Jelaskan bagaimana cara menulis dan membaca file csv di excel atau spreadsheet
+\begin{enumerate}
+\subsection{Menulis File CSV}
+\item Pertama-tama kita buka terlebih dahulu aplikasi microsoft excel, dengan cara klik start dan cari excel kemudian enter
+	\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/1.png}
+			\centering
+			\caption{Kemudian kita Klik start lalu cari excel}
+	\end{figure} 
+\item Kemudian setelah aplikasi microsoft excel terbuka lalu kita klik Blank Workbokk
+ 	\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/2.png}
+			\centering
+			\caption{Kemudian kita Klik kembali Blank Workbook}
+	\end{figure} 
+\item Setelah Blank Workbook terbuka lalu kita tulis sesuai data yang diinginkan 
+ 	\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/3.png}
+			\centering
+			\caption{Kemudian kita tulis sesuai data yang diinginkan}
+	\end{figure} 
+\item Setelah data selesai dibuat maka save file tersebut dengan cara klik file lalu save as dan piih browse
+ 	\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/4.png}
+			\centering
+			\caption{Setelah itu kita Pilih save as kemudian kita pilih browse}
+	\end{figure} 
+\item Lalu kita beri nama data filenya pada File Name dan ubah type file pada Save as type menjadi .csv
+ 	\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/5.png}
+			\centering
+			\caption{Lalu kita beri nama file dan ubah save as type nya}
+	\end{figure}
+\item Kemudian kita klik save
+ 	\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/6.png}
+			\centering
+			\caption{Klik save}
+	\end{figure} 
+\item Kemudian file yang telah dibuat tadi tersimpan dengan ekstensi .csv. Dan untuk melihat isi filenya tinggal klik dua kali pada file tersebut.
+	\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/7.png}
+			\centering
+			\caption{Setelah itu data berhasil dibuat}
+	\end{figure}
+\item Ini adalah isi file yang telah dibuat
+	\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/8.png}
+			\centering
+			\caption{isi file yang telah dibuat}
+	\end{figure}
+\subsection{Untuk melihat File CSV di Excel atau Spreadsheet}
+\item Pertama kita klik dua kali pada file yang yang berekstensi CSV.
+	\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/9.png}
+			\centering
+			\caption{Kemudian kita Klik dua kali file berekstensi .csv}
+	\end{figure}
+\item Setelah itu file akan terbuka secara otomatis di aplikasi Excel atau spreadsheet.
+	\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/10a.png}
+			\centering
+			\caption{Isi data yang telah dibuat}
+	\end{figure}
+\end{enumerate} 
+\item Sejarah library csv
+\hfill\break
+Library csv mengimplementasikan kelas yang digunakan untuk membaca dan menulis data dalam format csv. Ini memungkinkan seorang programmer untuk mengatakan "baca data dari file ini yang dihasilkan oleh Excel". Pemrogram juga bisa menentukan format csv sesuai dengan keinginan mereka sendiri.
+\item sejarah library pandas
+\hfill\break
+Pengembangan pandas dimulai pada tahun 2008 di AQR Captal Management. Pandas pada akhir 2009 telah menjadi open source dan secara aktif didukung oleh komunitas individu yang berpikiran sama dengan seluruh indonesia yang menyumbangkan waktu dan energi mereka untuk membuat sebuah pandas yang bersifat open source. 
+\hfill\break
+Pandas adalah sebuah proyek yang di sponsori oleh NumFOCUS sejak 2005. Ini akan sangat membantu untuk memastikan sebuah keberhasilan pengembangan pandas sebagai sebuah proyek sumber terbuka kelas dunia.
+\item Jelaskan fungsi-fungsi yang terdapat di library csv
+\begin{enumerate}
+\item reader
+\hfill\break
+	Reader memiliki fungsi yang digunakan untuk membaca isi file yang berformat CSV dari list.
+	\lstinputlisting[caption = Membaca file berformat CSV list., firstline=1,lastline=14]{figures/src/Teori1.py}
+\item DictReader
+\hfill\break
+	DictReader memiliki fungsi yang digunakan untuk membaca isi file yang berformat CSV dari dictionary.
+	\lstinputlisting[caption = Membaca file berformat CSV dict., firstline=1,lastline=14]{figures/src/Teori.py}
+\item write
+\hfill\break
+	Write memiliki fungsi yang digunakan untuk menulis pada suatu file yang berformat CSV dari list.
+	\lstinputlisting[caption =  Menulis file berformat CSV list., firstline=1, lastline=17]{figures/src/Teori2.py}
+\item DictWrite
+\hfill\break
+	DictWrite juga memiliki fungsi yang digunakan untuk menulis file yang berformat CSV dari dictionary.
+	\lstinputlisting[caption =  Menulis file berformat CSV dictionary., firstline=1, lastline=17]{figures/src/Teori3.py}
+\end{enumerate}
+\item Jelaskan fungsi-fungsi yang terdapat di library pandas
+\begin{enumerate}
+\item read\_csv
+\hfill\break
+	Fungsi ini digunakan untuk membaca isi file berformat CSV
+	\lstinputlisting[caption =  Membaca file berformat CSV pandas., firstline=1, lastline=12]{figures/src/Teori4.py}
+\item to\_csv
+\hfill\break
+	Fungsi ini digunakan untuk menulis file berformat CSV
+	\lstinputlisting[caption =  Menulis file berformat CSV pandas., firstline=1, lastline=13]{figures/src/Teori6.py}
+\end{enumerate}
+\section{Bukti bebas Plagiarism}
+\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/ss1.png}
+			\centering
+			\caption{Bukti Screenshot bebas plagiarism}
+	\end{figure}
+\section{Ketrampilan Pemrogaman}
+\begin{enumerate}
+\item Buatlah fungsi (file terpisah/library dengan NPM\_csv.py) untuk membuka file csv dengan lib csv mode list.
+\lstinputlisting[caption =  Membuka Mode List Csv., firstline=1, lastline=13]{figures/src/1184071_csv.py}
+\item Buatlah fungsi (file terpisah/library dengan nama NPM\_csv.py) untuk membuka file csv dengan lib csv mode dictionary
+\lstinputlisting[caption =  Membuka Mode Dict Csv., firstline=15, lastline=20]{figures/src/1184071_csv.py}
+\item Buatlah fungsi (file terpisah/library dengan nama NPM\_pandas.py) untuk membuka file csv dengan lib pandas mode list
+\lstinputlisting[caption =  Membuka Mode List Pandas., firstline=1, lastline=13]{figures/src/1184071_pandas.py}
+\item Buatlah fungsi (file terpisah/library dengan nama NPM\_pandas.py) untuk membuka file csv dengan lib pandas mode dictionary
+\lstinputlisting[caption =  Membuka Mode Dict Pandas., firstline=15, lastline=20]{figures/src/1184071_pandas.py}
+\item Buat fungsi baru di NPM\_pandas.py untuk mengubah format tanggal menjadi standar dataframe
+\lstinputlisting[caption =  Merubah format Tanggal., firstline=21, lastline=24]{figures/src/1184071_pandas.py}
+\item Buat fungsi baru di NPM\_pandas.py untuk mengubah index kolom
+\lstinputlisting[caption =  Mengubah Index Kolom., firstline=26, lastline=30]{figures/src/1184071_pandas.py}
+\item Buat fungsi baru di NPM\_pandas.py untuk mengubah atribut atau nama kolom
+\lstinputlisting[caption =  Merubah Nama Kolom., firstline=32, lastline=36]{figures/src/1184071_pandas.py}
+\item Buat program main.py yang menggunakan library NPM\_csv.py yang membuat dan membaca file csv
+\lstinputlisting[caption =  Membuat dan membaca file., firstline=1, lastline=13]{figures/src/main.py}
+\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/kp1.png}
+			\centering
+			\caption{Kode Program Main.py}
+	\end{figure}
+\item Buat program main2.py yang menggunakan library NPM\_pandas.py yang membuat dan membaca file csv
+\lstinputlisting[caption =  Membuat dan membaca file., firstline=1, lastline=13]{figures/src/main2.py}
+\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/kp2.png}
+			\centering
+			\caption{Kode Program Main2.py}
+	\end{figure}
+\end{enumerate}
+\section{Bukti bebas Plagiarism}
+\begin{figure}[H]
+			\includegraphics[width=8cm]{figures/ss2.png}
+			\centering
+			\caption{Bukti Screenshot bebas plagiarism}
+	\end{figure}
+\end{enumerate}
+\section{Ketrampilan Penanganan Error}
+\lstinputlisting[caption =  Fungsi Try Except., firstline=56, lastline=70]{figures/src/1184071.py}
+\section{Presentasi Tugas}
+
+\end{document}
