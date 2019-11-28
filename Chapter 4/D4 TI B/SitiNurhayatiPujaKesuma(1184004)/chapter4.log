@@ -1,0 +1,329 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.9.18)  22 NOV 2019 11:48
+entering extended mode
+**./chapter4.tex
+(chapter4.tex
+LaTeX2e <2018-12-01>
+(ociamthesis.cls
+Document Class: ociamthesis 2010/11/22 v2.2 OCIAM thesis class
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.
+cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.
+clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
+phicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\key
+val.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
+phics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\tri
+g.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg
+\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def
+\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.
+sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lis
+tings.sty"
+\lst@mode=\count89
+\lst@gtempboxa=\box27
+\lst@token=\toks15
+\lst@length=\count90
+\lst@currlwidth=\dimen105
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen108
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lst
+misc.sty"
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box28
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lis
+tings.cfg"
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ams
+symb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ams
+fonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\mul
+tirow.sty"
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip43
+\multirow@cntb=\count97
+\multirow@dima=\skip44
+\bigstrutjot=\dimen109
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\capt
+ion.sty"
+Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\capt
+ion3.sty"
+Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen110
+\captionmargin@=\dimen111
+\captionwidth=\dimen112
+\caption@tempdima=\dimen113
+\caption@indent=\dimen114
+\caption@parindent=\dimen115
+\caption@hangindent=\dimen116
+)
+\c@caption@flags=\count98
+\c@ContinuedFloat=\count99
+Package caption Info: listings package is loaded.
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\tit
+lesec.sty"
+Package: titlesec 2019/09/09 v2.12 Sectioning titles
+\ttl@box=\box29
+\beforetitleunit=\skip45
+\aftertitleunit=\skip46
+\ttl@plus=\dimen117
+\ttl@minus=\dimen118
+\ttl@toksa=\toks17
+\titlewidth=\dimen119
+\titlewidthlast=\dimen120
+\titlewidthfirst=\dimen121
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\chart
+er.sty"
+Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfiles\sub
+files.sty"
+Package: subfiles 2018/07/31 Federico Garcia, Gernot Salzer
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbat
+im.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks18
+\verbatim@line=\toks19
+\verbatim@in@stream=\read1
+))
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\eto
+olbox.sty"
+Package: etoolbox 2019/09/09 v2.5g e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count100
+) (chapter4.aux (section/chapter1.aux) (section/chapter2.aux))
+\openout1 = `chapter4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Try loading font information for OT1+bch on input line 55.
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1bc
+h.fd"
+File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\
+supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen122
+\scratchbox=\box30
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen123
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks21
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\eps
+topdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\i
+nfwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grf
+ext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\k
+vdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\l
+txcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvo
+ptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\k
+vsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\e
+texcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\i
+fluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\p
+dftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\i
+fpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\c@lstlisting=\count107
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+<logo-poltekpos.png, id=1, 291.2481pt x 272.217pt>
+File: logo-poltekpos.png Graphic file (type png)
+<use logo-poltekpos.png>
+Package pdftex.def Info: logo-poltekpos.png  used on input line 66.
+(pdftex.def)             Requested size: 91.04881pt x 85.10081pt.
+ [1
+
+
+{C:/Users/Acer One 14/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./log
+o-poltekpos.png>]
+\openout2 = `section/chapter1.aux'.
+
+ (section/chapter1.tex
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 7.
+
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsbc
+h.fd"
+File: omsbch.fd 
+)
+LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+<poto/1.png, id=10, 191.9672pt x 51.19125pt>
+File: poto/1.png Graphic file (type png)
+<use poto/1.png>
+Package pdftex.def Info: poto/1.png  used on input line 11.
+(pdftex.def)             Requested size: 142.26378pt x 37.9395pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+[2
+
+
+
+ <./poto/1.png>]) [3]
+\openout2 = `section/chapter2.aux'.
+
+ (section/chapter2.tex
+("C:\Users\Acer One 14\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lst
+lang1.sty"
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+) [4
+
+
+
+
+]) [5] (chapter4.aux (section/chapter1.aux) (section/chapter2.aux)) ) 
+Here is how much of TeX's memory you used:
+ 5448 strings out of 492895
+ 80234 string characters out of 3120931
+ 333448 words of memory out of 3000000
+ 9294 multiletter control sequences out of 15000+200000
+ 16569 words of font info for 30 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,5n,44p,775b,1233s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/
+Acer One 14/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/U
+sers/Acer One 14/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter
+/bchb8a.pfb><C:/Users/Acer One 14/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/bitstrea/charter/bchr8a.pfb><C:/Users/Acer One 14/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on chapter4.pdf (5 pages, 112903 bytes).
+PDF statistics:
+ 36 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
