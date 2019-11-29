@@ -1,0 +1,81 @@
+\chapter*{Keterampilan}
+\section*{1}
+\begin{lstlisting}[language=Python]
+def listCsv():
+    with open('Book1.csv') as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+            print(row[0], row[1], row[2])
+\end{lstlisting}
+\section*{2}
+\begin{lstlisting}[language=Python]
+def dictCsv():
+    with open('Book1.csv', mode='r') as csv_file:
+        csv_reader = csv.DictReader(csv_file)
+        for row in csv_reader:
+            print(row['NPM'], row['Nama'], row['Jurusan'])
+
+\end{lstlisting}
+\section*{3}
+\begin{lstlisting}[language=Python]
+def listPandas():
+    df = pandas.read_csv('Book1.csv')
+    print(df)
+\end{lstlisting}
+\section*{4}
+\begin{lstlisting}[language=Python]
+def dictPandas():
+    df = pandas.read_csv('Book1.csv')
+    dt = pandas.DataFrame.from_dict(df)
+    print(dt)
+\end{lstlisting}
+\section*{5}
+\begin{lstlisting}[language=Python]
+def ubahTanggal():
+    df = pandas.read_csv('Book1.csv', parse_dates=['jurusan'])
+    print(df)
+\end{lstlisting}
+\section*{6}
+\begin{lstlisting}[language=Python]
+def ubahIndexKolom():
+    df = pandas.read_csv('Book1.csv')
+    df.index = ['Row_1', 'Row_2']
+    print(df)
+
+\end{lstlisting}
+\section*{7}
+\begin{lstlisting}[language=Python]
+def ubahNamaKolom():
+    df = pandas.read_csv('Book1.csv')
+    df.columns =['Col_1', 'Col_2'] 
+    print(df)
+
+\end{lstlisting}
+\section*{8}
+\begin{lstlisting}[language=Python]
+lib = __import__('1184086csv')
+
+lib.listCsv()
+lib.dictCsv()
+
+lib.tulisCsv()
+\end{lstlisting}
+\section*{9}
+\begin{lstlisting}[language=Python]
+lib = __import__('1184086pandas')
+
+lib.listPandas()
+lib.dictPandas()
+
+lib.tulisPandas()
+\end{lstlisting}
+
+\section*{Error tester}
+\begin{lstlisting}[language=Python]
+def errorPandas(): 
+    try:
+        df= pandas.read_csv( 'Book1.csv' ) 
+        print ( dt ) 
+    except: 
+        print ("ERROR")
+\end{lstlisting}
