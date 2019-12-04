@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=python
+}
+
+\lstset{style=mystyle}
+
+\title{Chapter 3}
+\author{Ilham Dwi Prasetyo Nugroho (1184057)}
+
+
+\begin{document}
+
+\maketitle
+\section{Teori}
+\begin{enumerate}
+\item Fungsi
+\par Fungsi adalah satu blok program yang terdiri dari nama fungsi, input variabel dan variabel kembalian. Nama fungsi diawali dengan def dan setelahnya tanda titik dua. Nama bisa sama dengan isi berbeda jika menggunakan huruf besar dan kecil atau sering disebut dengan case sensitive. Input variabel bisa lebih dari satu dengan
+pemisah tanda koma. variabel kembalian pasti satu, bebas apakan itu jenis string, integer, list atau dictionary
+\lstinputlisting[language=Python]{src/fungsi.py}
+\item Paket
+\par Paket adalah sesuatu yang digunakan untuk memanggil kodingan lain dan menerapkannya pada kodingan kita dengan syarat harus satu folder dengan itu.  contohnya adalah:
+\lstinputlisting[language=Python]{src/kalkulator.py}
+\par lalu saya akan memasukkan kodingan berikutnya seperti berikut denggan menambahkan fungsi import
+\lstinputlisting[language=Python]{src/itung.py}
+\item Kelas
+\par blueprint dari objek yang akan di buat
+\lstinputlisting[language=Python]{src/kelas.py}
+\par objek adalah sebuah wujud yang dapat kita lakukan perintah sesuai dengan methodnya. Atribut ada 2 yaitu kelas atribut dan instansi atribut, perbedaannya hanya di letak, kalau kelas atribut ada di bawah kelas, dan instansi atribut ada didalam fungsi, atribut itu sebuah variabel yang dimiliki oleh parentnya seperti fungsi atau class.
+\lstinputlisting[language=Python]{src/kelas1.py}
+\lstinputlisting[language=Python]{src/objek.py}
+\lstinputlisting[language=Python]{src/atribut.py}
+\item penggunaan Library
+\par Contoh Pemanggilan ﬁle yang akan di panggil : 
+\lstinputlisting[language=Python]{src/library.py}
+Lalu pemanggilannya menggunakan seperti di bawah ini : 
+\lstinputlisting[language=Python]{src/pemanggilan.py}
+\item Import Kalkulator
+contoh form kalkulator sebagai berikut
+\lstinputlisting[language=Python]{src/kalkulator.py}
+lalu untuk pemanggilannya menggunakan sebagai berikut:
+\lstinputlisting[language=Python]{src/penambahan.py}
+\item  Pemanggilan paket fungsi apabila ﬁle library ada di dalam folder
+\par Untuk mengakses sebuah library dalam folder, buat foldernya kita tulis(src) kemudian mengimport nama librarynya(soal1). contoh : from (src) import.Library.
+\item Pemanggilan paket kelas apabila ﬁle library ada di dalam folder
+\par Untuk mengakses sebuah class dalam sebuah folder, buat menuliskan foldernya, kemudian mengimport nama class-nya. contoh : form (src) import.Nama
+\end{enumerate}
+\section{Keterampilan}
+\begin{enumerate}
+\item SOAL 1
+\lstinputlisting[language=Python]{src/soal1.py}
+\Item SOAL 2
+\lstinputlisting[language=Python]{src/soal2.py}
+\item SOAL 3
+\lstinputlisting[language=Python]{src/soal3.py}
+\item SOAL 4
+\lstinputlisting[language=Python]{src/soal4.py}
+\item SOAL 5
+\lstinputlisting[language=Python]{src/soal5.py}
+\item SOAL 6
+\lstinputlisting[language=Python]{src/soal6.py}
+\item SOAL 7
+\lstinputlisting[language=Python]{src/soal7.py}
+\item SOAL 8
+\lstinputlisting[language=Python]{src/soal8.py}
+\item SOAL 9
+\lstinputlisting[language=Python]{src/soal9.py}
+\item SOAL 10
+\lstinputlisting[language=Python]{src/soal10.py}
+\item SOAL 11
+\lstinputlisting[language=Python]{src/lib3.py}
+\item SOAL 12
+\lstinputlisting[language=Python]{src/kelas3lib.py}
+\lstinputlisting[language=Python]{src/main.py}
+\end{enumerate}
+\end{document}
