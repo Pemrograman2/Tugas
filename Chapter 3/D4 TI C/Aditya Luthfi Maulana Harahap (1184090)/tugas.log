@@ -1,0 +1,201 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.16)  23 NOV 2019 13:03
+entering extended mode
+**./tugas.tex
+(tugas.tex
+LaTeX2e <2019-10-01>
+
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\repor
+t.cls"
+Document Class: report 2019/08/27 v1.4j Standard LaTeX document class
+
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size1
+2.clo"
+File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\input
+enc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\c
+olor.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-c
+fg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-d
+ef\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
+istings.sty"
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\k
+eyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\lst@mode=\count89
+\lst@gtempboxa=\box27
+\lst@token=\toks17
+\lst@length=\count90
+\lst@currlwidth=\dimen103
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen106
+
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
+stmisc.sty"
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box28
+)
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
+istings.cfg"
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
+stlang1.sty"
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+
+LaTeX Warning: Unused global option(s):
+    [timesnewroman].
+
+(tugas.aux)
+\openout1 = `tugas.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mki
+i\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count97
+\scratchdimen=\dimen107
+\scratchbox=\box29
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen108
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks19
+)
+\c@lstlisting=\count103
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 39.
+ [1
+
+{C:/Users/Aditya Luthfi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Chapter 1.
+(src/fungsi.py
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+.
+
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscm
+r.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+)
+Overfull \hbox (4.62256pt too wide) in paragraph at lines 49--50
+  \OT1/cmr/m/n/12 Paket(library) adalah se-buah file yang berisi kode pem-ro-gr
+a-man python.
+ []
+
+(src/library.py [1
+
+]) (src/fungsi1.py) (src/class.py [2]) (src/objek.py)
+(src/atribut.py [3]) (src/method.py) (src/library.py) (src/fungsi1.py [4])
+(src/kalkulator/tambah.py) (src/hitung.py [5]) (src/hitung.py) (src/hitung.py
+[6]) [7]
+Chapter 2.
+(src/soal1.py) (src/soal2.py [8
+
+]) (src/soal3.py
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
+4.
+
+("C:\Users\Aditya Luthfi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omlcm
+r.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 14.
+) (src/soal4.py [9]) (src/soal5.py) (src/soal6.py [10]) (src/soal7.py
+[11]) (src/soal8.py [12]) (src/soal9.py [13]) (src/soal10.py [14]) (src/lib3.py
+[15] [16] [17] [18]) (src/kelas3lib.py [19]) (src/main.py) [20] [21]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
+
+ []
+
+(src/try.py [22
+
+]) [23] (tugas.aux) ) 
+Here is how much of TeX's memory you used:
+ 2765 strings out of 492452
+ 37121 string characters out of 3116325
+ 435485 words of memory out of 3000000
+ 7078 multiletter control sequences out of 15000+200000
+ 6970 words of font info for 25 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 31i,6n,47p,312b,1761s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Aditya Luthfi/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aditya Luthfi/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aditya
+ Luthfi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Users/Aditya Luthfi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Users/Aditya Luthfi/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Aditya Luthfi/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Aditya
+ Luthfi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb>
+Output written on tugas.pdf (24 pages, 142422 bytes).
+PDF statistics:
+ 107 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
