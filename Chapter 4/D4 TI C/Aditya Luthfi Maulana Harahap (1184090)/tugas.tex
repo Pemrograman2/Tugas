@@ -1,0 +1,165 @@
+\documentclass[12pt, times new roman]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{listings}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=python
+}
+
+\lstset{style=mystyle}
+
+\title{Tugas Pemrograman Chapter 4}
+\author{Aditya Luthfi Maulana Harahap (1184090)}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Teori}
+
+\section{Apa itu fungsi file CSV, jelaskan sejarah dan contoh}
+
+\subsection{Fungsi file CSV}
+\hspace{1cm}Format file csv Comma Separated Values yaitu suatu format data pada basis data dimana setiap record yang dapat dipisahkan dengan menggunakan tanda koma (‘,’) atau juga bisa dengan menggunakan titik koma (‘;’) sebagai tanda pemisah antara datu elemen dengan elemen yang lainnya. Selain bahasa programnya yang sederhana, format ini juga dapat dibuka dengan menggunakan berbagai text-editor seperti Notepad, Wordpad, dan MS Excel.
+
+\subsection{Sejarah file CSV}
+\hspace{1cm}Nilai yang dipisahkan oleh koma adalah format data yang memberi tanggal lebih awal pada komputer pribadi lebih dari satu dekade: kompiler
+IBM Fortran (level H extended) di bawah OS / 360 mendukungnya pada tahun 1972. Input / output yang diarahkan oleh daftar (”bentuk bebas”) didefinisikan dalam FORTRAN 77, disetujui pada tahun 1978. Input yang diarahkan daftar menggunakan koma atau spasi untuk pembatas, sehingga
+string karakter yang tidak dikutip tidak dapat mengandung koma atau spasi.\\
+\\
+\par Nama (nilai dipisahkan koma) dan singkatan (CSV) digunakan pada
+tahun 1983. Manual untuk komputer Osborne Executive, yang menggabungkan SuperCalc spreadsheet, mendokumentasikan konvensi kutipan CSV yang memungkinkan string berisi koma yang disematkan, tetapi manual tersebut tidak menentukan konvensi untuk menyematkan tanda kutip dalam string yang dikutip. Daftar nilai yang dipisahkan koma lebih mudah untuk diketik (misalnya ke dalam kartu berlubang) daripada data yang selaras dengan kolom tetap dan cenderung menghasilkan hasil yang salah jika suatu nilai dilubangi satu kolom dari lokasi yang dituju.\\
+\par Pada 2014 IETF menerbitkan RFC7111 yang menjelaskan aplikasi fragmen URI ke dokumen CSV. RFC7111 menentukan bagaimana rentang
+baris, kolom, dan sel dapat dipilih dari dokumen CSV menggunakan indeks posisi. Pada 2015 W3C, dalam upaya meningkatkan CSV dengan semantik formal, mempublikasikan draft rekomendasi pertama untuk standar metadata CSV, yang dimulai sebagai rekomendasi pada bulan Desember tahun yang sama.
+\begin{itemize}
+\item Contoh
+\lstinputlisting[language=Python]{src/teori/prak1.csv}
+\end{itemize}
+
+
+\section{Aplikasi-aplikasi yang bisa membuat file CSV}
+\begin{enumerate}
+\item Text Editor (Notepad, Wordpad, dll)
+\item Spreadsheet (Microsoft Excel)
+\end{enumerate}
+
+\section{ Cara menulis dan membaca file CSV pada Excel}
+\begin{enumerate}
+\item Membuka aplikasi MS.Excel
+\item K adalah kolom dan B adalah baris
+\item Kemudian K1 dan B1 di isi dengan Npm, K2 dan B1 di isi dengan Nama,
+K1 dan B3 di isi dengan Kelas
+\item Kemudian pada baris ke selanjutnya adalah ricord(isi data).
+
+\item Selanjutnya jika telah seperti atas maka selanjutnya kita save as dan pada
+save as type kita ganti jadi csv (Comman delimited)
+
+\item Maka file CSV telah di buat.
+\end{enumerate}
+
+\section{Sejarah library CSV}
+\hspace{1cm} Format yang disebut CSV Comma Separated Values adalah format impor dan ekspor paling umum untuk spreadsheet dan basis data. Format CSV digunakan selama bertahun-tahun sebelum upaya untuk menggambarkan format
+dengan cara standar di RFC 4180. Kurangnya standar yang didefinisikan dengan baik berarti bahwa perbedaan halus sering ada dalam data yang diproduksi
+dan dikonsumsi oleh aplikasi yang berbeda. Perbedaan-perbedaan ini dapat
+membuatnya menjengkelkan untuk memproses file CSV dari berbagai sumber.\\
+\par Namun, sementara pembatas dan mengutip karakter bervariasi, format keseluruhan cukup mirip sehingga dimungkinkan untuk menulis satu modul yang dapat secara efisien memanipulasi data seperti itu, menyembunyikan detail
+membaca dan menulis data dari programmer. Modul csv mengimplementasikan
+kelas untuk membaca dan menulis data tabular dalam format CSV.
+
+\section{Sejarah library Pandas}
+\hspace{1cm} Pandas adalah toolkit yang powerfull sebagai alat analisis data dan struktur
+untuk bahasa pemrograman Python. Dengan menggunakan pandas kita dapat
+mengolah data dengan mudah, salah satu fiturnya adalah Dataframe. Dengan
+adanya fitur dataframe kita dapat membaca sebuah file dan menjadikannya tabble serta juga dapat mengolah suatu data dengan menggunakan operasi seperti
+join, distinct, group by, agregasi, dan lain-lain yang terdapat pada SQL. Banyak
+format file yang dapat dibaca menggunakan Pandas, seperti file .txt, .csv, .tsv
+dan lainnya. Agar lebih jelas mari kita mencobanya secara langsung.
+
+\section{ Fungsi-fungsi yang terdpat pada library CSV}
+\begin{enumerate}
+\item reader\\
+Fungsi ini digunakan untuk membaca isi file berformat CSV dari list.
+\lstinputlisting[language=Python, firstline=8, lastline=14]{src/teori/1184090.py}
+
+\item DictReader\\
+Fungsi ini digunakan untuk membaca isi file berformat CSV dari dictionary.
+\lstinputlisting[language=Python, firstline=16, lastline=22]{src/teori/1184090.py}
+
+\item write\\
+Fungsi ini digunakan untuk menulis file berformat CSV dari list.
+\lstinputlisting[language=Python, firstline=24, lastline=31]{src/teori/1184090.py}
+
+\item DictWrite\\
+Fungsi ini digunakan untuk menulis file berformat CSV dari dictionary.
+\lstinputlisting[language=Python, firstline=33, lastline=42]{src/teori/1184090.py}
+\end{enumerate}
+
+\section{ Fungsi-fungsi yang terdpat pada library Pandas}
+\begin{enumerate}
+\item read\textunderscore csv\\
+Fungsi ini digunakan untuk membaca isi file berformat CSV.
+\lstinputlisting[language=Python, firstline=44, lastline=48]{src/teori/1184090.py}
+
+\item to\textunderscore csv\\
+Fungsi ini digunakan untuk menulis file berformat CSV.
+\lstinputlisting[language=Python, firstline=50, lastline=54]{src/teori/1184090.py}
+\end{enumerate}
+
+\chapter{Keterampilan Pemrograman}
+
+\section*{Soal 1}
+\lstinputlisting[language=Python, firstline=11, lastline=15]{src/soal/1184090csv.py}
+
+\section*{Soal 2}
+\lstinputlisting[language=Python, firstline=18, lastline=22]{src/soal/1184090csv.py}
+
+\section*{Soal 3}
+\lstinputlisting[language=Python, firstline=11, lastline=13]{src/soal/1184090pandas.py}
+
+\section*{Soal 4}
+\lstinputlisting[language=Python, firstline=16, lastline=19]{src/soal/1184090pandas.py}
+
+\section*{Soal 5}
+\lstinputlisting[language=Python, firstline=22, lastline=24]{src/soal/1184090pandas.py}
+
+\section*{Soal 6}
+\lstinputlisting[language=Python, firstline=27, lastline=30]{src/soal/1184090pandas.py}
+
+\section*{Soal 7}
+\lstinputlisting[language=Python, firstline=33, lastline=36]{src/soal/1184090pandas.py}
+
+\section*{Soal 8}
+\lstinputlisting[language=Python, firstline=8, lastline=13]{src/soal/main.py}
+
+\section*{Soal 9}
+\lstinputlisting[language=Python, firstline=16, lastline=21]{src/soal/main.py}
+
+\chapter{Penanganan Error}
+\hspace{1cm} mengunakan Try Except agar agar dapat memudahkan bagian yang error
+
+\lstinputlisting[language=Python, firstline=57, lastline=68]{src/soal/1184090.py}
+
+\end{document}
