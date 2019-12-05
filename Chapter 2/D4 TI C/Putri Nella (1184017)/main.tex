@@ -1,0 +1,133 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Tugas Pemrograman II chapter 2}
+\author{Putri Nella (1184017) }
+\date{October 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Jenis-Jenis Variable dan Cara Pemakaian Variable pada Kode Python }
+\subsection{Jenis-Jenis Variable}
+\usepackage{Variabel merupakan lokasi pada memori yang digunakan untuk menyimpan nilai. Pada saat kita akan membuat sebuah variabel, kita ‘memesan’ tempat di dalam pada memori. Tempat tersebut dapat diisi menggunakan data atau objek, baik itu bilangan bulat (integer), pecahan (float), karakter (string), dan lain – lain.Pada Python sendiri terdapat dua jenis variable yaitu:}
+\begin{enumerate}
+    \item Variable Global merupakan variable yang di-set pada luar fungsi,sehingga variabel global hanya dikenali di semua lingkungan program yang dibuat.
+    \item variable Local adalah variable yang dapat  di definisikan pada dalam fungsi saja.
+\end{enumerate}
+\subsection{Cara Pemakaian Variable Pada Kode Python}
+\begin{enumerate}
+    \item Variabel Global yang bisa diakses dari seluruh tempat dimanapun pada dalam program.Untuk menggunkan variabel global dalam suatu fungsi, variabel global harus dideklarasikan didalam fungsi. Global dapat diakses oleh fungsi apa pun, tetapi hanya dapat dimodifikasi jika Anda secara langsung dapat di deklarasikan pada fungsi dengan kata kunci ’global’ di dalam fungsi. Deklarasi eksplisit dengan menggunakan global (variable name) di dalam suatu fungsi.
+    \item variabel lokal hanya bisa diakses dari dalam fungsi di mana dia hanaya dapat di definisikan. Jika ada variabel yang dideklarasikan pada suatu fungsi,variabel ini tidak ada kaitannya dengan variabel lain dengan nama yang sama
+    diluar fungsi,yaitu dapat juga dikatakan nama variabel hanya lokal untuk fungsi.
+\end{enumerate}
+\section{Cara Kode Untuk Meminta Input dari User dan Cara Melakukan Output Keluar Layar.}
+\usepackage{cara untuk meminta input yaitu dengan menggunakan fungsi operasi input adalah fungsi input() yang akan membuat program kita lebih interaktif, kita dapat meminta input atau masukan dari user sehingga akan lebih menarik. selanjutnya untuk meminta output ke layar Kita dapat menggunakan fungsi print() yang merupakan fungsi bawaan untuk melakukan operasi output}
+\section{Operator Dasar Aritmatika,(+,*,-,/) dan Cara Mengubah String ke Integer dan Integer ke String.}
+\subsection{Operator Aritmatika}
+\usepackage{Operator aritmatika merupakan operator yang paling sering digunakan dalam pemrograman.Operator aritmatika terdiri dari:}
+\begin{enumerate}
+    \item Penjumlahan (+)
+    \item Pengurangan (-)
+    \item Perkalian   (*)
+    \item pengurangan (-)
+    \item Pembagian   (/)
+    \item sisa bagi   
+    \item Pemangkatan (**)
+\end{enumerate}
+\subsection{Mengubah String ke Integer}
+\usepackage{Tipe data string merupakan tipe data yang dapat menampung sebuah teks. Namun, kita juga dapat mengkonversi/mengubahnya nya ke tipe data lain.salah satunya kita dapat mengubahnya ke integer.Tetapi,Teks yang dapat kita konversi adalah teks yg berisi angka dan tidak boleh ada karakter pun yang berupa huruf.Untuk lebih jelasnya kita lihat dibawah ini...}
+\\
+\\
+\usepackage{
+a ='1212' (variabel/angka yang akan di konversi.)\\
+integer = int(a) (konversi string ke integer)\\
+print(integer) (untuk mencetak hasil.)
+}
+
+\subsection{Mengubah Integer ke String}
+\usepackage{Tipe data integer merupakan tipe data dalam bentuk bilangan bulat.Namun kita dapat mengkonversinya atau mengubahnya ke tipe data yang lain.Salah Satunya yaitu mengubahnya ke string. Berikut adalah caranya....}
+\\
+\\
+\usepackage
+{
+a=100 (contoh variabel/angka yang akan di konversi.)\\
+string = str(a) (konversi integer ke string)\\
+print(string) (mencetak hasil nya.)
+}
+\section{Penjelasan Sintak untuk Perulangan dan Jenis contoh Kode dan Cara Pakainya Pada Python.}
+\usepackage{ Python sendiri memiliki tiga jenis pengulangan yang harus kita ketahui untuk membuat sebuah aplikasi dengan menggunakan Python.}
+\begin{enumerate}
+    \item Pengulangan yang pertama yaitu while. while berfungsi untuk membuat kondisi tertentu ,untuk menghentikan pengualangan menggunkan while kita harus menggunakan looping yang tidak pasti. \\
+    contoh kode while yaitu:\\
+    i = 0\\
+    while True:\\
+    if i < 10:\\
+        print "Saat ini i bernilai: ", i\\
+        i = i + 1\\
+    elif i >= 10:\\
+        break
+    \item Pengulangan kedua yaitu Pengulangan for yang biasa digunakan untuk pengulangan yang sudah jelas banyaknya. Misalnya ,jika kita ingin mengulang sebuah pengulangan sampai dengan 10 kali. \\
+    Berikut ini merupakan contoh kode untuk pengulangan for:\\
+    for i in range(0, 10):\\
+    print i \\
+    selain yang diatas pengulangan for juga sering digunakan untuk mengulang literatur seperti list.berikut adalah contonya..\\
+    \\
+    dragonball_super_character = ["Son Goku", "Vegeta", "Beerus", "Trunks", "Whiz", "Champa"]\\
+    for character in dragonball_super_character:\\
+    print character
+\end{enumerate}
+\section{Cara Pakai Sintak Untuk Memilih Kondisi (if)}
+\subsection {Jenis Kondisi dan contoh Sintaknya}
+\usepackage{Terdapat tiga macam kondisional yang ada di Python, dan dapat digunakan untuk membangun alur logika untuk program Anda.Berikut adalah contohnya..}
+\begin{enumerate}
+    \item Kondisi If\\
+     nilai = 9\\
+if(nilai > 7):\\
+    print("Selamat Anda Lulus")\\
+if(nilai > 10):\\
+    print("Selamat Anda Lulus")\\
+    
+    \item If Else\\
+    nilai = 3\\
+    if(nilai > 7):\\
+    print("Selamat Anda Lulus")\\
+    else:\\
+    print("Maaf Anda Tidak Lulus")\\
+ 
+    \item Kondisi Elif\\
+    hari_ini = "Minggu"\\
+    if(hari_ini == "Senin"):\\
+    print("Saya akan kuliah")\\
+    elif(hari_ini == "Selasa"):\\
+    print("Saya akan kuliah")\\
+    elif(hari_ini == "Rabu"):\\
+    print("Saya akan kuliah")\\
+    elif(hari_ini == "Kamis"):\\
+    print("Saya akan kuliah")\\
+    elif(hari_ini == "Jumat"):\\
+    print("Saya akan kuliah")\\
+    elif(hari_ini == "Sabtu"):\\
+    print("Saya akan kuliah")\\
+    elif(hari_ini == "Minggu"):\\
+    print("Saya akan libur")\\
+\end{enumerate}
+\section{Contoh Error yang Biasa Ditemukan pada Python Dalam Mengerjakan Tugas Ini}
+\begin{enumerate}
+    \item  Syntax Error Syntax error adalah suatu keadaan atau kondisi ketika ada kesalahan penulisan kode pada program python hal ini menyebabkan program tidak
+    dapat dijalankan. contohnya kesalahan pemberian titik dua atau tanda kutip.
+    Output pemberitahuan error nya yaitu invalid syntax. Yang harus dilakukan
+    saat terjadi syntax error pada kode program yaitu memperbaiki penulisan kodenya.
+    \item Exceptions merupakan suatu keadaan yang pada saat penulisan syntax sudah benar, namun kesalahan terjadi karena syntax tidak dapat dieksekusi. Banyak hal yang dapat menyebabkan terjadinya Exceptions, mulai dari kesalahan matematika, kesalahan nama function, kesalahan library, dan lain-lain.
+    \item selanjutnya adalah Name Error yang merupakan exception yang terjadi pada saat kode melakukan eksekusi terhadap local name atau global name yang tidak terdefinisikan. contohnya pada saat menjumlahkan variable yang tidak didefinisikan, memanggil function yang tidak ada, dan lain-lain.
+    \item TypeError merupakan exception yang akan terjadi saat melakukan eksekusi terhadap suatu operasi atau fungsi dengan type object yang tidak sesuai sehingga terjadilah error.
+\end{enumerate}
+\subsection{Penanganan Error}
+\usepackage{
+Berikut adalah salah satu contoh kode untuk menangani error:\\
+keep_asking = True\\
+while keep_asking:\\
+    x = int(input("Enter a number: "))\\
+    print("Dividing 50 by", x,"will give you :", 50/x)\\}
+\end{document}
