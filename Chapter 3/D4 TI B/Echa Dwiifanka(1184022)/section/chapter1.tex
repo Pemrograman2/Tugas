@@ -1,0 +1,184 @@
+\chapter{PEMAHAMAN TEORI}
+\section{Fungsi,parameter,dan return}
+	\subsection*{fungsi}\\
+			Fungsi adalah blok kode terorganisir dan dapat digunakan kembali yang digunakan untuk melakukan sebuah tindakan/action. Fungsi memberikan modularitas yang lebih baik untuk aplikasi Anda dan tingkat penggunaan kode yang tinggi.
+			
+    \subsection*{parameter}\\
+			Parameter adalah inputan sebuah fungsi yang bertujuan untuk menyimpan suatu nilai.
+			
+	\subsection*{return}\\
+			Return berfungsi untuk mengembalikan suatu nilai yang telah di proses dalam suatu fungsi dan mengakhiri sebuah fungsi.\\
+		
+			        def fungsi(x,y):\\
+					z=x+y\\
+					return z\\
+		
+			
+	\section{paket}\\
+		    paket atau biasa disebut dengan package adalah sebuah tempat atau wadah yang nantinya akan digunakan untuk tempat penyimpanan sebuah kode program, dan untuk menjalankannya kita nnati hanya memanggilnya saja.misalnya kita membuat sebuah kode program yang akan diberi nama dengan \textit{Bangun datar}, dan untuk memanggilnya dapat dilihat sebagai berikut:\\
+			
+			from Segitiga import bagun datar
+			
+			
+    \section{Class,objek,Atribute,dan Method}
+    \subsection*{Class}\\
+			Class adalah sebuah blueprint dari suatu objek yang akan di buat.\\
+			
+class World:\\
+    def init (self,World):\\
+        self.World = World\\
+    def heloWorld(self):\\
+        print("Helo",World)\\
+			
+			
+	\subsection*{Objek}\\
+	Objek memiliki suatu variabel dan kode yang saling terhubung. objek di buat dengan adanaya suatu class.\\
+			
+#import kelas terlebih dahulu\\
+import kelas3lib\\
+#membuat object\\
+cobakelas=kelas3lib.Kelas3ngitung(npm)\\ 
+hasilkelas=cobakelas.npm1()\\
+			
+			
+	\subsection*{Atribute}\\
+			Attribut adalah sebuah tempat tampungan dari sebuah data atau perintah yang berhubungan dengan attribut tersebut.\\
+			
+Class Kelas3ngitung:\\
+	#pendefinisian attribute\\
+    def init (self,World):\\
+        self.World = World\\
+			
+			
+	\subsection*{Method}\\
+			Method adalah sebuah fungsi yang ada didalam suatu class.\\
+			
+class world:\\
+    def init (self,world):\\
+        self.world = world\\
+    #Pembuatan method pada class\\
+    def world(self):\\
+       	print("hello",world,",apa kabar ?")\\
+			
+			
+			
+	\section{contoh membuat library}\\
+	\begin{enumerate}
+	    \item 	pertama-tama kita akan membuat sebuahkode program yang akan disimpan pada folder library:\\
+			
+def hello():\\
+    print("Hello world")\\
+			
+		\item  Contoh jika kita ingin memanggil sebuah fungsi dari suatu library pada main program kita harus terlebih dahulu melakukan import contohnya sebagai berikut:\\
+			
+#import library yang telah dibuat\\
+import library\\
+#pemanggilan fungsi pada library\\
+library.hello()\\
+	
+	\end{enumerate}
+	\section{Pemakaian package from kalkulator import penambahan}
+			
+from kalkulator import penambahan\\
+			
+kode diatas merupakan perintah program yang memanggil sebuah package terlebih dahulu baru menambahkan source code penambahan, kode diatas dapat dibaca seperti ini "import penambahan dari folder kalkulator"
+
+	\section{ contoh pemakaian paket fungsi dan pemanggilan library dalam sebuah folder}\\
+			untuk mengakses sebuah library dalam sebuah folder kita perlu menuliskan foldernya terlebih dahulu, setelah itu kita mengimport nama librarynya, contoh:\\
+			
+from segitiga import bangun datar\\
+			
+\par artinya dalam package segitiga akan memakai atau menggunakan suatu library bangun datar.
+
+	\section{Pemanggilan class dalam sebuah folder}\\
+			untuk mengakses sebuah class dalam sebuah folder kita perlu menuliskan foldernya terlebih dahulu lalu kita  mengimport nama class nya, contoh :\\
+			
+from segitiga import bangun data\\
+\par artinya dalam package segitiga akan memakai atau menggunakan suatu class bangun datar.
+			
+		
+
+    \newpage			
+	\chapter{Ketrampilan Pemrograman}
+	\section*{soal 1}\\
+\begin{lstlisting}
+    def NPM1():
+    print("***   ***   *******   ******  ****** ******  ******");
+    print("***   ***   **   **  **   **  **  **     **      **");
+    print("***   ***    ****   ********  **  ** ******  ******");
+    print("***   ***   **   **       **  **  ** **      **");
+    print("***   ***   *******       **  ****** ******  ******");
+\end{lstlisting}
+    	\section*{soal 2}\\
+    \lstinputlisting[language=Python]{src/npm2.py}
+    	\section*{soal 3}\\
+    	\begin{lstlisting}[language=Python]
+ def npm3(npm):
+for i in range(int(str(npm)[4])+int(str(npm)[5])+int(str(npm)[6])):
+print("Halo, "+str(npm)[4]+str(npm)[5]+str(npm)[6]+" apa kabar ?")
+
+i=0
+npm=input("Masukan NPM : ")
+while i<1:
+    if len(npm) < 7:
+        print("NPM Kurang dari 7 digit")
+        npm=input("Masukan NPM : ")
+    elif len(npm) > 7:
+        print("NPM lebih dari 7 digit")
+        npm=input("Masukan NPM : ")
+    else:
+        i=1
+npm3(npm)
+
+    \end{lstlisting}
+    	\section*{soal 4}\\
+    \lstinputlisting[language=Python]{src/npm4.py}
+		\section*{soal 5}\\
+    \lstinputlisting[language=Python]{src/npm5.py}
+    	\section*{soal 6}\\
+    \lstinputlisting[language=Python]{src/npm6.py}
+    	\section*{soal 7}\\
+    \lstinputlisting[language=Python]{src/npm7.py}
+    	\section*{soal 8}\\
+    \lstinputlisting[language=Python]{src/npm8.py}
+    	\section*{soal 9}\\
+    \lstinputlisting[language=Python]{src/npm9.py}
+    	\section*{soal 10}\\
+    \lstinputlisting[language=Python]{src/npm10.py}
+    	\section*{soal 11}\\
+    \lstinputlisting[language=Python]{src/lib3.py}
+    	\section*{soal 12}\\
+    \lstinputlisting[language=Python]{src/kelas3lib.py}
+        
+\chapter{Keterampilan Penanganan Error}
+\begin{enumerate}
+    \item [A]Penanganan error\\
+    error:\\
+    TyperError: init ()missing 1 required postional argument:'npm'\\
+    solusi:\\
+    menambahkan parameter pada fungsi\\
+    \item [B]Try Except\\
+    def pembagian(a,b):\\
+    c=a/b\\
+    return c\\
+    
+    d=int(input("pembilang:"))\\
+    e=int(input(penyebut:"))\\
+    try:\\
+    print(pembagian(d,e))\\
+    except:\\
+    print("jangan masukan angka 0")
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+    
+
+

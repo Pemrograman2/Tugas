@@ -1,0 +1,124 @@
+\chapter{TEORI PEMROGRAMAN DASAR}
+
+\begin{enumerate}
+	\item  variabel merupakan tempat untuk menyimpan suatu data.variabel brsifat multible, artinya nilainya  dapat berubah-ubah. variabel memiliki beberapa jenis antara lain sebagai berikut:
+	\begin{enumerate}
+	        \item  variabel local, adalah variabel yang dapat diaksespada fungsi dan tempat yang variabelnya berbeda.
+	        \item  variabel build-in, adalah variabel yang sudah ada pada script python.
+	        \item variabel global, adalah variabel yang bisa diakses dengansemua fungsi.
+	\end{enumerate}
+	       
+	  \item Dengan menuliskan sricpt seperti ini :                         A=input(”echa”)
+            maka untuk  menampilkan  ketikan  perintah  dibawah  ini :
+            print(”halo”, A ”Apa Kabar”)
+    \item Operator  dasar matematika adalah  :
+    \begin{enumerate}
+        \item  + (pertambahan)
+        \item  - (pengurangan)
+        \item   / (pembagian)
+        \item  x (perkalian)
+    \end{enumerate}
+    \item perulangan dapat dibagi beberapa jenis yaitu antara lain:
+    \begin{enumerate}
+        \item While loop adalah perulangan  yang selalu dieksekusi selama kondisi bernilai benar(true).
+        \item For loop adalah perulangan  yang memiliki kemampuan  untuk  mengulangi item dari urutan apapun  seperti list atau  string
+    \end{enumerate}
+    \item kondisi juga yang terdapat pada python dapat dibagi menjadi beberapa antara lain:
+    \begin{enumerate}
+        \item if
+        \par adalah suatu kondisi yang bernilai benar atau  salah, jika dalam statmennt bernilai  benar  akan  dijalankan,  tetapi  sebaliknya  jika statmennt bernilai salah maka tidak  akan dijalankan  (eror).
+        \item If - Else
+        \par adalah  suatu  kondisi bernilai benar  maka statment didalam  if akan diek- sekusi dan jika bernilai false maka statment yang dieksekusi adalah  stat- ment didalam else
+        \item If - Elif - Else
+        \par adalah  suatu  kondisi Elif, lanjutan dari percabangan  if dengan kondisi ini menyebabkan  beberapa  kemungkinan  statment yang terjadi.
+    \end{enumerate}
+    \item diantara error yang ditemui, berikut beberapa langkah cara mengatasi error antara lain sebagai berikut:
+    \begin{enumerate}
+        \item TypeError:can only concatenate  str(not”int”) to str
+            penanganan  ini ditandai  dengan menggunakan casting operand kedua men- jadi string.
+        \item TypeError:unsupported operand  type(s) for +:’int’  and ’str’
+        penangann  error  ini bisa  ditandai   menggunakan  casting  operand  kedua menjadi integer.
+    \end{enumerate}
+    \item Try  Except  adalah  bentuk  penanganan  error yang terdapat dalam  bahasa  pemograman  (python).contohtry except :
+    \par Menangani error pembacaan file
+    \par orang = {"nama":"syuaib", "kota":"jepara", "umur":"20"}
+
+    \par    try:
+         \par contact = open("contact.txt", 'r')
+        \par print orang["pekerjaan"]
+         \par except IOError, e:
+         \par print "Terjadi error IO: ", e
+        \par except KeyError, e:
+         \par print "Terjadi kesalahan pada akses list/dict/tuple:", e
+         \par print orang
+    \par maka outputnya sebagai berikut:
+    \par python demo-2.py 
+       \par  Terjadi error IO:  [Errno 2] No such file or directory: '/home/contact.txt'
+        \par {{'nama': 'syuaib', 'umur': '20', 'kota': 'jepara'}}
+        
+\chapter{KETERAMPILAN PEMROGRAMAN}
+\section*{soal 1}\\
+\begin{lstlisting}
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Oct 29 18:23:07 2019
+
+@author: USER
+"""
+
+print("***   ***   *******   ******  ****** ******  ******");
+print("***   ***   **   **  **   **  **  **     **      **");
+print("***   ***    ****   ********  **  ** ******  ******");
+print("***   ***   **   **       **  **  ** **      **"    );
+print("***   ***   *******       **  ****** ******  ******");
+\end{lstlisting}
+\section*{soal 2}\\
+\begin{lstlistening}
+# -*- coding: utf-8 -*-\\
+"""\\
+Created on Tue Oct 29 18:38:00 2019\\
+
+@author: USER\\
+"""\\
+
+npm=int(input("masukan npm anda : "))\\
+TwoLastDigit=abs(npm)%100 # modulus menetukan ambil 2 digit terakhir\\
+for i in range(TwoLastDigit):\\
+    print("Halo, ", npm, " Apa kabar ?")\\
+\end{lstlistening}
+\section*{soal 3}\\
+\begin{lstlistening}
+# -*- coding: utf-8 -*-\\
+"""\\
+Created on Tue Oct 29 18:47:48 2019\\
+
+@author: USER\\
+"""\\
+
+npm=int\\
+key=str(npm%1000)\\
+print("Hallo, "+str(npm)[4]+str(npm)[5]+str(npm)[6]+" Apa kabar?")\\
+
+for i in range(int(str(npm)[4])+int(str(npm)[5])+int(str(npm)[6])-1):\\
+         print("Hallo, "+str(npm)[4]+str(npm)[5]+str(npm)[6]+" Apa kabar?")\\
+\end{lstlistening}
+\section*{soal 4}
+\lstinputlisting[language=Python]{src/NPM(4).py}
+\section*{soal 5}
+\lstinputlisting[language=Python]{src/NPM(5).py}
+\section*{soal 6}
+\lstinputlisting[language=Python]{src/NPM(6).py}
+\section*{soal 7}
+\lstinputlisting[language=Python]{src/NPM(7).py}
+\section*{soal 8}
+\lstinputlisting[language=Python]{src/NPM(8).py}
+\section*{soal 9}
+\lstinputlisting[language=Python]{src/NPM(9).py}
+\section*{soal 10}
+\lstinputlisting[language=Python]{src/NPM(10).py}
+\section*{soal 11}
+\lstinputlisting[language=Python]{src/NPM(11).py}
+\section*{soal 12}
+\lstinputlisting[language=Python]{src/2errr.py}
+ \end{enumerate}
+
