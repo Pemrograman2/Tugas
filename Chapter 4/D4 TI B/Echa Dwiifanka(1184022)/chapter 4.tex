@@ -1,0 +1,100 @@
+\documentclass[12pt]{ociamthesis}  % default square logo 
+%\documentclass[12pt,beltcrest]{ociamthesis} % use old belt crest logo
+%\documentclass[12pt,shieldcrest]{ociamthesis} % use older shield crest logo
+
+%load any additional packages
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{charter}
+\usepackage{subfiles}
+\usepackage{etoolbox} %halaman I-1
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=python
+}
+ 
+\lstset{style=mystyle}
+%\patchcmd{\addcontentsline}
+ % {\thepage}
+  %{\thechapter-\thepage}
+  %{}
+  %{}
+
+\makeatletter
+\@addtoreset{subsubsection}{chapter}
+\makeatother
+\renewcommand{\thepage}{\thechapter-\number\numexpr\arabic{page}\relax}
+\patchcmd{\cleardoublepage}{\ifodd}{\unless\ifodd}{}{}
+\preto\chapter{\cleardoublepage}
+\AtBeginDocument{\setcounter{page}{1}}
+
+
+
+
+
+\makeatletter					%
+\renewcommand*\@pnumwidth{3em}	% ratain halaman daftar isi
+\makeatother					%
+
+\title{\large CHAPTER 4\\[1ex]     %your thesis title,
+        }   %note \\[1ex] is a line break in the title
+        
+
+\author{Diajukan untuk memenuhi kelulusan matakuliah Pemrograman II 
+pada Program Studi DIV Teknik Informatika\\[5ex]
+O l e h : \\
+[1ex] Echa Dwiifanka   \\ 
+\textbf{1.18.4.022}\\
+		 [5ex] } 
+		 
+\college{}  %your college
+
+%\renewcommand{\submitt edtext}{change the default text here if needed}
+\degree{POLITEKNIK POS INDONESIA}    %the degree
+\degreedate{\textbf{BANDUNG\\2019}}  
+
+%end the preamble and start the document
+\begin{document}
+
+%this baselineskip gives sufficient line spacing for an examiner to easily
+%markup the thesis with comments
+\baselineskip=18pt plus1pt
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+\maketitle          % create a title page from the preamble info
+
+   
+\include{section/chapter1}
+
+
+\end{document}
+
