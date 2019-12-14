@@ -1,0 +1,100 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{babel}
+\usepackage{enumitem}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{geometry}
+	\geometry{left = 3cm, top = 3cm, right = 3cm, bottom = 3cm}
+\usepackage{float}
+\usepackage{setspace}
+	\setstretch{1.5}
+\usepackage{listings}
+
+\title{CHAPTER 3}
+\author{John Kevin Giraldi (1184049)}
+\date{8 November 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{TEORI}
+\subsection{Fungsi dan Contoh Kode Program}
+\begin{enumerate}
+\item Fungsi merupakan sebuah kumpulan code program yang digunakan untuk melakuka suatu perintah. Fungsi berbeda dengan baris code program biasa karena kita dapat melakukan hal yang sama cukup dengan  memanggil nama metodenya saja. Tanpa harus menuliskan code program yang ingin kita ulang. Sehingga akan memudahkan kita dalam proses atau kegiatan programing lainnya.
+\item Return \\
+Return berfungsi untuk mengembalikan suatu nilai yang telah di proses dalam suatu fungsi dan mengakhiri sebuah fungsi. \\
+Contoh dari fungsi sederhana dan menggunakan return:
+\begin{lstlisting}[language=Python]
+def fungsi(x,y):
+z=x+y
+return z
+\end{lstlisting}
+\end{enumerate}
+\subsection{Package dan Library}
+Package adalag sebuah folder yang menyimpan source code
+\item Cara pemanggilan :
+ misal ditempat penyimpanan main program saya membuat sebuah folder buku dan dalamnya kita membuat sebuah source code dengan nama literasi.py, cara pemanggilannya yaitu sebagai berikut :
+\begin{lstlisting}[language=Python]
+from lampu import ternang
+\end{lstlisting}
+
+\subsection{Kelas, Objek, Atribut, Method}
+\item Kelas merupakan sebuah blueprint dari sebuah objek
+\begin{lstlisting}[language=Python]
+class Tejo:
+def __init__(self,Tejo):
+self.Tejo = Tejo
+def helloTejo(self):
+print("Hello",Tejo)
+\end{lstlisting}
+\item  Objek merupakan perwujudan dari sebuah class.
+\begin{lstlisting}[language=Python]
+#import kelas terlebih dahulu
+import kelas5
+#membuat object
+cobakelas=kelas5.Kelas5ngitung(npm) 
+hasilkelas=cobakelas.npm2()
+\end{lstlisting}
+\item  Atribut merupakan semua class yang membuat objek dan semua objek tersebut mengandung karakteristik.
+\begin{lstlisting}[language=Python]
+Class Kelas5ngitung:
+#pendefinisian attribute
+def __init__(self,Tejo):
+self.Tejo = Tejo
+\end{lstlisting}
+\item Method merupakan fungsi yang dideﬁnisi dalam suatu class.
+\begin{lstlisting}[language=Python]
+class Tejo:
+def __init__(self,Tejo):
+self.Tejo = Tejo
+#Pembuatan method pada class
+def Tejo(self):
+print("Hello",Tejo,",apa kabar ?")
+\end{lstlisting}
+
+\subsection{Pemanggilan library kelas dari instansiasi dan pemakaiannya contoh dengan program}
+\begin{lstlisting}{language=Python}
+#import library yang telah dibuat
+import library
+#pemanggilan fungsi pada library
+library.Tejo()
+\end{lstlisting}
+
+\subsection{Pemakaian paket dengan from kalkulator import penambahan}
+Memanggil package lalu tambahkan kode penambahan bisa dibaca dengan import penambahan dari folder kalkulator. \\
+Contoh:
+\begin{lstlisting}{language=Python}
+from kalkulator import penambahan
+\end{lstlisting}
+kode diatas merupakan perintah program yang memanggil sebuah package terlebih dahulu baru menambahkan source code penambahan, kode diatas dapat dibaca seperti ini ”import penambahan dari folder kalkulator”
+
+
+\subsection{Paket fungsi ﬁle library ada di dalam folder}
+\begin{lstlisting}{language=Python}
+from mahasiswa import kampus
+\end{lstlisting}
+Artinya dalam package mahasiswa akan memakai atau menggunakan suatu library kampus
+
+\end{document}
