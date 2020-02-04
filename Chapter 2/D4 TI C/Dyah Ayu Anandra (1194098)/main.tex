@@ -1,0 +1,136 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Tugas Pemrograman Chapter 2}
+\author{Dyah Ayu Anandra(1184098) }
+\date{8 Desember 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{TEORI}
+\subsection{Variable}
+\usepackage{Variabel merupakan tempat di memori yang digunakan untuk menyimpan nilai. Saat kita akan membuat sebuah variabel, kita dapat ‘memesan’ tempat di dalam memori. Variabel nilainya dapat berubah-ubah atau mutable.Tempat  di dalam memori dapat diisi dengan data atau objek, baik itu bilangan bulat (integer), pecahan (float), karakter (string), dan lain – lain.}
+
+\subsection{Input dan Output User}
+\usepackage{Input adalah masukan perintah yang kita berikan ke program setelah itu perintah akan diproses dan menampilkan hasil outputnya.}
+\paragraph{}
+Cara Mengambil Input dari Keyboard, Python menyediakan fungsi input() dan rawinput() agar dapat mengambil inputan dari keyboard. Fungsi input() digunakan untuk mengambil data angka. Sedangkan rawinput() untuk mengambil teks. Sedangkan pada Python3 cukup menggunakan fungsi input() saja, karena fungsi rawinput() sudah digabungkan di sana.
+
+\subsection{Operator 2}
+\subsubsection{Operasi Aritmatika}
+
+\begin{tabular}{|c|c|}
+\hline
+Operator & penjelasan\\
+\hline
+Pembagian (/) & Untuk membagi nilai di sebelah kiri menggunakan nilai yang ada di sebelah kanan \\
+\hline
+Perkalian (*) & Mengalikan bilangan\\
+\hline
+Penjumlahan (+) & Menjumlahkan nilai dari masing-masing bilangan\\
+\hline
+Pengurangan (-) & Mengurangi nilai di sebelah kiri menggunakan nilai yang ada di sebelah kanan\\
+\hline
+\end{tabular}
+
+\paragraph{}
+Operasi matematika sebagai bahasa pemrograman, Python memiliki operasi aritmatika seperti tambah, kurang, kali, bagi. Berikut adalah contoh penggunaan operasi aritmatika pada python
+Contoh misalnya kita mempunyai variable : a=8 dan b=4\\
+
+\subsection{Syntax Perulangan}
+
+\item Di dalam bahasa pemrograman Python pengulangan dibagi menjadi 3 bagian
+
+\begin{itemize}
+    \item While 
+    \item For 
+    \item Nested
+\end{itemize}
+
+\item \textbf{While} \\ 
+While : untuk melakukan pengulangan yang tidak pasti, Dengan while melakukan perulangan, lalu menambahkan satu variabel hitung setiap kali pengulangannya. kemudian menanyakan ke pengguna, apakah ingin memberhentikan Pengulangan atau tidak?\\
+Contoh :\\
+i = 0\\
+while True :\\
+    if i \textless 200:\\
+        print ("i bernilai : "), i\\
+        i = i + 1\\
+    elif i \textgreater = 200:\\
+        break\\
+        
+\item \textbf{For Loop}\\
+For : Melakukan looping yang sudah pasti jumlahnya\\
+Contoh :\\
+for i in range(0, 200):\\
+    print (i)\\
+    
+\item \textbf{For}
+\paragraph{Pertama kita menentukan banyak perulangannya sebanyak 10x. Variabel x berfungsi untuk menampung suatu indeks, dan fungsi untuk membuat list dengan range dari 0-10 menggunakan range(). Fungsi untuk merubah tipe data ineger ke string menggunakan str().}
+
+contoh penggunaan For
+i = ['kopi','nasi','teh','jeruk']
+
+for isi in i:
+    print isi
+    
+\item \textbf{Nested}
+
+\item Bahasa pemrograman Python memungkinkan penggunaan satu lingkaran di dalam loop lain. Dibawah ini menunjukkan beberapa contoh untuk menggambarkan konsep tersebut
+
+Contoh penggunaan Nested
+
+i = 2\\
+while(i \textless 200):\\
+    j = 2\\
+    while(j \textless= (i/j)):\\
+        if not(i%j): break\\
+        j = j + 1\\
+    if (j \textgreater i/j) : print(i, " is prime")\\
+    i = i + 1\\
+
+print "Selamat Datang!"
+
+    \subsection {Syntax Kondisi}\\
+    \textbf{Struktur if}
+    \item Percabangan ini hanya memiliki satu pilihan. pilihan di dalam IF hanya akan dikerjakan atau dilakukan apabila kondisinya benar. Namun jika salah tidak akan melakukan apa-apa. Alias lanjut eksekusi ke perintah berikutnya.\\
+    
+    \textbf{Struktur if – else}
+    \item SUntuk percabangan IF/ELSE mempunyai pilihan alternatif apabila kondisinya salah.
+    IF: “Apabila benar maka akan dikerjakan, apabila salah  tidak dapat dikerjakan dan tidak dapat lanjut ke tahap berikutnya”,
+    IF/ESLE: “Jika kondisi dalam keadaan benar maka akan dikerjakan, jika dalam keadaan salah maka mengerjakan yang lainnya, setelah itu  baru lanjut”.
+
+\subsection{Try & Except}\\
+\textbf{Menangani Eksepsi Menggunakan Try, Except, dan Finally}\\
+
+Dengan menggunakan statement try.except dapat menangani bentuk error di Python. mendeteksi error dengan memanfaatkan kondisional biasa menggunakan if.else, namun itu akan lebih praktis apabila ditangani dengan menggunakan try.except. mengurung suatu blok kode dengan try.except untuk dapat menangani error yang mungkin saja tidak diketahui. try.except biasanya digunakan untuk menangani error saat penggunaan IO, operasi database, atau pengaksesan indeks suatu list atau dictionary, dan berbagai kasus lainnya.Sekarang kita dapat mengenal beberapa kasus sederhana yang menggunakan try.except.\\
+
+Menangani error pembagian nol
+Misalkan dalam kode berikut terjadi pembagian yang membagi suatu angka dengan nol. telah menjadi ketentuan jika sebuah angka dibagi nol maka program akan error. Maka dari itu kita dapat mengurung dengan try..except, kemudian kita keluarkan error-nya begitu error tertangkap oleh except. Baris "print x+1" akan dieksekusi dan hanya akan muncul error yang ditimbulkan oleh pembagian nol.
+ \\
+
+Menangani error pembacaan file
+Di dalam kode ini dapat mencoba menangkap dua error pada kode yang telah dikurung oleh try.except. ada sebuah dictionary  berisi key nama, kota, dan umur. Kemudian kita membuka sebuah file yang bernama contact.txt. Meskipun terdapat kode yang error setelahnya yang dapat mengakibatkan error dalam pengaksesan indeks, yang akan ditangkap terlebih dahulu adalah error yang diakibatkan gagalnya membaca file.\\
+
+Mengenal "finally"
+Mungkin kita juga membutuhkan sebuah penanganan khusus apabila terjadi suatu error ataupun tidak pasti harus ada kode yang dieksekusi. Misal Anda ingin memutus koneksi kepada server jika terdapat error karena request yang overload atau ada struktur folder yang berubah. Sebagai contoh dapat melihat bagaimana statement finally bekerja pada try.except. 
+
+contoh finally
+orang = {"nama":"syuaib", "kota":"jepara", "umur":"20"}
+
+try:
+    print orang["nama"]
+except KeyError, e:
+    print "Terjadi error KeyError: ", e
+finally:
+    print "baris ini akan selalu dieksekusi"    
+
+print orang
+
+hasil
+
+{'nama': 'syuaib', 'umur': '20', 'kota': 'jepara'}
+
+
+\end{document}
